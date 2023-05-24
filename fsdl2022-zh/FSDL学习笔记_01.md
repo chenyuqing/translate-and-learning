@@ -6,7 +6,7 @@
 3. 根据AI寒冬的发展周期，预测2020s会是如下：![ml in 2020s trends](img/fsdl_01/ml_2020s.png)
 4. 我们把科研成果转化了现实世界中的产品，阻止了AI寒冬的来临。
 5. ML-powered，机器学习驱动的产品需要不同的进程。
-   1. “Flat-earth” ML，扁平化的进程如下:![flat-earth ML](/05_may/img/fsdl_01/flat-earth-ml.png)
+   1. “Flat-earth” ML，扁平化的进程如下:![flat-earth ML](img/fsdl_01/flat-earth-ml.png)
    2. ML product engneering，机器学习产品的工程，产品化后多了和用户互动，重视用户反馈，加快产品迭代提升：![ml product engneering](img/fsdl_01/ml-prod-engneering.png)
 
 6. 本课程的定位不是理论知识，不是模型训练，而是真正建立机器学习驱动的工业产品：![this course](img/fsdl_01/this-course.png)
@@ -31,8 +31,8 @@
    2.  Software
        1.  The Missing Semester: https://missing.csail.mit.edu/
 
-10. ML驱动的产品和MLOps:![ml product vs mlops](/05_may/img/fsdl_01/ml-prod-vs-mlops.png)
-11. 关于我们![about us](05_may/img/fsdl_01/about-us.png)
+10. ML驱动的产品和MLOps:![ml product vs mlops](img/fsdl_01/ml-prod-vs-mlops.png)
+11. 关于我们![about us](img/fsdl_01/about-us.png)
 12. 我们收到号的反馈，所以我们继续推出课程
 13. 我们是怎么开发课程的？
     1.  个人经验和学习
@@ -44,7 +44,7 @@
     2.  课程作业
     3.  课程实验
 
-15. Labs，课程实验是根据实际落地项目讲解，结构如下：![lab architecture](/05_may/img/fsdl_01/lab-arch.png)
+15. Labs，课程实验是根据实际落地项目讲解，结构如下：![lab architecture](img/fsdl_01/lab-arch.png)
 ### 什么时候使用机器学习？
 1. 本节关键点
    1. 机器学习引入复杂性
@@ -92,7 +92,7 @@
       4. 友商正在做的。
 
 2. 低成本项目是那些有可用数据的项目，而且糟糕的预测并没有太大的危害。
-3. 通用的优先框架如下：![prioritization framework](05_may/img/fsdl_01/prior-framework.png)
+3. 通用的优先框架如下：![prioritization framework](img/fsdl_01/prior-framework.png)
 4. 高回报的心智模型。
    1. 可以利用便宜预测的地方。
    2. 可以令到你产品独特的地方。
@@ -109,13 +109,13 @@
     4. 影响：寻找廉价预测将产生巨大业务影响的项目
 
 6. 你的产品需要什么？
-   1. Discover Weekly在每个星期一早上直接删除了推送中的不和谐，而不是直接打包音乐推送给用户。![discover](/05_may/img/fsdl_01/discover.png)
-7. ML擅长的是什么？![](/05_may/img/fsdl_01/ml-good-at.png)
-8. 其他人在做什么？![neflix doing](/05_may/img/fsdl_01/nef-doing.png) ![](/05_may/img/fsdl_01/other-doing.png)
+   1. Discover Weekly在每个星期一早上直接删除了推送中的不和谐，而不是直接打包音乐推送给用户。![discover](img/fsdl_01/discover.png)
+7. ML擅长的是什么？![](img/fsdl_01/ml-good-at.png)
+8. 其他人在做什么？![neflix doing](img/fsdl_01/nef-doing.png) ![](img/fsdl_01/other-doing.png)
    1. google，amazon，Facebook等在发论文
    2. 早期头部公司在发博客，如Uber, shotify
 
 9. 定义和评估ML项目 ![access fea of ml projects](img/fsdl_01/access-ml-fea.png)
-10. 为什么准确率的需求那么重要？因为和成本成正比：![accuracy cost](/05_may/img/fsdl_01/acc-cost.png)
+10. 为什么准确率的需求那么重要？因为和成本成正比：![accuracy cost](img/fsdl_01/acc-cost.png)
 
 ### 生命周期
