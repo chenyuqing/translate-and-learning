@@ -1,0 +1,739 @@
+0
+00:00:00,180 --> 00:00:05,100
+现在，最好将使用git所做的事情看作是记录项目的历史。
+Now, it's good to think of what you're doing with git as documenting the history of your project.
+
+1
+00:00:05,100 --> 00:00:07,100
+就像我在介绍中提到的，
+And like I mentioned in the intro, 
+
+2
+00:00:07,100 --> 00:00:11,400
+不像大多数历史学家，你有一台时光机可以让你改变历史。
+unlike most historian, you have a time machine that let's you change history.
+
+3
+00:00:11,740 --> 00:00:13,900
+让我们来看看我们可以做的一些方法
+Let's take a look at some of the ways that we can do that that.
+
+4
+00:00:13,960 --> 00:00:15,680
+第一个叫做修正
+The 1st one is called amending.
+
+5
+00:00:15,850 --> 00:00:19,450
+你经常会以提交不太正确的东西而告终
+You can often end up committing something that's not quite right.
+
+6
+00:00:19,710 --> 00:00:23,570
+您可以创建一个新的提交 但这最终会创建一个混乱的历史记录
+You can create a new commit, but that ends up creating a messy history.
+
+7
+00:00:23,700 --> 00:00:25,700
+通过提交进行简单的修复。
+With a commit for a simple fix. 
+
+8
+00:00:25,700 --> 00:00:29,700
+要向上次提交添加内容，可以使用amend标志。
+To add things to the last commit, you can use the amend flag, 
+
+9
+00:00:29,700 --> 00:00:37,400
+当你这样做时，它会启动你的默认编辑器并允许你编辑带有修改历史的文件。
+and when you do that, it's going to launch your default editor and allow you to edit the file with the amended history.
+
+10
+00:00:37,770 --> 00:00:43,890
+现在，如果您不想这样做，您可以输入- m标志并选择一个新的提交消息。
+Now, if you don't want to do that, you can type in the minus m flag and select a new commit message.
+
+11
+00:00:44,000 --> 00:00:45,400
+在这里输入。
+Type it in right there. 
+
+12
+00:00:45,400 --> 00:00:53,300
+最后，如果您只想留下与上次提交时相同的消息，还可以选择no-edit功能。
+Finally, you can also select the no-edit function if you just want to leave the message the same as what you did in the last commit.
+
+13
+00:00:53,470 --> 00:00:54,770
+让我们来看看它是如何工作的
+Let's take a look at how that works.
+
+14
+00:00:54,800 --> 00:00:58,900
+我在docs文件夹里有这些不同的文件，
+So I have these different files in the docs folder, 
+
+15
+00:00:58,900 --> 00:01:02,400
+我意识到在我的index。html文件中，
+and I realize that on my index.html file, 
+
+16
+00:01:02,400 --> 00:01:09,300
+我有这个导航，在我的导航中，我有许多文本大写类。
+I have this navigation, and in my navigation, I have a number of text-uppercase classes.
+
+17
+00:01:09,650 --> 00:01:14,330
+这让导航栏在某些地方变成大写。
+That's making the navigation be uppercase in certain places.
+
+18
+00:01:14,500 --> 00:01:20,300
+不过直接放在这个nav类中会更经济。
+But it would be more economical to go ahead and put that directly here in this nav class.
+
+19
+00:01:20,650 --> 00:01:24,750
+这样它就会影响导航区的所有内容。
+That way it will affect everything inside this nav section.
+
+20
+00:01:25,000 --> 00:01:29,600
+我要做的就是在这里做一个改变
+So what I'm going to do is make a change right here 
+
+21
+00:01:29,600 --> 00:01:37,300
+text-uppercase，然后我要删除其他的text-uppercase实例。
+text-uppercase, and then I'm going to delete the other instances of text-uppercase.
+
+22
+00:01:48,860 --> 00:01:52,850
+让我们继续并保存它，我们将提交这个更改。
+Let's go ahead and save that, and we'll commit this change.
+
+23
+00:02:03,130 --> 00:02:09,090
+现在 在我完成这个之后 我意识到我真的需要在所有其他文档中这样做
+Now, after I've done this, I realized that I really needed to do this in all the other documents.
+
+24
+00:02:09,240 --> 00:02:16,760
+所以如果我看一下我的日志 我有所有这些提交 包括我做的最后一次提交
+So if I take a look at my log I have all these commits, including this last commit that I did.
+
+25
+00:02:16,900 --> 00:02:21,700
+现在，我要在其他文件中做的改变是完全一样的，
+Now, the changes that I'm going to make in the other files are going to be exactly the same, 
+
+26
+00:02:21,700 --> 00:02:24,000
+所以我真的不需要做新的承诺。
+so I don't really need to make a new commit.
+
+27
+00:02:24,200 --> 00:02:26,980
+我只需要在其他文件中修复相同的东西
+I just need to fix the same things in the other files.
+
+28
+00:02:27,300 --> 00:02:31,600
+所以我要抓住，我们看看，
+So I'm going to grab, let's see, 
+
+29
+00:02:31,600 --> 00:02:42,300
+这几行，然后到导航栏粘贴这些修改，
+these lines right here, and I'll go over to the navigation and paste those changes, 
+
+30
+00:02:42,300 --> 00:02:48,500
+确保我也来到这个导航栏，
+make sure that I also come up here to this nav, 
+
+31
+00:02:48,500 --> 00:03:02,300
+我在这里添加文本大写，我们继续复制这一行，我们要确保它被添加到这里。
+and I add text-uppercase here, and we'll go ahead copy this line, and we'll make sure that that's added here.
+
+32
+00:03:04,000 --> 00:03:07,720
+我们也要确保这些东西都得救了。
+And also we will make sure that all these things have been saved.
+
+33
+00:03:09,600 --> 00:03:12,880
+你可以看到这里和这里都有改动
+So you can see the modifications are here and here.
+
+34
+00:03:13,200 --> 00:03:19,460
+如果我打开源代码控制 我可以通过点击这里来检查确保所有的修改都完成了
+And if I open up source control, I can check to make sure that I've done all the changes by clicking right here.
+
+35
+00:03:19,660 --> 00:03:21,920
+你可以并排看到变化
+And you can see the changes side by side.
+
+36
+00:03:22,260 --> 00:03:24,580
+visual Studio Code中的这种差异非常好。
+This diffing in visual Studio Code is really nice.
+
+37
+00:03:24,600 --> 00:03:29,740
+你可以看到变化是同步的，前后同步，肩并肩。
+And you can really see the changes synced up, before and after, side by side.
+
+38
+00:03:29,900 --> 00:03:36,120
+非常棒 当然 从这里 我可以打开文件 放弃更改并设置内容
+Pretty awesome. Also, from here, I can, of course, open the file, discard the changes and set stuff back.
+
+39
+00:03:36,500 --> 00:03:40,900
+现在，我要做的是回到资源管理器
+Now, what I want to do let's go back here into the Explorer
+
+40
+00:03:40,900 --> 00:03:43,400
+我们可以把这些关了。
+ we can go ahead and close these out.
+
+41
+00:03:47,150 --> 00:03:54,170
+然后清除这个屏幕。我想做一个“git提交-修改”。
+And will clear this screen. And I want to do a "git commit --amend".
+
+42
+00:03:55,010 --> 00:03:59,200
+现在 这将打开我电脑上的默认编辑器
+Now, this is going to open my default editor in my computer.
+
+43
+00:03:59,300 --> 00:04:06,360
+它被设置为Atom，它在这里所做的是让我可以修改这里的提交消息。
+This is set up as Atom, and what it's doing here is given me the option of modifying the commit message here.
+
+44
+00:04:06,520 --> 00:04:08,660
+如果你什么都不想做 你可以把这关了
+If you don't want to do anything, you can just close this.
+
+45
+00:04:09,020 --> 00:04:13,940
+但我要把它改成文件中的简化文本大写。
+But I'm going to change it to say simplified text uppercase in files.
+
+46
+00:04:14,160 --> 00:04:17,700
+然后我要保存这个并关闭这个应用程序。
+And then I'm going to save this and close out of this application.
+
+47
+00:04:19,020 --> 00:04:24,880
+当我回去的时候，它会说它已经用三次插入改变了一个文件。
+And when I go back, it'll say that it went ahead and changed one file with three insertions.
+
+48
+00:04:24,880 --> 00:04:34,480
+让我们在这里执行“git log—online”，您可以看到它没有创建一个新的提交，它只是修改了上一次提交。
+Let's go ahead and do the "git log --oneline" here, and you can see that it didn't create a new commit, it just modified the last one.
+
+49
+00:04:34,810 --> 00:04:41,420
+它确实更新了提交的文本，因为我在另一个文档中用其他命令更新了。
+And it did update the text of the commit, because I did that in the other document with the other commands.
+
+50
+00:04:41,480 --> 00:04:48,530
+如果你使用git commit amend - m，你可以直接在终端中修改文本。
+If you do git commit amend minus m, you can do the text change directly in the terminal.
+
+51
+00:04:48,710 --> 00:04:54,490
+如果你不想编辑最后一条消息，你可以用no-edit选项说git commit amend。
+And if you don't want to edit the last message, you can just say, git commit amend with the no-edit option.
+
+52
+00:04:54,700 --> 00:04:58,500
+现在，有一件事我总是试着用两个m来修正
+Now, one thing I'm always trying to type in amend with two m's 
+
+53
+00:04:58,500 --> 00:05:06,400
+我不确定你们是否会遇到这个，就像我在git log online时，偶尔我会用git log online，我会漏掉E。
+I'm not sure if you'll run into that in the same way that when I do git log oneline, occasionally I'll do git log oneline, I'll miss the E.
+
+54
+00:05:06,580 --> 00:05:11,160
+我不确定我是怎么了，但有几件事需要注意。
+I'm not sure what's happening with me, but just a couple of things to watch out for.
+
+55
+00:05:11,510 --> 00:05:14,670
+你也可以做所谓的重置。
+And you can also do what's called a reset.
+
+56
+00:05:14,830 --> 00:05:17,070
+重置让您回到之前的提交。
+resetting let's you back to a previous commit.
+
+57
+00:05:17,230 --> 00:05:19,330
+把它想象成一个倒带功能。
+And think of that as a rewind feature.
+
+58
+00:05:19,400 --> 00:05:23,700
+我们可以通过使用日志中的标签来实现，
+We can do this by using the hashtags from the log, 
+
+59
+00:05:23,700 --> 00:05:27,200
+所以我们可以说一个git reset，
+so we can say something like a git reset, 
+
+60
+00:05:27,200 --> 00:05:36,400
+然后从日志中选择其中一个标签，它会撤销一些更改，
+and then select one of these hashtags from the log, and what that will do is it will undo some of the changes, 
+
+61
+00:05:36,400 --> 00:05:40,500
+所以它为我们解除了重置后的变化。
+so it unstage the changes after the reset for us.
+
+62
+00:05:40,560 --> 00:05:44,890
+因此 它实际上是将头部移回另一个提交
+So it essentially move back the head to another commit.
+
+63
+00:05:45,050 --> 00:05:51,610
+现在，它实际上没有对文件做任何事情，所以它没有删除文件，但是它倒回了提交。
+Now, it didn't actually do anything to the files, so it didn't delete the files, but it did rewind the commit.
+
+64
+00:05:51,770 --> 00:05:56,230
+我们再做一次git log online。
+So let's do a git a log oneline again.
+
+65
+00:05:56,490 --> 00:06:01,630
+现在你可以看到 我有三个不同的提交 而不是四个不同的提交
+You can see that now, instead of having four different commits, I have three different commits.
+
+66
+00:06:01,820 --> 00:06:07,600
+所以它停在这里 所以它停在这里
+So it stopped right here. So it stopped right there.
+
+67
+00:06:08,000 --> 00:06:15,120
+现在 很好的一点是 它把所有的文件都恢复到原来的状态
+Now, the nice thing is that it took all the files and put them back in their original state.
+
+68
+00:06:15,280 --> 00:06:18,100
+它没有删除我对这些文件所做的更改
+It didn't delete the changes that I have made to these files.
+
+69
+00:06:18,530 --> 00:06:28,910
+你可以看到，如果我寻找导航，我有我的文本-大写文本，在那里，它显示它们被修改了。
+You can see that if I look for the navigation, I have my text-uppercase text, right there, and it shows them as being modified.
+
+70
+00:06:30,930 --> 00:06:32,810
+我们可以执行git status。
+So we can do git status.
+
+71
+00:06:33,200 --> 00:06:38,300
+注意，我们可以继续添加所有这些文件，
+And notice that we can go ahead and add all these files, 
+
+72
+00:06:38,300 --> 00:06:46,000
+我们可以说，git add period, git commit - m然后输入提交信息。
+so we can say, git add period, and git commit minus m and type in the commit message.
+
+73
+00:06:53,710 --> 00:06:56,830
+现在我们有了一个带有新id的新提交。
+Now we have a new commit with a new id.
+
+74
+00:06:57,160 --> 00:07:02,280
+让我们把它清除掉，执行“git log online”命令。
+Let's go ahead and clear this out and do a "git log oneline".
+
+75
+00:07:02,440 --> 00:07:06,400
+我们可以看到 现在我们有了一个带有新消息的新提交
+And we can see that now we have a new commit with a new message.
+
+76
+00:07:06,580 --> 00:07:08,860
+这个命令还有另一个版本
+There's another version of this command.
+
+77
+00:07:09,020 --> 00:07:13,260
+这有点危险，它是带有硬选项的git重置。
+It's a little bit dangerous, and it's the git reset with the hard option.
+
+78
+00:07:13,400 --> 00:07:15,300
+有时候你会看到，
+You'll see that sometimes, 
+
+79
+00:07:15,300 --> 00:07:20,300
+你可以输入，git reset - - - hard，然后你输入一个ID。
+so you can say, git reset minus minus hard, and then you put in an ID.
+
+80
+00:07:20,500 --> 00:07:24,500
+这个命令将删除在此之前的所有提交，
+This command will delete any commits before this one right here, 
+
+81
+00:07:24,500 --> 00:07:29,600
+它还会更改所有的文件，因此它会删除我所有的更改。
+and it'll also change all the files, so it'll actually get rid of all of my changes.
+
+82
+00:07:29,950 --> 00:07:35,740
+非硬复位或软复位更安全，我建议你试试那个。
+The non-hard or the soft reset is a little bit safer, and I suggest that you try that one.
+
+83
+00:07:35,900 --> 00:07:40,500
+但有时你确实想要重设到一个特定的提交，
+But sometimes you do want to sort of reset hard to a specific commit, 
+
+84
+00:07:40,500 --> 00:07:45,500
+让时间倒回到一个特定的检查点，然后从那里继续前进。
+to actually rewind time to a specific checkpoint and go forwards from there.
+
+85
+00:07:45,800 --> 00:07:48,600
+现在，重新定位是另一种改变历史的方式，
+Now, rebasing is another way of changing history, 
+
+86
+00:07:48,600 --> 00:07:53,200
+它被设计为从一个分支获取提交并将其应用到另一个分支。
+and it's designed to take the commits from one branch and apply them to another.
+
+87
+00:07:53,400 --> 00:07:54,670
+这是你使用它的方法
+Here's the way that you use it.
+
+88
+00:07:54,830 --> 00:07:59,010
+选择git rebase，然后指定分支或提交。
+You select git rebase, and then you specify a branch or a commit.
+
+89
+00:07:59,190 --> 00:08:04,320
+现在有一个非常有用的交互式命令，它将允许您使用文本编辑器进行更改。
+Now there's a really useful interactive command that will let you use your text editor to make changes.
+
+90
+00:08:04,400 --> 00:08:08,100
+这实际上是使用rebase而不是分支的最好方法，
+This is actually the best way to use rebase Instead of a branch, 
+
+91
+00:08:08,100 --> 00:08:12,100
+您可以使用头指针来修改当前分支目录。
+you can use the head pointer to modify the current branches directory.
+
+92
+00:08:12,460 --> 00:08:13,420
+你可以在这里看到
+You can see that right here.
+
+93
+00:08:13,440 --> 00:08:14,740
+我们可以说，git rebase。
+So we can say, git rebase.
+
+94
+00:08:14,900 --> 00:08:19,340
+我希望你通过移回一定数量的提交来重新定位。
+And I want you to rebase by moving back to a certain number of commits.
+
+95
+00:08:19,500 --> 00:08:24,920
+但是，如果你有一个非常长的提交历史，并且你只想回到几个步骤，那么这是有用的。
+But that's useful if you have an extremely long commit history and you'll only want to go back a few steps.
+
+96
+00:08:25,040 --> 00:08:28,020
+还有另一个选项可以让您看到所有提交
+There's another option to let you see all the commits.
+
+97
+00:08:28,180 --> 00:08:31,800
+我们的项目只有很少的提交 所以我们可以安全地使用这个
+We have so few commits in our project that we can use this one safely.
+
+98
+00:08:31,800 --> 00:08:34,400
+比如说，在你完成了一些提交之后，
+Let's say, e.g. that after you've done a few commits, 
+
+99
+00:08:34,400 --> 00:08:37,800
+你意识到有些事你应该早点做。
+you realize that there's something that you should have done earlier.
+
+100
+00:08:37,980 --> 00:08:42,200
+我们继续吧，在我执行硬重置之前把这些清理掉。
+Let's go ahead, clear this out before I execute that hard reset.
+
+101
+00:08:42,360 --> 00:08:47,800
+这在这里是很危险的 我们将进入许可证文件
+That would be dangerous here. And we'll go into the license file.
+
+102
+00:08:47,900 --> 00:08:51,500
+我意识到我应该在这里用公司的名字，
+And I realized that I should have used the company name here, 
+
+103
+00:08:51,500 --> 00:08:53,400
+所以我要做这个改变。
+so I'm going to make that change.
+
+104
+00:08:53,710 --> 00:08:58,070
+我要保存 添加并提交它
+I'm going to save that and add it and commit it.
+
+105
+00:09:04,100 --> 00:09:10,000
+如果我查看日志，你可以看到我所有的提交都是有序的，
+And if I look at the log, you can see that all my commits are in order, 
+
+106
+00:09:10,000 --> 00:09:16,000
+但我真的应该在这里写，对吧
+but I really should have done this over here, right
+
+107
+00:09:16,200 --> 00:09:18,280
+稍微早一点。我应该加上那个修改的。
+ a little bit earlier. I should have added that modification.
+
+108
+00:09:18,440 --> 00:09:20,580
+这样我就可以改写历史了
+And so I can rewrite the history.
+
+109
+00:09:20,740 --> 00:09:25,400
+所以这个许可证的更新实际上发生在我第一次提交之后。
+So that this updating of the license actually happens after my 1st commit.
+
+110
+00:09:25,590 --> 00:09:28,010
+所以它发生在这个gitignore文件之前。
+So it happened before this gitignore file.
+
+111
+00:09:28,300 --> 00:09:30,000
+本质上，我可以把这些移动到提交处，
+In essence, I can move any of this to commits around, 
+
+112
+00:09:30,000 --> 00:09:34,900
+所有的变化都将在不同的时间点发生。
+and all the changes that were in there will happen at a different point in time.
+
+113
+00:09:35,130 --> 00:09:37,750
+这就像拥有一台时光机
+This is exactly like having a time machine.
+
+114
+00:09:37,790 --> 00:09:42,350
+现在，要做到这一点，让我们继续做一个git rebase。
+Now, to do this, let's go ahead and do a git rebase.
+
+115
+00:09:43,500 --> 00:09:47,800
+我们将做一个交互式版本，我们将使用根目录。
+We'll do an interactive version, and we'll use the root. 
+
+116
+00:09:47,800 --> 00:09:54,900
+现在您可以在这里使用头指针，然后返回到，比如说，最后三次提交。
+Now you can here use the head pointer, and then just go back to, say, the last three commits.
+
+117
+00:09:55,000 --> 00:09:56,500
+我们先来试试。
+Let's try to that 1st. 
+
+118
+00:09:56,500 --> 00:10:02,800
+这将再次打开我的编辑器，您可以看到我们列出了最后三个提交。
+This will open up my editor again, and you can see that we have the last three commits listed.
+
+119
+00:10:03,000 --> 00:10:05,390
+这里还有很多其他的东西
+There's a bunch of other stuff right here.
+
+120
+00:10:05,810 --> 00:10:07,690
+我马上再给你们看一遍
+I'll show you that again in just a 2nd.
+
+121
+00:10:07,850 --> 00:10:09,170
+让我们退出这个
+So let's go ahead and quit this.
+
+122
+00:10:09,330 --> 00:10:11,490
+如果你只是退出 它不会有任何作用
+If you just quit, it doesn't really do anything.
+
+123
+00:10:11,900 --> 00:10:14,600
+让我们把这些清除掉，
+Let's go ahead and clear this out, 
+
+124
+00:10:14,600 --> 00:10:22,200
+我们会用，而不是头3，我们会说，用根选项得到rebase - I。
+and we'll use, instead of the head three, we'll just say, get rebase minus i with the root option.
+
+125
+00:10:22,380 --> 00:10:24,200
+这将为我们带来所有的提交
+This will bring us all of our commits.
+
+126
+00:10:24,240 --> 00:10:29,160
+现在让我们看看你可以在这里执行的选项
+And now let's take a look at the options that you can perform right here.
+
+127
+00:10:29,400 --> 00:10:33,700
+你可以看到我们有第一次提交和所有其他提交的顺序，
+You can see that we have the 1st commit and all the other commits in order, 
+
+128
+00:10:33,700 --> 00:10:36,800
+包括我们刚刚执行的这个更新的许可证。
+including this updated license that we just performed.
+
+129
+00:10:37,160 --> 00:10:44,040
+现在 我们要做的是让这个在之前发生 对吧
+Now, what we want to do is take this one and make it happen before, right?
+
+130
+00:10:44,200 --> 00:10:47,320
+这里还有很多其他的选择
+And there's a lot of other options that we can perform here.
+
+131
+00:10:47,480 --> 00:10:52,990
+例如 我们可以通过所谓的壁球提交来修改
+So, e.g. we can modify by doing what's called a squash commit.
+
+132
+00:10:53,300 --> 00:10:58,500
+这将提交这里的任何文件，或任何这些提交，
+This would take the commit any of these files right here, or any of these commits, 
+
+133
+00:10:58,500 --> 00:11:01,000
+并将其压缩到之前的提交中。
+and squash it into the previous commit.
+
+134
+00:11:01,200 --> 00:11:04,980
+它会把我们在这里做的和第一次提交结合起来
+So it's going to take what we did here and combine it with our 1st commit.
+
+135
+00:11:05,100 --> 00:11:08,300
+所以就好像每当我创建这个文档时，
+So it would be as if whenever I created this document, 
+
+136
+00:11:08,300 --> 00:11:13,900
+它将自动成为第一次提交的一部分，这可能是它应该看起来的方式。
+it would automatically be part of this 1st commit, which is probably the way that it should look.
+
+137
+00:11:14,010 --> 00:11:19,870
+当我第一次加载这个时 它应该看起来已经有了合适的许可证 这样我就可以这样做了
+It should look like I had already had the proper license when I 1st loaded this, so I could do that.
+
+138
+00:11:20,030 --> 00:11:22,710
+还有一个选项叫做修复
+And then there's another option called fix up.
+
+139
+00:11:22,870 --> 00:11:30,210
+这其实很酷 否则它会同时保留两个提交日志消息
+And this was actually pretty cool, because otherwise it's going to keep both of the commit logs messages.
+
+140
+00:11:30,220 --> 00:11:34,080
+我要做的是fixup提交。
+So what I'm going to do is I'm going to do a fixup commit.
+
+141
+00:11:34,200 --> 00:11:35,700
+这就像一个南瓜，
+This is like a squash, 
+
+142
+00:11:35,700 --> 00:11:41,200
+它会把这两件事结合起来，但它不会使用提交消息。
+it's going to combine these two things, but then it's going to not use the commit message.
+
+143
+00:11:41,700 --> 00:11:44,880
+让我们保存它 然后关闭它
+Let's go ahead and save this, and we'll close this out.
+
+144
+00:11:46,100 --> 00:11:49,820
+现在我们来看看这个日志
+And now let's go ahead and take a look at the log.
+
+145
+00:11:51,580 --> 00:11:57,380
+因此 您可以看到 我之前对该许可证进行更改的提交已经消失了
+So you can see that my previous commit making the change to this license has disappeared.
+
+146
+00:11:57,670 --> 00:12:01,390
+它实际上被合并到第一次提交中
+It's actually been combined into this 1st commit.
+
+147
+00:12:01,550 --> 00:12:11,630
+因此，您可以看到git rebase是完全重写历史并重新组织提交顺序的绝佳方式。
+So you can see that git rebasing is a fantastic way to completely rewrite the history and reorganize the order in which commits are made.

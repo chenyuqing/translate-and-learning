@@ -1,0 +1,244 @@
+0
+00:00:00,100 --> 00:00:03,400
+它给了你很大的自由来试验你的代码，
+It gives you a lot of freedom to experiment with your code, 
+
+1
+00:00:03,400 --> 00:00:08,100
+其中一个真正有用的功能是显示文件之间的差异。
+and one of the features that can really help is showing the differences between files.
+
+2
+00:00:08,500 --> 00:00:10,300
+让我们回到我们的项目，
+Let's go back into our project, 
+
+3
+00:00:10,300 --> 00:00:14,900
+我要去这个自述文档，删掉最后一段。
+and I'm going to go to this readme document and delete this last paragraph right here.
+
+4
+00:00:15,100 --> 00:00:17,500
+然后保存它，然后输入“git diff”，
+Then I'll go ahead and save it, and I'll do a "git diff" Now, 
+
+5
+00:00:17,500 --> 00:00:25,200
+这个命令将向您展示这两个文件之间的区别。
+this command is going to show you the difference between these two files.
+
+6
+00:00:25,530 --> 00:00:30,310
+你可以看到我们已经删除了 这就是这里减号的意思
+You can see that we have deleted, and that's what this minus means right here.
+
+7
+00:00:30,390 --> 00:00:34,830
+不仅是段落 还有这里的回车
+Not only the paragraph, but also this carriage return that was right here.
+
+8
+00:00:34,980 --> 00:00:49,180
+现在我们来撤销这个，保存它，清除这个，我们再做一次git diff。
+Now let's go ahead and undo this and save it, clear this out, and we'll do a git diff again.
+
+9
+00:00:49,370 --> 00:00:51,390
+这两者之间没有区别
+There's no differences between those two.
+
+10
+00:00:51,470 --> 00:00:55,590
+如果我们要做更多的改变 我们来添加一个新文件夹
+And if we do some more changes, let's go ahead and add a new folder.
+
+11
+00:00:56,020 --> 00:01:02,780
+我们叫它docs。我要把所有HTML文档移到那个docs文件夹。
+We'll call it docs. And I'm going to move all of my HTML documents onto that docs folder.
+
+12
+00:01:05,200 --> 00:01:11,500
+现在我们来试一下。Git diff现在它向我们展示了所有不同的更改，
+Now let's try doing it. Git diff Now it's showing us all the different changes, 
+
+13
+00:01:11,500 --> 00:01:14,600
+但这里的变化涉及到搬迁。
+but the changes here involved a move.
+
+14
+00:01:14,700 --> 00:01:19,500
+如果你还记得上个视频中我们看到的移动意味着删除一个文件，
+And if you remember from the last video we saw that moving means that your deleting a file, 
+
+15
+00:01:19,500 --> 00:01:21,400
+然后再添加另一个文件。
+and then you're adding another file.
+
+16
+00:01:21,680 --> 00:01:26,540
+因此 为了看到整个变化 我必须一直向下滚动很长时间
+So to see this entire change, I have to scroll all the way down for a long time.
+
+17
+00:01:26,830 --> 00:01:31,090
+当你看到这里的冒号时，如果你想退出，你可以按Q键。
+Whenever you see that colon right there, if you want to exit, you can hit the Q key.
+
+18
+00:01:31,390 --> 00:01:32,890
+让我们把这些清理掉
+Let's go ahead and clear this out.
+
+19
+00:01:33,190 --> 00:01:40,870
+当您有很多更改时，在终端中使用git diff命令有点困难。
+And it's a little bit difficult to use that git diff command in the terminal whenever you have a lot of changes.
+
+20
+00:01:41,050 --> 00:01:46,350
+为此，Visual Studio Code提供了一个源代码控制编辑器。
+So to do that, the Visual Studio Code provides a source control editor.
+
+21
+00:01:46,730 --> 00:01:48,390
+现在你可以看到发生了什么
+Now here you can see what happened.
+
+22
+00:01:48,660 --> 00:01:53,060
+我们删除了这三个文件 并更新或添加了其他这些文件
+We have deleted these three files and updated or added these other files.
+
+23
+00:01:53,200 --> 00:01:58,500
+记住，重命名或移动东西会导致这些变化，
+Remember that renaming or moving things causes these kind of changes, 
+
+24
+00:01:58,500 --> 00:02:06,900
+但是您可以看到，这些更改被记录为删除文件，然后更新一些其他文件。
+but you can see that the changes are recorded as a deletion of files and then an updating of some other files.
+
+25
+00:02:07,100 --> 00:02:10,000
+这个屏幕有很多功能，
+There's a lot of functionality that this screen has, 
+
+26
+00:02:10,000 --> 00:02:15,600
+例如，如果我点击这个加号，我可以直接从这个界面进行修改。
+e.g., if I click on this plus sign, I can go ahead and stage the changes directly from this interface.
+
+27
+00:02:17,500 --> 00:02:23,200
+我们可以查看一下git状态，然后添加所有的文件。
+And we can take a look at git status and go ahead and add all the files.
+
+28
+00:02:23,200 --> 00:02:27,200
+让我们把所有的东西都添加到暂存版中，这样就会自动更新它。
+let's just go ahead and add everything into staging, and that automatically will update it.
+
+29
+00:02:27,410 --> 00:02:31,870
+一切都在这里 这很酷
+Everything that is right here. That's pretty cool.
+
+30
+00:02:32,380 --> 00:02:34,500
+让我们继续并提交此更改
+Let's go ahead and commit this change.
+
+31
+00:02:40,460 --> 00:02:45,500
+对吧 您可以看到 在这个源代码控制选项卡中不再有任何更改
+Right? You can see that there are no longer any changes in this source control tab.
+
+32
+00:02:45,810 --> 00:02:50,030
+我们回到编辑器 把这个清除掉
+We'll go back into the editor, and let's go ahead and clear this out.
+
+33
+00:02:50,410 --> 00:02:54,270
+diff是很灵活的。你可以用它来比较所有类型的事物。
+Now, diff is pretty flexible. You can use it to compare all types of things.
+
+34
+00:02:54,590 --> 00:02:59,270
+例如 你可以将一个文件与其在任何一次提交时的状态进行比较
+So, e.g. you can compare a file to its state at any one of your other commits.
+
+35
+00:02:59,430 --> 00:03:06,720
+通过比较历史记录 您可以经常检查日志 看看当日志变得非常长时发生了哪些更改
+By comparing history, you'll often check the log to see what the changes were when your logs get really long.
+
+36
+00:03:07,000 --> 00:03:08,600
+如果我现在执行git日志，
+So if I do a git log right now, 
+
+37
+00:03:08,600 --> 00:03:12,300
+你可以看到我得到了滚动的文本，这可能很长。
+you can see that I get that scrolling text, and this can be really long.
+
+38
+00:03:12,500 --> 00:03:18,790
+因此，有一种更好的方法来做git日志，那就是使用online标志。
+So there is a better way to do a git log, and that is with the online flag.
+
+39
+00:03:18,950 --> 00:03:23,130
+这将按顺序提交 并将它们全部显示在一行中
+This puts the commits in order and also shows them to you all in a single line.
+
+40
+00:03:23,500 --> 00:03:27,600
+可以看出它在开头有一些散列，
+Can tell that it has a little bit of the hash at the beginning, 
+
+41
+00:03:27,600 --> 00:03:33,700
+加上头指针指向主分支的事实，然后是提交消息。
+plus the fact that the head pointer is pointing to the main branch, and then the commit messages.
+
+42
+00:03:33,900 --> 00:03:37,100
+这是查看你的提交的好方法，
+This is a great way to take a look at your commit, 
+
+43
+00:03:37,100 --> 00:03:43,500
+这也是一个很好的方法来查看和比较你现在所做的和其他的提交。
+and it's also a great way to take a look and compare what you've done right now with some other commit.
+
+44
+00:03:43,800 --> 00:03:49,800
+如果我想的话，我可以用git diff输入这些提交，
+So if I wanted to, I can do a git diff and type in one of these other commits here, 
+
+45
+00:03:49,800 --> 00:03:54,800
+它会向你展示这两次提交之间的区别。
+and it's going to show you the differences between those two commits.
+
+46
+00:03:54,900 --> 00:03:56,600
+现在，这不是很有用，
+Now, this is not as useful, 
+
+47
+00:03:56,600 --> 00:04:04,000
+如果你在分支和检查点之间做很多不同的事情，你应该尝试使用一个扩展。
+and there is an extension that you should try using if you are doing a lot of diffing between branches and checkpoints.
+
+48
+00:04:04,040 --> 00:04:08,360
+它叫做GitLens，你可以从Visual Studio Code市场获得它。
+It's called GitLens, and you can get it from the Visual Studio Code marketplace.

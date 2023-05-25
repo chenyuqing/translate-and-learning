@@ -1,0 +1,604 @@
+0
+00:00:00,140 --> 00:00:04,700
+每个优秀的用户都必须学会如何处理项目中的冲突。
+Every good user has to learn how to work with conflicts one working on a project.
+
+1
+00:00:05,000 --> 00:00:06,740
+我们来练习一下如何处理它们
+So let's practice dealing with them.
+
+2
+00:00:06,890 --> 00:00:13,410
+当您合并两个分支 但是您或其他人对文件中的相同项进行了更改时 就会发生冲突
+Conflicts happen when you're merging two branches, but you or somebody else, has made changes to the same items in a file.
+
+3
+00:00:13,800 --> 00:00:18,200
+例如，我们可以有一个主分支，然后在这个主分支上进行提交，
+So e.g. we can have a main branch and then do a commit on that main branch, 
+
+4
+00:00:18,200 --> 00:00:21,600
+然后两个不同的人可以创造出不同的特征。
+and then two different people can create different features.
+
+5
+00:00:21,780 --> 00:00:22,590
+例如 我们
+E.g. we
+
+6
+00:00:22,760 --> 00:00:30,940
+可以让另一个用户为我们的项目创建一个不同的修复 然后将其合并回主分支
+can have another user create a different fix for our project and then merge that back into the main branch.
+
+7
+00:00:31,400 --> 00:00:35,900
+除此之外，我们还可以开发自己的特性分支
+Now, in addition to that, we could be working on our own feature branch 
+
+8
+00:00:35,900 --> 00:00:40,600
+在我们的项目上创建一个修复，然后将其合并回项目中。
+and create a fix on our project and then merge that back into the project.
+
+9
+00:00:40,830 --> 00:00:46,360
+但是如果之前已经做了另一个修复 那么这往往会导致合并冲突
+But if another fix has been made before, then that tends to cause merge conflicts.
+
+10
+00:00:46,520 --> 00:00:48,660
+让我们来看看这在我们的项目中是如何工作的
+So let's take a look at how that works in our project.
+
+11
+00:00:49,600 --> 00:00:54,700
+现在，如果我们看一下index。html文档的第46行，
+Now, if we take a look at the index.html document at about line 46, 
+
+12
+00:00:54,700 --> 00:01:00,000
+你会注意到这篇引言在标题的第三层。
+you'll notice that this introduction text is on a headline level three.
+
+13
+00:01:00,400 --> 00:01:04,500
+如果你看一下这些列或媒体文件，
+And if you take a peak at either the columns or the media file, 
+
+14
+00:01:04,500 --> 00:01:12,400
+这两个都用了更大的字体，h2，这里用了显示4，这会让它看起来更大，
+both of those use a larger font size, a h2, right here, with a display four, which is going to make it look even bigger, 
+
+15
+00:01:12,400 --> 00:01:17,100
+因为这是一个引导类，它会让你的文本看起来很大。
+because this is a bootstrap class that makes your text look really big.
+
+16
+00:01:17,270 --> 00:01:21,930
+我们要做的是确保它们都以相同的方式显示
+And what we want to do is make sure that they are all sort of displayed in the same way.
+
+17
+00:01:22,260 --> 00:01:26,880
+现在 我要在浏览器上打开这个网站
+Now, I'm going to go ahead and pull this website up on a browser.
+
+18
+00:01:27,060 --> 00:01:32,610
+为了做到这一点 我安装了一个额外的扩展 叫做LivePreview
+So to do that, I do have an additional extension that I've installed, call Live Preview.
+
+19
+00:01:32,770 --> 00:01:39,310
+所以你可以去扩展，标签在Visual Studio Code和看看这个扩展称为Live Server。
+So you can go to the extension, tabs in Visual Studio Code and take a look at this extension called Live Server.
+
+20
+00:01:39,600 --> 00:01:41,900
+一旦你安装了它，
+Once you have that installed, 
+
+21
+00:01:41,900 --> 00:01:50,800
+你能做的就是按command+ shift + P，然后输入Live Server，这将打开带有Life Server的文件。
+what you can do is hit command+ shift + P and then type in Live Server, and this will open the file with the Life Server.
+
+22
+00:01:51,000 --> 00:01:52,980
+它会打开一个新的浏览器窗口
+It's going to open up a new browser window.
+
+23
+00:01:53,100 --> 00:01:55,300
+你可以看看water网站是什么样的，
+You can take a look at water website looks like, 
+
+24
+00:01:55,300 --> 00:01:57,200
+如果我们做了改变，我们可以预览它。
+and if we make a change, we can preview it.
+
+25
+00:01:57,300 --> 00:01:59,900
+所以我要把这个画得很小，
+So I'm going to make this pretty small here, 
+
+26
+00:01:59,900 --> 00:02:02,800
+给大家看一下字体大小的不同。
+just to show you the difference in the font sizes.
+
+27
+00:02:03,200 --> 00:02:06,100
+它告诉我服务器已经启动了。
+So it's telling me that a server has started for us.
+
+28
+00:02:06,220 --> 00:02:10,300
+让我们把这个放大一点 这样我们就能看到菜单了
+And let's make this a little bigger, actually, so we can see the menus.
+
+29
+00:02:10,600 --> 00:02:13,100
+如果我们转到主页，
+And then if we go to the home page, 
+
+30
+00:02:13,100 --> 00:02:19,200
+你可以看到这里的字体比这里的列和媒体都要小。
+you can see here that this is a smaller font than either what's here in columns or media.
+
+31
+00:02:19,620 --> 00:02:24,720
+为了解决这个问题 让我们回到主页
+So to fix this, let's go ahead and go back to the home page.
+
+32
+00:02:27,840 --> 00:02:33,480
+为了解决这个问题，我将使用git flow来启动一个分支来修复标题。
+To fix this, I'm going to use git flow to start a branch to fix that headline.
+
+33
+00:02:33,860 --> 00:02:38,690
+输入，git switch - c，然后fix headline。
+I'm going to say, git switch minus c, and then fix headline.
+
+34
+00:02:41,330 --> 00:02:51,600
+我要做的是确保我的display-4类包含在index。html文件中。
+And so what I want to do is make sure that my display-4 class is included in my index.HTML file.
+
+35
+00:02:51,940 --> 00:02:56,180
+回到index。html，这是h3没关系。
+So I'll go back here into index.HTML, it's not going to matter that this is an h3.
+
+36
+00:02:56,340 --> 00:03:03,610
+如果我愿意，我可以修复这个问题，但是我只需要将display-4类添加到index.html页面中。
+I could fix that if I wanted to, but I'll just add the display-4 class into the index.html page.
+
+37
+00:03:03,830 --> 00:03:10,760
+你可以看到现在这个介绍和其他页面的大小是一样的
+And you can see that now this introduction is the same size as in the other different pages here.
+
+38
+00:03:11,100 --> 00:03:13,280
+这很好 这是一个奇妙的修复
+So that's great. That's a fantastic fix.
+
+39
+00:03:13,660 --> 00:03:15,200
+我们把这个加起来
+So let's go ahead and add this.
+
+40
+00:03:21,380 --> 00:03:26,260
+确保我们保存了它，看起来我保存了，因为这里确实有M。
+Make sure that we have saved it, it looks like I did, because it does have the M right here.
+
+41
+00:03:26,670 --> 00:03:41,360
+然后我们会看到，git add period, git commit - m，我在这里添加一条消息，对吧?
+And then we'll see, git add period, git commit minus m, and I'll add a message here, right?
+
+42
+00:03:41,380 --> 00:03:44,150
+这样就完成了。在我们合并之前。
+So that is done. Before we merge this.
+
+43
+00:03:44,310 --> 00:03:47,910
+让我们对我们的项目做一个有目的的改变 这会引起冲突
+Let's make a change to our project that will cause a conflict on purpose.
+
+44
+00:03:48,000 --> 00:03:51,500
+通常这种情况会发生在你和别人合作的时候，
+Now, normally this will happen when you're working with somebody else, 
+
+45
+00:03:51,500 --> 00:03:55,300
+其他人对你正在处理的某个文件做了修改。
+and somebody else's made changes to some sort of file that you're working on.
+
+46
+00:03:55,670 --> 00:03:58,270
+当您尝试将其合并回来时 您会注意到这些错误
+When you try to merge it back, you'll notice these kind of errors.
+
+47
+00:03:58,400 --> 00:04:01,900
+当你在开发一个功能时，这种情况也会发生，
+This can happen also whenever you are working on a feature, 
+
+48
+00:04:01,900 --> 00:04:03,000
+但你还没说完，
+but you're not quite done with it, 
+
+49
+00:04:03,000 --> 00:04:10,500
+你必须跳转到主分支，可能会为一个错别字或你看到的东西创建一个快速修复。
+and you have to jump in the main branch and maybe create a quick fix for a typo or something that you've seen.
+
+50
+00:04:10,970 --> 00:04:17,010
+当您返回到另一个分支时 新更改将不在该分支上
+When you come back to the other branch, that new change will not be on that branch.
+
+51
+00:04:17,170 --> 00:04:22,620
+这就是为什么你通常需要做合并这会产生一些合并冲突。
+And so that's why you need to usually do merge that will create some sort of merge conflict.
+
+52
+00:04:22,780 --> 00:04:26,550
+让我们回到主干
+So let's go ahead and go back into the main branch.
+
+53
+00:04:26,710 --> 00:04:33,730
+我们先不管这个分支，把它清除掉，然后回到主分支。
+So we'll leave this branch alone for now, clear this out, and I'll go back into the main branch.
+
+54
+00:04:34,100 --> 00:04:42,660
+这样做时，我应该会看到index。html中已经删除了类。
+And when I do that, I should see that my index.html has the class taken out of it.
+
+55
+00:04:42,820 --> 00:04:45,340
+对吧?我添加的这个新类。
+Right? This new class that I added.
+
+56
+00:04:45,400 --> 00:04:48,350
+display-4类不再存在。这很好。
+the display-4 class no longer there. So that's good.
+
+57
+00:04:48,700 --> 00:04:53,600
+当我在做这些改变的时候，我注意到实际上有一个tex- reverse类，
+I did notice when I was working on those changes that there is actually a tex- reverse class, 
+
+58
+00:04:53,600 --> 00:04:56,200
+它实际上在几个地方被使用。
+and it's actually being used in a couple of places.
+
+59
+00:04:56,240 --> 00:04:57,900
+你可以在这里和这里看到
+You can see it here and here.
+
+60
+00:04:58,000 --> 00:05:01,700
+这是另一个不是引导类的课程，
+And this is another one of those classes that is not a bootstrap class, 
+
+61
+00:05:01,700 --> 00:05:03,500
+我真的应该把它从我的网站上删除
+and that I should really remove from everywhere on my website.
+
+62
+00:05:03,700 --> 00:05:10,200
+我要进行搜索，我可以点击这里，
+ So I'm going to do a search, and I can do that by clicking here, 
+
+63
+00:05:10,200 --> 00:05:14,300
+我要找一个文本反转，
+and I'm going to look for a text-reverse,
+
+64
+00:05:14,650 --> 00:05:18,250
+然后我要把它换成什么都没有
+and then I'm going to replace that with nothing.
+
+65
+00:05:18,280 --> 00:05:21,980
+注意，它实际上注意到它只在index.html页面中。
+Notice that it's noticing actually that it's only in the index.html page.
+
+66
+00:05:22,140 --> 00:05:23,590
+我要按这个按钮来替换那些。
+So I'm going to hit this button here to replace those. 
+
+67
+00:05:23,940 --> 00:05:27,070
+它将替换这两个实例。
+It's going to replace the two instances.
+
+68
+00:05:27,390 --> 00:05:30,530
+我不会为此创建一个新的特性分支
+And I'm not going to create a new feature branch for this.
+
+69
+00:05:30,690 --> 00:05:33,680
+我将直接在主分支中执行
+I'll just go ahead and do it directly into the main branch.
+
+70
+00:05:33,800 --> 00:05:39,800
+我保存一下。实际上，让我继续，在这个例子中，也只移除这个类，
+So I'll save this. And actually, let me go ahead and in this case, also remove just this class, 
+
+71
+00:05:39,800 --> 00:05:44,900
+因为在这里，一个完全为空的类没有任何意义。
+because here it wouldn't make any sense to have a class that is completely empty.
+
+72
+00:05:45,100 --> 00:05:47,000
+我这样做，
+So I'll do that, 
+
+73
+00:05:47,000 --> 00:05:58,400
+我将执行git add, git commit，然后添加一条消息，删除文本反转类。
+and I'll do a git add, git commit, and then just put in a message that I remove text-reverse classes.
+
+74
+00:06:00,250 --> 00:06:04,890
+对吧 现在我有两个不同的分支 在两个不同的状态
+Right? So now I have two different branches, and there in two different states.
+
+75
+00:06:05,150 --> 00:06:09,390
+我们把这个清除掉，然后切换到另一个分支。
+Let's go ahead and clear this out, and we'll go ahead and switch to the other branch.
+
+76
+00:06:09,550 --> 00:06:14,770
+如果我们做一个git分支，你会注意到我有主分支和固定标题分支。
+So if we do a git branch, you'll notice that I have my main branch as well as my fixed headline branch.
+
+77
+00:06:14,780 --> 00:06:16,660
+所以我们使用git switch fixheadline。
+So we'll do a git switch fixheadline. 
+
+78
+00:06:18,100 --> 00:06:25,200
+切换到那个分支，你会看到这里有display4类，
+I switch to that branch, and you'll see here that I do have the display 4 class,
+
+79
+00:06:25,200 --> 00:06:28,600
+但我也有文本反向类。
+ but I also have the text-reverse class.
+
+80
+00:06:28,920 --> 00:06:34,780
+让我们回到main。
+So let's go ahead and go back to main.
+
+81
+00:06:37,490 --> 00:06:40,830
+然后对另一个分支进行合并
+And will do a merge of that other branch.
+
+82
+00:06:40,990 --> 00:06:51,550
+所以git merge fixheadline。当我们这样做的时候，你会遇到这个叫做归并冲突的东西。
+So git merge fixheadline. All right, so when we do that, you will run into this thing called merge conflict.
+
+83
+00:06:51,710 --> 00:06:59,190
+如果你使用Visual Studio Code，它会尽力帮助你解决合并冲突。
+And if you use Visual Studio Code, it's actually going to try to help you quite a bit in resolving this merge conflict.
+
+84
+00:06:59,400 --> 00:07:05,900
+它会给你这些小箭头，告诉你在主分支中，
+But what it's going to do is going to give you these little arrows right here telling you that in the main branch, 
+
+85
+00:07:05,900 --> 00:07:08,500
+这是这篇文章现在的样子。
+this is the way that this text looks right now.
+
+86
+00:07:09,020 --> 00:07:16,200
+然后它说，你试图合并到fixheadline分支中的更改是传入更改。
+And then it says, the change that you're trying to merge in this fixheadline branch is the incoming change.
+
+87
+00:07:16,380 --> 00:07:19,120
+就是这个
+And that is this right here.
+
+88
+00:07:19,420 --> 00:07:22,020
+所以它试图问你 你想要哪一个
+So it's trying to ask you, which one of these do you want?
+
+89
+00:07:22,100 --> 00:07:25,000
+你想要的是没有课程的标题吗，
+Do you want just the headline with no classes, 
+
+90
+00:07:25,000 --> 00:07:29,100
+或者你想要这门课的标题，还有其他的?
+or do you want this headline with this classes, everything else?
+
+91
+00:07:29,550 --> 00:07:30,790
+实际上会没事的
+It's actually going to be fine.
+
+92
+00:07:30,950 --> 00:07:34,050
+此页中没有其他冲突
+There are no other conflicts in this page.
+
+93
+00:07:34,230 --> 00:07:39,710
+它不担心另一段文本在这里消失
+It didn't worry about this other piece of text being gone here.
+
+94
+00:07:39,930 --> 00:07:42,580
+所以我能做的是 记住 我在主干上
+So what I can do is, so remember, I'm in the main branch.
+
+95
+00:07:42,840 --> 00:07:45,180
+我想接受即将到来的变化。
+I want to accept the incoming change.
+
+96
+00:07:45,500 --> 00:07:54,510
+然后我将手动删除这里的文本反向我将清理这里
+And then I'm going to manually remove this text reverse here, right and I'll clean this up right here.
+
+97
+00:07:54,550 --> 00:07:57,690
+现在 如果你是另一个编辑 你仍然可以使用这些箭头
+Now, if you were another editor, you can still use those arrows.
+
+98
+00:07:57,850 --> 00:08:05,160
+箭头只是告诉你当前的分支是什么 新的分支是什么 或者即将到来的分支是什么
+The arrows just tell you what the current branch is and what the new branch, or the incoming branch would be.
+
+99
+00:08:05,300 --> 00:08:09,000
+注意到Visual Studio Code给了你这个小窗口，
+Now, also noticed that Visual Studio Code is giving you this little window right here, 
+
+100
+00:08:09,000 --> 00:08:11,800
+这一小块绿色的区域，
+this little green sort of section right here, 
+
+101
+00:08:11,800 --> 00:08:16,800
+它告诉您，您也在当前项目中做了一些更改。
+that's telling you that you've made some changes in the current project as well.
+
+102
+00:08:16,910 --> 00:08:20,440
+这很好 它告诉你在哪里做了更改
+So that's kind of good. It's telling you where the changes have been made.
+
+103
+00:08:20,780 --> 00:08:30,500
+既然我已经完成了这些更改 我就可以继续添加所有内容并提交新的修复
+Now that I've made those changes, I can go ahead and add everything and commit a new fix.
+
+104
+00:08:38,560 --> 00:08:50,480
+我会在线做git日志，有时我在线做，在线，你可以看到所有的东西都被添加到这个页面。
+I'll do the git log oneline, and sometimes I do online, oneline, and you can see that everything has been added into this page.
+
+105
+00:08:50,640 --> 00:08:55,240
+您甚至可以看到fixheadline分支位于此提交处。
+And you can even see that the fixheadline branch is sitting at this commit.
+
+106
+00:08:55,300 --> 00:08:57,600
+这是我们在那边做的最后一件事，
+This is the last thing we did over there, 
+
+107
+00:08:57,600 --> 00:09:00,300
+我们将所有的变化合并到这个分支中，
+and we merged all the changes into this branch, 
+
+108
+00:09:00,300 --> 00:09:02,400
+然后我们修正了合并冲突。
+and then we fixed the merge conflicts.
+
+109
+00:09:02,590 --> 00:09:05,970
+这是一个很容易解决的合并冲突
+Now, that was a pretty easy merge conflict to fix.
+
+110
+00:09:06,200 --> 00:09:08,900
+他们可能会更激烈一些，
+They might be a little more intense, 
+
+111
+00:09:08,900 --> 00:09:19,600
+但你所要做的就是记住，你必须选择你想要使用的分支，或者你想要使用的变化，
+but all you have to do is remember that you have to choose which one of the branches you want to use or which one of the changes you want to use, 
+
+112
+00:09:19,600 --> 00:09:23,100
+然后在你的项目中接受它们。
+and then accept them everywhere in your project.
+
+113
+00:09:23,320 --> 00:09:28,740
+现在看起来我需要继续并确保我保存了这个
+Now it looks like I need to go ahead and make sure that I save this.
+
+114
+00:09:28,900 --> 00:09:31,000
+我们看看有没有什么，git status。
+We'll see if there's anything, git status.
+
+115
+00:09:31,050 --> 00:09:35,810
+看起来我没有保存一些其他的小改动
+So it looks like I didn't save some of the other minor changes here.
+
+116
+00:09:36,110 --> 00:09:44,260
+添加周期，git提交，然后git提交，修改。
+So let's do a add period and git commit, and I'll just do a git commit --amend.
+
+117
+00:09:44,200 --> 00:09:49,200
+我应该用- m来添加合并问题信息，
+I should have put in a minus m to add a merge issue message, 
+
+118
+00:09:49,200 --> 00:09:56,700
+但我要保存这个，退出我的默认编辑器，也就是Atom，
+but I'm just going to save this one, and I'll quit out of my default editor, which is Atom, 
+
+119
+00:09:56,700 --> 00:10:02,000
+这应该添加到我的最后一次提交中，现在一切看起来都很干净，
+and that should be added into my last commit, and everything looks clean now, 
+
+120
+00:10:02,000 --> 00:10:05,900
+这样我才能继续我的项目
+so I can move along with my project.

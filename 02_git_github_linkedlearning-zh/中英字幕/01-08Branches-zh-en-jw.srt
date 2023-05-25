@@ -1,0 +1,379 @@
+0
+00:00:00,140 --> 00:00:04,260
+Git最强大的特性之一是创建分支的能力
+One of the most powerful features of Git is the ability to create branches.
+
+1
+00:00:04,200 --> 00:00:07,100
+分支允许您创建不同版本的代码
+The branches let you create different versions of your code 
+
+2
+00:00:07,100 --> 00:00:12,100
+这样你就可以随意添加新功能，而不用担心搞乱什么稳定。
+so that you can play around with adding new features without worrying about messing up what stable.
+
+3
+00:00:12,850 --> 00:00:15,840
+可以使用的最简单的命令是branch
+The simplest command you can use is called branch.
+
+4
+00:00:16,000 --> 00:00:18,740
+它允许您查看存储库中的所有分支
+It lets you take a look at all the branches in your repository.
+
+5
+00:00:19,040 --> 00:00:21,000
+现在 我们只有一个分支
+Right now, we only have a single branch.
+
+6
+00:00:21,100 --> 00:00:24,700
+如果我们看一下我们的项目，点击git分支，
+So if we take a look at our project and we do git branch, 
+
+7
+00:00:24,700 --> 00:00:28,000
+您将看到我们有一个名为main的分支。
+you'll see that we have a single branch called main.
+
+8
+00:00:28,220 --> 00:00:31,940
+通常情况下 您要做的是对现有分支进行复制
+Typically what you want to do is make a copy of an existing branch.
+
+9
+00:00:32,160 --> 00:00:34,860
+你可以用git switch命令来完成。
+You can do that with thee git switch command.
+
+10
+00:00:35,060 --> 00:00:38,300
+它将具有与当前分支相同的历史
+It'll have the same history as the current branch.
+
+11
+00:00:38,400 --> 00:00:44,300
+这个命令有一个稍微老一点的版本，叫做git checkout，你可能在很多例子中看到过，
+There's a slightly older version of this command called git checkout, and you may see that in a lot of examples, 
+
+12
+00:00:44,300 --> 00:00:50,800
+注意，对于git checkout，你必须执行git checkout - b，然后是你想要创建的新分支的名称。
+notice that with git checkout, you have to do git checkout minus b, and then the name of the new branch that you want to create.
+
+13
+00:00:51,140 --> 00:00:55,400
+而对于git switch，它是git switch - c，然后是名称。
+Whereas with git switch, its git switch minus c and then the name.
+
+14
+00:00:55,710 --> 00:00:57,250
+让我们继续在我们的项目中这样做
+Let's go ahead and do that in our project.
+
+15
+00:00:57,290 --> 00:01:02,810
+所以在我的项目中，我注意到我有一些额外的类，我想摆脱。
+So in my project, I've noticed that I have a few additional classes that I want to git rid of.
+
+16
+00:01:03,050 --> 00:01:05,310
+例如，我有这个site-header类。
+So, e.g. I have this site-header class.
+
+17
+00:01:05,400 --> 00:01:12,700
+我创建这个小网站的方法是从之前的一个项目中复制东西，
+And the way that I created this small website was by copying things from a previous project, 
+
+18
+00:01:12,700 --> 00:01:21,400
+我忘了去掉site-header标签和site-nav标签，还有family-sans类。
+and I forgot to take away the site-header tag as well as this site-nav tag, and also this family-sans class.
+
+19
+00:01:21,600 --> 00:01:28,000
+其他的都是一个引导类，这些只是我在之前的项目中添加的额外类，
+Everything else is a bootstrap class, and these are just extra classes that I had added in a previous project,
+
+20
+00:01:28,000 --> 00:01:31,900
+所以我要创建一个新的分支来处理这些事情。
+ so I'm going to create a new branch to take care of those things.
+
+21
+00:01:32,390 --> 00:01:39,960
+让我们继续执行git switch -c，我把这个分支命名为fix-classes。
+Let's go ahead and issue a git switch minus c, and I'll call this branch fix-classes.
+
+22
+00:01:41,300 --> 00:01:45,400
+现在，注意到它说它切换到一个新的分支，
+Now, notice that it said that it switched to a new branch, 
+
+23
+00:01:45,400 --> 00:01:50,600
+如果我执行git status，它会显示我现在在分支fix-classes上。
+and if I do a git status, it'll show me that I'm now on branch fix-classes.
+
+24
+00:01:50,700 --> 00:01:54,000
+对吧?为了应对这些不同的变化，
+Right? To take care of these different changes, 
+
+25
+00:01:54,000 --> 00:01:59,500
+我要做的是搜索并替换所有的文件。
+what I'm going to do is do a search and replace so that I change all the files.
+
+26
+00:01:59,800 --> 00:02:04,000
+有人复制了这个site-header，我在VSCode中，
+Someone a copy this site-header, and I'm in VSCode here, 
+
+27
+00:02:04,000 --> 00:02:08,200
+所以我可以在这里执行替换文件命令，
+so I can do a replace in files command right here, 
+
+28
+00:02:08,200 --> 00:02:13,500
+它会找到side-header并用空替换它。
+and it's going to find side-header and replace it with nothing.
+
+29
+00:02:13,970 --> 00:02:19,680
+点击这个按钮 它会替换所有有这个类的文件
+So we'll hit this button right here, and it's going to replace all the files that have that class.
+
+30
+00:02:20,060 --> 00:02:24,780
+我将在这个family sans中对site-nav做同样的事情。
+And I'll do the same thing with site-nav in this family-sans.
+
+31
+00:02:31,100 --> 00:02:34,440
+再一次，我将把这段文字替换为空。
+Once again, I'll take this text and replace it with nothing.
+
+32
+00:02:34,600 --> 00:02:36,700
+我点击这个按钮，
+so I'll click on this button right here, 
+
+33
+00:02:36,700 --> 00:02:39,100
+它将替换三个文件中的所有内容。
+it's going to replace everything in three files.
+
+34
+00:02:39,160 --> 00:02:40,680
+这就是我所需要做的
+That's all I need to do.
+
+35
+00:02:41,000 --> 00:02:46,100
+让我们清除这些，看看状态
+So let's go ahead and let's clear this out and take a look at the status 
+
+36
+00:02:46,100 --> 00:02:48,100
+它在给我看那些文件。
+it's showing me those files.
+
+37
+00:02:48,300 --> 00:02:52,500
+如果我愿意，我可以在git选项卡中预览更改，
+If I wanted to, I can preview the changes here in the git tab, 
+
+38
+00:02:52,500 --> 00:02:58,200
+这样我就可以查看每一个文件，看看这些修改是在哪里进行的。
+so I can take a look at each one of those files and see where those changes were made.
+
+39
+00:02:58,400 --> 00:03:03,520
+在我看来一切都很好 所以我要添加并提交这些更改
+Everything looks good to me, so I'm going to add and commit these changes.
+
+40
+00:03:03,760 --> 00:03:06,880
+我们把这个擦掉
+So let's go ahead and clear this out.
+
+41
+00:03:14,280 --> 00:03:24,370
+好了，现在，如果我做一个git日志，它会告诉我，我在这里添加了一个新的提交。
+All right, so now, if I do a git log, it tells me that I have added this new commit here.
+
+42
+00:03:24,810 --> 00:03:29,110
+它还告诉我main仍然处于原来的状态。
+And it's also telling me that main is still in this old state.
+
+43
+00:03:29,330 --> 00:03:35,440
+它会注意到我在这个新分支中做了一个提交，但我没有将它添加到main中。
+So it's actually noticed that I've done a commit here in this new branch, but I haven't added it into main.
+
+44
+00:03:35,700 --> 00:03:40,900
+现在我们已经准备好同步我们在新分支和主分支中所做的事情了，
+So now that we're ready to synchronize what we're doing in our new branch with our main branch,
+
+45
+00:03:40,900 --> 00:03:42,700
+将需要了解合并。
+ will need to know about merging.
+
+46
+00:03:42,980 --> 00:03:46,840
+merge命令将把一个分支中的更改合并到当前分支中。
+The merge command will merge the changes from one branch into the current branch.
+
+47
+00:03:47,000 --> 00:03:48,500
+它是这样的。
+And it looks like this. 
+
+48
+00:03:48,500 --> 00:03:54,700
+该命令将把我在这里指定的分支的合并更改为当前分支。
+This command will change the merges from the branch I specify right here into the current branch.
+
+49
+00:03:54,920 --> 00:04:00,420
+所以在我们的例子中 我们必须切换回主分支 然后执行这个命令
+So in our case, we have to switch back into the main branch and then execute this command.
+
+50
+00:04:00,580 --> 00:04:02,640
+让我们在我们的项目中这样做。
+so let's go ahead and do that with our project.
+
+51
+00:04:02,880 --> 00:04:09,170
+我们把这个擦掉。我们将执行git switch main。
+let's clear this out. We'll do a git switch main.
+
+52
+00:04:09,400 --> 00:04:11,300
+现在我们在主分支，
+Now we're in the main branch, 
+
+53
+00:04:11,300 --> 00:04:16,000
+然后输入git branch，我们可以看到这里有两个分支。
+and let's do git branch So we can see that we have two branches right here.
+
+54
+00:04:16,470 --> 00:04:23,340
+我们要做的就是使用git merge，然后添加fix-classes分支。
+And so what we'll do is use git merge and we'll add the fix-classes branch.
+
+55
+00:04:23,740 --> 00:04:29,580
+现在 我们将新分支的所有更改添加到主分支中
+Now this is added all of the changes from our new branch into the main branch.
+
+56
+00:04:30,010 --> 00:04:40,040
+清除这个，如果我执行git log online，你会在主分支上看到这个新提交。
+Clear this out, and if I do a git log oneline, you'll see that new commit right here on the main branch.
+
+57
+00:04:41,200 --> 00:04:43,240
+现在 我还有另一个分支
+Now, I still have the other branch.
+
+58
+00:04:43,880 --> 00:04:51,470
+因此，当您完成了一个特性或修复后，删除不再需要的分支是一个好主意。
+So when you're done with a feature or a fix, it's a good idea to delete the branch that you no longer need.
+
+59
+00:04:51,630 --> 00:04:59,010
+要做到这一点，你可以执行git分支，然后，使用delete选项，指定要删除的分支的名称。
+to do that, You can execute the git branch, and then, with the delete option, specify the name of the branch that you want to delete.
+
+60
+00:04:59,290 --> 00:05:02,550
+有几个选择。你可以用这个- d选项。
+There's a couple of options. You can use this minus d option.
+
+61
+00:05:02,550 --> 00:05:10,980
+只要分支没有冲突，- d就会迫使git忽略其他内容，直接删除分支。
+As long as the branches are free of conflicts, the minus d forces git to ignore things and just delete the branch.
+
+62
+00:05:10,980 --> 00:05:15,670
+好了，我们把这些擦掉，
+ok let's go ahead and clear this out,
+
+63
+00:05:15,960 --> 00:05:18,390
+我们将删除固定类。
+and we'll delete fix-classes.
+
+64
+00:05:18,800 --> 00:05:27,410
+所以我有时会这样做，我忘记做git分支，然后- d，然后fix-classes。
+So I do this sometimes I forgot to do the git branch and then minus d and then fix-classes.
+
+65
+00:05:27,690 --> 00:05:29,610
+对吧 所以它删除了那个分支
+Right? So it deleted that branch.
+
+66
+00:05:29,970 --> 00:05:34,470
+我们把这个清除掉，然后执行git branch，这里只有一个分支。
+let's clear this out, and we'll do git branch Now, there's only one branch.
+
+67
+00:05:34,770 --> 00:05:38,070
+这一系列的操作就是我们所说的git流。
+This sequence of doing things is what we call git flow.
+
+68
+00:05:38,200 --> 00:05:42,000
+你创建一个新的分支，通常是一个特性或一个修复分支，
+You create a new branch, that's usually a feature or a fix branch, 
+
+69
+00:05:42,000 --> 00:05:48,200
+你对那个分支进行修改，然后把那个分支合并回主分支，然后删除旧分支。
+you make changes to that branch, then you merge that branch back to master, and then you delete the old branch.
+
+70
+00:05:48,440 --> 00:05:50,740
+这就是开发人员在实际项目中的工作方式
+This is how developers work on real projects.
+
+71
+00:05:51,160 --> 00:05:55,420
+现在 每个公司都有不同的版本 但它遵循这个一般模式
+Now, every company has a different version of this, but it follows this general pattern.
+
+72
+00:05:55,680 --> 00:05:59,980
+当你与其他人合作时 每个人都离开主分支
+When you collaborate with other people, everyone leaves the main branch alone.
+
+73
+00:06:00,160 --> 00:06:05,620
+你可以看到，如果每个人都试图在同一个分支上工作，事情会变得非常混乱。
+You can see that things would git really messy if everybody was trying to work on the same branch.
+
+74
+00:06:05,900 --> 00:06:10,180
+所以每个人都创建一个新的分支 然后你做出改变 然后你遵循这个结构
+So everybody creates a new branch, then you make a change, and you follow this structure.
+
+75
+00:06:10,340 --> 00:06:13,550
+这将使与他人合作变得容易得多
+This will make working with others a lot easier.

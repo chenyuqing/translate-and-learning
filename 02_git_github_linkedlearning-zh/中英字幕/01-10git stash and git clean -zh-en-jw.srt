@@ -1,0 +1,539 @@
+0
+00:00:00,100 --> 00:00:03,100
+有些命令并不是github的核心功能，
+Some commands aren't really part of the core of what github can do, 
+
+1
+00:00:03,200 --> 00:00:09,900
+但是它们非常有用，所以在我们进入github之前，我想把它们作为奖励留在这里。
+but they're so useful that I'd like to leave them here as a bonus before we git into github.
+
+2
+00:00:10,300 --> 00:00:14,080
+因此，我要向您展示的第一个命令称为git stash。
+So the 1st command that I want to show you is called the git stash.
+
+3
+00:00:14,200 --> 00:00:20,170
+隐藏是一种暂时存放代码的方法 以便您可以处理其他事情
+Stashing is a way of putting away code temporarily so that you can work on something else.
+
+4
+00:00:20,300 --> 00:00:26,700
+当你的老板进来告诉你他需要一个非常重要的改变时，这是一个完美的方法，
+This is the perfect thing to use when maybe your boss comes in and tells you that he needs a super important change, 
+
+5
+00:00:26,700 --> 00:00:31,500
+但是，您已经在当前的分支上进行了一些新的更改。
+but you were already working on some new changes on the current branch that you were into.
+
+6
+00:00:31,500 --> 00:00:34,500
+所以你想要恢复一切，
+So you essentially want to restore everything, 
+
+7
+00:00:34,500 --> 00:00:38,400
+但是你不想失去你所做的任何改变。
+but you want to not lose any of the changes that you've made.
+
+8
+00:00:38,590 --> 00:00:39,470
+这就是它的样子
+And this is what it looks like.
+
+9
+00:00:39,600 --> 00:00:41,300
+输入git stash，
+You do a git stash, 
+
+10
+00:00:41,300 --> 00:00:48,400
+它会把这些变化暂时放在一个储存设施里，
+and it will take whatever the changes were and temporarily put them in a storage facility, 
+
+11
+00:00:48,400 --> 00:00:54,500
+然后，您可以使用git stash list查看存储的内容。
+say, and then you can take a look at what's been stored by using git stash list.
+
+12
+00:00:54,740 --> 00:00:57,680
+有几种方法可以找回暂存的代码
+And there's a couple of ways of retrieving the stash.
+
+13
+00:00:57,900 --> 00:01:10,160
+Git stash apply允许你应用一组变更，Git stash pop会从列表中删除Git的变更。
+git stash apply ,allows you to apply a stash set of changes, and git stash pop will actually remove the git stash from the list.
+
+14
+00:01:10,440 --> 00:01:16,020
+所以本质上，当你输入 git stash时，它会变成一副扑克牌。
+So essentially, when you git stash, it kind of goes into what is sort of like a deck of cards.
+
+15
+00:01:16,020 --> 00:01:23,530
+你可以继续藏匿物品 任何新的藏匿物品都将位于这副牌的顶部
+You can continue to stash things, and any new stashes will be at the top of that deck of cards.
+
+16
+00:01:23,870 --> 00:01:30,180
+这副牌最上面的索引是0 其他牌的索引更大
+The top of the deck of cards has an index of zero, and the other ones have indexes that are larger.
+
+17
+00:01:30,220 --> 00:01:32,620
+让我们回到我们的项目
+So let's go back into our project.
+
+18
+00:01:33,260 --> 00:01:41,160
+我确实有这个预览从我们之前做的电影中运行通过使用生命预览扩展。
+And I do have this preview running from the movie that we did before by using that life preview extension.
+
+19
+00:01:41,460 --> 00:01:46,960
+现在 我要做的是在这个页面上改变一下背景颜色
+Now, what I want to do here is I want to play around with the background colors on this page.
+
+20
+00:01:47,380 --> 00:01:55,140
+现在，背景色恰好是背景色，我有这个body类bg-dark。
+So right now, the background colors happen to be background dark, and I have this body class bg-dark.
+
+21
+00:01:55,300 --> 00:01:59,080
+我们继续，改成bg-primary。
+So let's go ahead, changes to  bg-primary.
+
+22
+00:01:59,460 --> 00:02:01,020
+我们来保存一下
+And let's go and save that.
+
+23
+00:02:01,040 --> 00:02:06,120
+你可以看到这个东西的底部变成了原色
+You can see that the bottom part of this thing becomes the primary color.
+
+24
+00:02:06,380 --> 00:02:10,660
+bg，我们来看看导航栏的黑暗，在bg-黑暗中。
+And bg, let's see nav-bar dark, so in this bg-dark.
+
+25
+00:02:10,820 --> 00:02:12,540
+我想用bg-primary。
+I want to do bg-primary.
+
+26
+00:02:12,700 --> 00:02:14,400
+就这样，它会改变顶部
+That's all. It's going to change the top.
+
+27
+00:02:14,580 --> 00:02:16,520
+我必须在每一页上都这样做
+I do have to do this in all the pages.
+
+28
+00:02:16,520 --> 00:02:18,500
+让我们继续做这些
+So let's go ahead and on do these.
+
+29
+00:02:18,660 --> 00:02:22,870
+我就去搜索一下bg-dark。
+And I'll just do a search for bg-dark.
+
+30
+00:02:23,290 --> 00:02:28,610
+bg-dark，用bg-primary代替。
+bg-dark, and I'll replace it with bg-primary.
+
+31
+00:02:28,700 --> 00:02:32,100
+在这里。我在任何地方都会这样做。
+Here. I'll do that everywhere. 
+
+32
+00:02:32,100 --> 00:02:44,200
+现在我可以切换到不同的页面注意到我的背景总是这个蓝色背景。
+So now I can go to the different pages and notice that my background is always going to be this blue background.
+
+33
+00:02:44,200 --> 00:02:49,600
+看起来很酷。但是假设我想换一种颜色，
+So that looks pretty cool. But let's say that I wanted to try another color, 
+
+34
+00:02:49,600 --> 00:02:53,800
+但我想保留我所做的改变。
+but I wanted to keep this particular change that I have made.
+
+35
+00:02:54,040 --> 00:02:56,020
+我们把这个擦掉
+So let's go ahead and clear this out.
+
+36
+00:02:56,400 --> 00:02:58,240
+我将执行一个git stash命令。
+And I'm going to do a git stash command.
+
+37
+00:02:58,300 --> 00:03:04,360
+注意 实际上 如果你看一下这些文件 你会注意到我修改了所有这些项
+So notice, actually, if you look at the files, you'll notice that I've modified all of these items right here.
+
+38
+00:03:04,700 --> 00:03:14,000
+所以我能做的就是发出一个git stash命令，它会将目录返回到原来的状态，
+So what I can do is issue a git stash command that's going to return the directory to its original state, 
+
+39
+00:03:14,000 --> 00:03:23,900
+它会把一些东西添加到我的存储库中，所以我可以发出git stash list命令。
+and it's going to have added something to my stash, so I can issue a git stash list command.
+
+40
+00:03:24,100 --> 00:03:29,400
+你可以看到现在藏起来的东西只有一件，
+You can see that there's only one item right now in the stash, 
+
+41
+00:03:29,400 --> 00:03:34,900
+所以我可以用git stash apply，然后用数字0。
+so I can do it a git stash apply, and I'll apply the number zero.
+
+42
+00:03:35,150 --> 00:03:37,090
+这将会把那些变化带回来
+That's going to bring those changes back.
+
+43
+00:03:37,200 --> 00:03:43,440
+它并不是要改变 而是要把它们带回来
+And it's going to sort of not stage to changes, is just going to bring them back.
+
+44
+00:03:43,700 --> 00:03:49,100
+现在，如果我想倒回去试试不同的颜色，
+Now, if I do want to rewind back so that I can try a different color, 
+
+45
+00:03:49,100 --> 00:03:55,300
+那么我就可以进行git恢复并将所有内容恢复到原始设置。
+than I can do a git restore and restore everything back to its original settings.
+
+46
+00:03:55,800 --> 00:03:57,400
+现在，我们把这个擦掉。
+Now, let's clear this out. 
+
+47
+00:03:57,400 --> 00:04:02,100
+如果我看一下git stash list，你会发现那个项目还在那里。
+If I take a look at the git stash list, you'll see that that item is still there.
+
+48
+00:04:02,520 --> 00:04:05,260
+我们来试试不同的颜色
+Let's go ahead and try a different color.
+
+49
+00:04:05,420 --> 00:04:15,570
+所以我要做的不是bg-primary，而是bg-danger，然后把它们都替换掉，对吧?
+So I'm gonna do, instead of bg-primary, I'm gonna do bg-danger, and I'll replace all of them, right?
+
+50
+00:04:15,650 --> 00:04:20,650
+有时你需要按这个按钮 然后你可以做替换
+So sometimes you have to hit this button here, and then you can do the replace.
+
+51
+00:04:20,890 --> 00:04:25,890
+它将在三个文件中替换成这样。
+That's gonna replace across three files in bg-danger looks like this.
+
+52
+00:04:26,070 --> 00:04:28,950
+让我们继续输入git stash。
+Let's go ahead and git stash this again.
+
+53
+00:04:29,400 --> 00:04:32,900
+现在它倒回到原来的位置。
+So now it rewinds back to its original position. 
+
+54
+00:04:32,900 --> 00:04:38,500
+如果我输入git stash list，现在你可以看到我有两组藏物。
+And if I do a git stash list, now you can see that I have two sets of stashes.
+
+55
+00:04:38,700 --> 00:04:44,200
+我们再做一个 所以除了危险 还有信息
+Let's do one more. So in addition to danger, there is an info.
+
+56
+00:04:44,480 --> 00:04:49,150
+再一次 我需要点击这个小按钮 然后点击替换
+And again, I have to hit this little button here, and then I'll hit replace.
+
+57
+00:04:50,030 --> 00:04:56,370
+现在它变成了这种青色，看起来很不错，对吧?
+And now it brings it into this sort of cyan, which actually looks pretty good, right?
+
+58
+00:04:56,430 --> 00:05:01,330
+因此，如果我去不同的页面，导航将始终是青色和git stash。
+So if I go to the different pages, the navigation will always be cyan and git stash.
+
+59
+00:05:01,300 --> 00:05:05,400
+这是一种快速的方法来撤销你所做的工作，
+Just a quick way of sort of undoing the work that you've done,
+
+60
+00:05:05,400 --> 00:05:10,200
+你可以把这些不同的破折号放进去，然后回到哦。
+ that you can sort of put in these different dashes and come back to Oops.
+
+61
+00:05:10,340 --> 00:05:13,380
+然后我需要输入 清除 清除下面这个
+I then need to type, clear that it'll go and clear this down here.
+
+62
+00:05:13,390 --> 00:05:13,710
+现在
+Now,
+
+63
+00:05:14,130 --> 00:05:26,280
+如果我执行git stash pop，它将需要git restore period来删除我所有的更改。
+if I do git stash pop, it's going to and actually need to git restore period to get rid of all my changes.
+
+64
+00:05:26,580 --> 00:05:28,880
+让我们现在试试。Git stash pop。
+Let's try doing now. git stash pop.
+
+65
+00:05:29,060 --> 00:05:38,380
+因为我做了一个git stash pop，我得到的是位于0位置的东西，就在stash的顶端。
+So because I did a git stash pop, what I get is what is in the zero position, right the top of the stash.
+
+66
+00:05:38,540 --> 00:05:42,640
+我们来看看，git stash list。
+So let's take a look, git stash list.
+
+67
+00:05:43,060 --> 00:05:45,680
+看起来我只剩下一项了
+And it looks like I have just one item left.
+
+68
+00:05:46,100 --> 00:05:49,320
+所以我会说，git restore，句号。
+So I'm gonna say, git restore, period.
+
+69
+00:05:49,360 --> 00:05:51,700
+再来一次。git stash pop
+And do git stash pop again.
+
+70
+00:05:51,800 --> 00:05:59,300
+它会把它带回到最后一件物品上，就是这个蓝色的，如果我想，
+It's going to bring it back to the last item on the stash, which was this blue And if I want to, 
+
+71
+00:05:59,300 --> 00:06:02,700
+所以git status，我可以继续添加这些。
+so git status, I can go ahead and add these.
+
+72
+00:06:03,070 --> 00:06:05,730
+让我们来看看 现在 我在主干上
+So let's take a look. Right now, I'm on the main branch.
+
+73
+00:06:05,760 --> 00:06:17,840
+我可以执行git add .，git commit -m然后把背景颜色改成蓝色。
+I can do a git add period, git commit minus m and I'll say, just change colors to blue backgrounds.
+
+74
+00:06:20,980 --> 00:06:28,660
+太好了 现在我有了新提交将背景颜色改为漂亮的蓝色
+That's great. Now I have that new commit that changes the color to that nice blue background.
+
+75
+00:06:28,720 --> 00:06:36,920
+现在，我想向您展示另一个小实用命令，它是git clean命令。
+Now, there's another little utility command that I want to show you, and that is the git clean command.
+
+76
+00:06:37,160 --> 00:06:39,480
+所以git clean命令很简单。
+So git clean command is pretty simple.
+
+77
+00:06:39,500 --> 00:06:45,200
+它可以让你超级快速地从分支中删除所有的跟踪文件和目录
+It lets you remove all on track files and directories from your branch super quickly.
+
+78
+00:06:45,410 --> 00:06:48,990
+这是删除你不再需要的旧文件的好方法
+It's a nice way of removing, like, old files that you don't need anymore.
+
+79
+00:06:49,250 --> 00:06:51,050
+这就是如何使用它
+And this is how you use it.
+
+80
+00:06:51,210 --> 00:06:59,730
+你可以使用git clean -n，它会告诉你git clean通常会做什么。
+You can use issue a git clean with the minus n option, and that will show you what a git clean would normally do.
+
+81
+00:07:00,140 --> 00:07:05,320
+如果你想去掉目录和子目录，也可以加上- d。
+Can also add minus d if you want to git rid of directories and subdirecturies.
+
+82
+00:07:05,300 --> 00:07:11,200
+然后，当你想要真正做一个清洁操作，而不是排练时，
+And then when you want to actually do a cleaning operation that is not a dry run, 
+
+83
+00:07:11,200 --> 00:07:16,400
+您可以使用force命令，这样您就可以根据需要组合一个DNF。
+you can use the force command, so you can combine a dnf if you want to.
+
+84
+00:07:16,640 --> 00:07:19,760
+如果你不想破坏它，你可以选择- n
+And if you don't want to destroy things, you can just select minus n
+
+85
+00:07:19,920 --> 00:07:25,670
+让我们回到我们的项目 假设我们在这里添加了一些文件
+And so let's go back into our project, and let's say that we added some files here.
+
+86
+00:07:25,830 --> 00:07:34,630
+我们继续 像这样再添加一个文件
+So let's go ahead and I'm just gonna add another file like this.
+
+87
+00:07:34,790 --> 00:07:36,530
+不需要任何东西
+And doesn't really need to have anything.
+
+88
+00:07:36,700 --> 00:07:39,600
+我知道我可以做git恢复，
+And I know that I could do a git restore, 
+
+89
+00:07:39,600 --> 00:07:46,200
+但如果我有很多未跟踪的文件，注意这里写着U。
+but if I have a lot of these files that are untracked, so notice that this one says U right here.
+
+90
+00:07:46,300 --> 00:07:53,600
+如果我有一大堆无法追踪的文件和文件夹，
+If I had a ton of files and folders that were untracked, 
+
+91
+00:07:53,600 --> 00:08:03,500
+我们在这里新建一个文件夹，在这里再添加一个文件，对吧?
+let's go ahead and make a folder here, and we'll add another file here, right?
+
+92
+00:08:03,700 --> 00:08:06,040
+只有无法追踪的文件，对吧?
+Just files that are untracked, right?
+
+93
+00:08:06,000 --> 00:08:11,700
+所以我在这里可以做的是，git clean - n，在这种情况下，
+So what I could do here is say, git clean minus n, and in this case,
+
+94
+00:08:11,700 --> 00:08:20,300
+这将会移动这个附加文件，因为它是唯一不在文件夹中的文件，对吧?
+ this is going to move this additional file, because it is the only file that is not in a folder, right?
+
+95
+00:08:20,820 --> 00:08:28,680
+所以你可以写git clean -然后是d表示目录我们现在还不想这么做。
+So you could do then git clean minus and then d for directories and and we don't want it to do it quite yet.
+
+96
+00:08:28,890 --> 00:08:33,350
+现在它告诉你 它将删除额外的文件和随机文件夹
+Now it's telling you that it's going to remove both the additional file and the random folder.
+
+97
+00:08:33,690 --> 00:08:41,290
+很多时候，当你做git restore时，因为它不会解压缩文件，它会把文件留给它们。
+So a lot of times when you do a git restore, because it doesn't do anything to untract files, it's going to leave those theirs.
+
+98
+00:08:41,450 --> 00:08:45,190
+有时候你需要一个干净的文件夹
+And sometimes you need a perfectly clean folder.
+
+99
+00:08:45,230 --> 00:08:48,830
+为此，您可以使用这个git clean命令。
+And for that, you can use this git clean command.
+
+100
+00:08:49,050 --> 00:08:53,870
+要小心使用它 因为它有时会去除你不希望它去除的东西
+Let be careful with it, because it can sometimes remove things that you don't want it to remove.
+
+101
+00:08:53,800 --> 00:08:58,000
+这就是为什么总是做减号和选项是个好主意，
+That's why it's a good idea to always do the minus and option, 
+
+102
+00:08:58,000 --> 00:09:03,900
+这样你就知道它要删除什么，然后你就可以使用git clean了。
+so that you know exactly what it is going to remove, and then you can use the git clean.
+
+103
+00:09:03,960 --> 00:09:10,360
+看看我能做什么，不写n，而是写df，这样就能删除目录和文件了。
+And let's see what I can do is, instead of the n, I'll do a df, that'll git rid of directories and files.
+
+104
+00:09:10,410 --> 00:09:14,250
+现在，当我点击return时，这两个都会消失。
+And so now, when I hit return, both of those will be gone.
+
+105
+00:09:14,370 --> 00:09:21,730
+git有很多其他的实用命令，当你越来越了解这个软件时，你会学到这些命令。
+So git has a lot of these other utility commands that you're going to learn as you learn more and more about the software.
+
+106
+00:09:22,000 --> 00:09:25,100
+其中一些非常有用，我一直在使用它们，
+Some of them are so useful that I use them all the time, 
+
+107
+00:09:25,100 --> 00:09:27,800
+我在这个视频中给你们展示了其中的几个。
+and I've shown you a couple of them in this video.
