@@ -1,0 +1,324 @@
+0
+00:00:00,000 --> 00:00:05,420
+Pull request是用户请求对主站点进行更改的方式。
+pull request is how users ask for changes to be made on the main site.
+
+1
+00:00:05,800 --> 00:00:09,940
+现在 当你想对你的项目做一些小的改变时 你可以直接在Github上做这些
+Now you can do them directly on Github when you want to make some minor changes to your project.
+
+2
+00:00:10,130 --> 00:00:11,630
+我们来看看这是怎么做的
+So let's take a look at how that's done.
+
+3
+00:00:12,010 --> 00:00:13,070
+这是我们的项目
+So here's our project,
+
+4
+00:00:13,150 --> 00:00:19,690
+然后进入docs文件夹，看看index。html文件。
+and I'm going to go into the docs folder and then take a look at my index.HTML file.
+
+5
+00:00:19,700 --> 00:00:23,900
+我想做的是改变这个网页的标题，
+And what I want to do is maybe change the title of this web page, 
+
+6
+00:00:23,900 --> 00:00:27,800
+因为它实际上是我从另一个项目中复制的东西，
+because it's really something I copied from another project, 
+
+7
+00:00:27,800 --> 00:00:29,300
+它叫做布局。
+and it's called Layout.
+
+8
+00:00:29,750 --> 00:00:32,730
+也许在第一页 我要把这个名字改一下
+So maybe on this 1st page, I'm going to change this name right here.
+
+9
+00:00:32,900 --> 00:00:37,200
+要做到这一点，我可以点击这个编辑按钮，
+So to do that, I can just hit this edit button right now, 
+
+10
+00:00:37,200 --> 00:00:40,900
+这将带我进入一个非常简单的编辑器。
+and that will bring me into a very simple editor.
+
+11
+00:00:41,280 --> 00:00:42,920
+注意 所有语法都是高亮显示的
+Notice that it's all syntax highlighted.
+
+12
+00:00:43,080 --> 00:00:45,900
+它有行号 这实际上是一个很酷的编辑器
+It's got line numbers. It's actually a pretty cool editor.
+
+13
+00:00:45,900 --> 00:00:54,920
+所以我要把这个布局标题改成学习Git和GitHub，这是这个项目的标题。
+And so I'm going to change this layout title to Learning Git and GitHub, which is a title for this project.
+
+14
+00:00:55,100 --> 00:00:58,360
+然后你可以点击预览预览它的变化
+And then you can hit preview to preview that changes.
+
+15
+00:00:58,520 --> 00:01:02,740
+这将在一个漂亮的小界面中显示您所修改的内容
+This will show you what you have modified in a nice little interface.
+
+16
+00:01:02,800 --> 00:01:09,060
+然后我们可以提交这些更改 就像我们在本地网站上做的那样
+And then we can commit these changes just like we would on our local website.
+
+17
+00:01:09,220 --> 00:01:10,600
+我在这里加一个注释
+And I'll add here a note.
+
+18
+00:01:12,740 --> 00:01:16,400
+你也可以添加一点扩展描述
+And you can also add a little bit of an extended description.
+
+19
+00:01:16,560 --> 00:01:18,300
+它是可选的 所以我将留空
+It's optional, so I'm going to leave it blank.
+
+20
+00:01:18,550 --> 00:01:21,550
+这里可以决定我是从哪封邮件开始的
+Here can decide which email I'm doing this from.
+
+21
+00:01:21,500 --> 00:01:26,400
+这里你也可以选择，就像在本地版本中一样，
+And here you can also choose, just like you can in the local version of this, 
+
+22
+00:01:26,400 --> 00:01:29,700
+要提交到主分支或创建一个新分支，
+to commit to the main branch or create a new branch, 
+
+23
+00:01:29,700 --> 00:01:33,000
+这将生成所谓的拉取请求。
+and this will generate what's called a pull request.
+
+24
+00:01:33,200 --> 00:01:37,600
+现在我可以给这个分支命名，标题，更改，
+Now here I can give this branch name, title, change, 
+
+25
+00:01:37,600 --> 00:01:41,300
+我不会提出改变，对吧?
+and I'm going to hate propose changes, right?
+
+26
+00:01:41,460 --> 00:01:45,960
+现在它所做的是打开所谓的拉取请求。
+So now what it's doing is opening up what's called the pull request.
+
+27
+00:01:46,100 --> 00:01:49,700
+这就是，如果你是别人，或者即使是你自己，
+This is how, if you were somebody else, or even if it's yourself, 
+
+28
+00:01:49,700 --> 00:01:55,500
+你可以打开一个请求，根据我们现有的两个不同的分支对这个网站进行修改，
+you can open up a request to make changes to this website based on the two different branches that we have, 
+
+29
+00:01:55,500 --> 00:01:58,000
+原来的分支和我刚刚创建的分支。
+the original branch and the one I just created.
+
+30
+00:01:58,410 --> 00:01:59,970
+你不需要做太多
+And you don't really need to do much here.
+
+31
+00:02:00,130 --> 00:02:05,560
+你所能做的就是点击changetitle并创建这个pullrequest
+All you can do is either hit change title and create this pull request.
+
+32
+00:02:05,720 --> 00:02:06,940
+我们点击它
+Let's go ahead and hit that.
+
+33
+00:02:08,500 --> 00:02:14,900
+现在创建一个请求。所以要创造一个改变似乎还有很长的路要走，
+Now creates a request. So it just seems like a long way to go to just create a change, 
+
+34
+00:02:14,900 --> 00:02:21,000
+但它在这里做的是创建这个拉取请求，并给它一个数字，
+but what it's doing here is creating this pull request, and it's given it a number, 
+
+35
+00:02:21,000 --> 00:02:28,100
+因为你可以有很多这样的东西，然后它就定义了一个关于项目的对话。
+because you can have many of these, and then it sort of defined a conversation about the project.
+
+36
+00:02:28,300 --> 00:02:34,380
+现在这个可以保持开放 你可以做笔记问别人
+Now this can remain open, and you can sort of make notes to ask people.
+
+37
+00:02:34,680 --> 00:02:38,840
+在这里输入一个注释 嘿 你觉得这个怎么样
+Type in a note here, hey, what do you think of this?
+
+38
+00:02:38,800 --> 00:02:43,100
+如果我跟其他人谈论这个头衔的改变，
+If I was talking to other people of this title change, 
+
+39
+00:02:43,100 --> 00:02:51,600
+继续点击常见评论，让人们评论你在这里做的事情。
+and just continue to hit common common comment and allow people to comment on what you're trying to do here.
+
+40
+00:02:51,700 --> 00:02:53,800
+然后其他人可以进来
+And then other people can come in here 
+
+41
+00:02:53,800 --> 00:02:57,400
+并就是否应该改变这一点发表意见。
+and make their comments about whether or not this should be changed.
+
+42
+00:02:57,500 --> 00:03:02,900
+一旦你完成了这些，你想要合并pull请求，
+Once you are done with this, though, you want to merge the pull request, 
+
+43
+00:03:02,900 --> 00:03:07,800
+我们需要做的就是点击合并拉取请求。
+And so all we need to do here is click on this merge pull request.
+
+44
+00:03:08,210 --> 00:03:12,570
+现在我还需要做一件事 就是确认合并 对吧
+And now I need to do one more thing, which is confirm the merge, right?
+
+45
+00:03:12,700 --> 00:03:16,300
+点击确认合并，
+So I'm going to click on confirm the merge, 
+
+46
+00:03:16,300 --> 00:03:22,800
+即现在成功合并了请求并关闭了此pull请求。
+and that is now successfully merged the request and closed this pull requests.
+
+47
+00:03:22,970 --> 00:03:28,290
+这是一个漫长的过程 但这就是你起床后的做法
+So that's a long process, but it's how you do things on get up.
+
+48
+00:03:28,450 --> 00:03:33,290
+注意在右边有各种各样的项目管理的东西你可以做
+Notice that there's all kinds of project management things on the right hand side that you can do.
+
+49
+00:03:33,450 --> 00:03:36,490
+除此之外 您还可以添加暹罗
+In addition to this, you can add a Siamese.
+
+50
+00:03:36,600 --> 00:03:39,500
+现在，团队里只有一个人，
+Right now, there's only one person in the team, 
+
+51
+00:03:39,500 --> 00:03:41,600
+但如果你有额外的人，
+but if you had additional people, 
+
+52
+00:03:41,600 --> 00:03:46,100
+然后你可以指派一个人来审查提出的变更。
+then you could assign somebody to review the change that is being proposed.
+
+53
+00:03:46,300 --> 00:03:50,400
+您还可以添加标签。这是典型的标签，
+You can also add labels. So there's the typical label, 
+
+54
+00:03:50,400 --> 00:03:54,300
+所以你可以添加，也许是提议的拉取请求，
+so you can add to, perhaps a proposed pull request, 
+
+55
+00:03:54,300 --> 00:03:57,600
+所以你可以在一个特定的话题上寻求帮助。
+so you can ask for help on a specific topic.
+
+56
+00:03:57,650 --> 00:04:00,270
+这看起来不太亮 并把这些标签
+This doesn't seem bright, and put any of these labels.
+
+57
+00:04:00,200 --> 00:04:01,700
+这些都很有用，
+Those are kind of useful, 
+
+58
+00:04:01,700 --> 00:04:05,400
+因为你可以根据这些不同的标签来查找或排序。
+because you can then look for or sort by these different labels.
+
+59
+00:04:05,500 --> 00:04:07,700
+您还可以创建里程碑。
+You can also create milestones. 
+
+60
+00:04:07,700 --> 00:04:13,800
+里程碑是一种让您定义希望通过代码达到的目标的方法。
+Milestones are a way of letting you define targets that you want to reach with your code.
+
+61
+00:04:14,000 --> 00:04:17,800
+你做的另一个产品管理的事情就是得到Hub
+So another product management thing that you do and get Hub.
+
+62
+00:04:17,980 --> 00:04:23,420
+然后你也可以将拉取请求与问题对齐
+And then also you can align the pull request with an issue.
+
+63
+00:04:23,580 --> 00:04:26,070
+我之前确实给你们看过问题
+So I did show you issues before.
+
+64
+00:04:26,410 --> 00:04:30,250
+你可以创建一个问题 说 嘿 我们需要修改这个项目的标题
+You can create an issue and say, hey, we need to fix the title for this project.

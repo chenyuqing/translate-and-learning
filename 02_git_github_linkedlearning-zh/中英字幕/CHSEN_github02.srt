@@ -1,0 +1,464 @@
+0
+00:00:00,100 --> 00:00:03,500
+让我们开始我们的项目，并将代码推送到GitHub
+Let's take our project and work on pushing the code to GitHub 
+
+1
+00:00:03,500 --> 00:00:05,700
+这样我们就能看到它的能力。
+so that we can see what it's capable of.
+
+2
+00:00:06,000 --> 00:00:11,040
+但首先 我们将讨论一些我们之前在git网站上看到的命令
+But 1st, we're going to discuss some of those commands that we saw earlier on the gittub website.
+
+3
+00:00:11,200 --> 00:00:13,100
+第一个是增加远程代码库。
+The 1st was adding remotes.
+
+4
+00:00:13,100 --> 00:00:16,900
+现在，这个命令通常是git remote add，
+ Now, the command for this is normally git remote add,
+
+5
+00:00:16,900 --> 00:00:24,400
+然后是你想要为远程添加的名称然后是你想要放置这个文件的url。
+ and then the name that you want to add for the remote and then the url where you want to place this file.
+
+6
+00:00:24,730 --> 00:00:30,830
+将项目连接到GitHub的方法是使用以下Git远程命令建立远程连接。
+The way that you connect your project to GitHub is by setting up this remote connection with this Git remote command.
+
+7
+00:00:30,990 --> 00:00:36,770
+现在您需要传递这个名称以及您希望托管您的repo的URL。
+Now you need to pass along this name as well as the URL where you want to host your repo.
+
+8
+00:00:36,990 --> 00:00:38,470
+你不需要在GitHub上托管它。
+You don't have to host it with GitHub.
+
+9
+00:00:38,630 --> 00:00:40,870
+你可以在其他地方托管它
+There are other places where you can host it.
+
+10
+00:00:41,030 --> 00:00:45,350
+很多时候，您的公司会有一个需要发布代码仓库的地方。
+A lot of times, your company will have a place where you need to post your repository.
+
+11
+00:00:45,390 --> 00:00:50,770
+你使用的远程仓库的一个很常见的名字是Origin
+And a very common name for the remote that you're using is Origin.
+
+12
+00:00:50,900 --> 00:00:53,500
+所以你可以看到你在向原点推进，
+So you may see that you're pushing to origin, 
+
+13
+00:00:53,500 --> 00:00:56,400
+你将那个URL分配给原始名称，
+and you're assigning that URL to the origin name, 
+
+14
+00:00:56,400 --> 00:01:00,600
+这样你就不用记住URL了，URL不会很长。
+so that you don't have to remember the URL, which can't be pretty long.
+
+15
+00:01:00,800 --> 00:01:03,500
+你可以添加尽可能多的远程位置，
+That you can add as many remote locations, 
+
+16
+00:01:03,500 --> 00:01:08,200
+这意味着如果你愿意，你可以把你的工作推到多个地方，
+which means that you can push your work to multiple places if you want to, 
+
+17
+00:01:08,200 --> 00:01:10,500
+所以你可以添加多个远程代码库，
+so you can add more than one remote, 
+
+18
+00:01:10,500 --> 00:01:15,700
+如果你需要将备份文件推送到其他地方，这有时很有用，
+and that's sometimes useful if you need to push to a backup files somewhere else, 
+
+19
+00:01:15,700 --> 00:01:18,900
+以及托管项目的远程。
+as well as the remote where your items are hosted.
+
+20
+00:01:19,200 --> 00:01:23,170
+当然，现在您可以使用git remote删除或重命名远程文件。
+Now you can of course, remove or rename the remote with the git remote.
+
+21
+00:01:23,330 --> 00:01:25,610
+还有git rename命令，你可以看到这里的命令都很有解释性。
+And the git rename command, you can see the commands here are pretty solve explanatory. 
+
+22
+00:01:25,770 --> 00:01:33,080
+git remote remove，然后输入要删除的文件名然后git rename。
+So git remote remove, and then you say the name that you want to remove and then git rename.
+
+23
+00:01:33,240 --> 00:01:36,740
+你只需要给它一个新名字和旧名字
+You just give it the new name as well as the old name in there.
+
+24
+00:01:37,040 --> 00:01:40,280
+然后有一个选项来列出远程
+And then there is an option to list the remotes.
+
+25
+00:01:40,400 --> 00:01:42,600
+你可以使用git remote，
+You can just use actually git remote, 
+
+26
+00:01:42,600 --> 00:01:46,300
+它会给你所有可用远程代码库的列表，
+and it'll just give you the list of all the remotes available, 
+
+27
+00:01:46,300 --> 00:01:50,900
+或者你也可以使用git remote - v选项，- v表示冗长，
+or you can also use the git remote minus v option, and minus v means verbose, 
+
+28
+00:01:50,900 --> 00:01:55,600
+它会列出所有的远程代码库，并为它们提供一些额外的信息。
+it'll just list all the remotes with a bunch of additional information for them.
+
+29
+00:01:55,680 --> 00:02:01,720
+您必须知道的另一个命令是如何将内容从本地目录推送到github
+The other command that you have to know is how to push things from your local directory into github.
+
+30
+00:02:02,000 --> 00:02:04,600
+这是用git push命令完成的
+That is done with the git push command 
+
+31
+00:02:04,600 --> 00:02:09,200
+push是指将文件从本地机器移动到GitHub的方式
+now push is how you move files from the local machine to  GitHub 
+
+32
+00:02:09,200 --> 00:02:14,000
+本地分支必须连接到该分支的远程版本。
+And local branches have to be connected to that remote version of the branch.
+
+33
+00:02:14,380 --> 00:02:21,260
+第一次推的时候，你必须加上-u选项，这是上游选项。
+The 1st time you push, you have to add the minus u option, which is the set-upstream-to options.
+
+34
+00:02:21,420 --> 00:02:26,550
+所以这个“上游-to”是这里-u的加长版。
+So this set-upstream-to is the longer version of minus u right here.
+
+35
+00:02:26,700 --> 00:02:30,600
+然后输入你想要使用的远程代码库的名称，
+and then you put the name of the remote that you want to use, 
+
+36
+00:02:30,600 --> 00:02:37,300
+然后是你想要推送的分支你也可以发出git push - - all命令，
+and then also the branch that you want to push that you can also issue a git push minus minus all command, 
+
+37
+00:02:37,300 --> 00:02:43,100
+我经常这样做，把你所有的本地分支都推到github上，
+which I do often that's going to take all your local branches and push them all into github, 
+
+38
+00:02:43,100 --> 00:02:44,800
+这很方便。
+which is pretty convenient.
+
+39
+00:02:45,100 --> 00:02:48,100
+有时候，当你试图推树枝时，
+Now, sometimes when you try to push a branch, 
+
+40
+00:02:48,100 --> 00:02:56,500
+github将要求您手动在github上的分支和本地分支之间建立连接。
+github will ask you to make the connection manually between the branch that you have on Gitub and the branch that you have locally.
+
+41
+00:02:56,700 --> 00:02:58,400
+这两者之间有联系。
+There's a link between those. 
+
+42
+00:02:58,400 --> 00:03:02,300
+有时候你需要使用另一个命令git branch set-upstream-to。
+And so sometimes you have to use this other command called git branch set-upstream-to.
+
+43
+00:03:02,740 --> 00:03:08,360
+然后加上origin和远程分支的名称，你就会碰到这个。
+and then you add origin and the name of the remote branch, and you'll run into that.
+
+44
+00:03:08,500 --> 00:03:11,700
+一旦失去连接，它就会告诉你，
+It'll just tell you whenever it's lost that connection, 
+
+45
+00:03:11,700 --> 00:03:15,300
+它会给你需要使用的命令，
+and it'll actually give you the command that you need to use, 
+
+46
+00:03:15,300 --> 00:03:18,700
+你可以按节奏复制，这很方便。
+which you can copy in pace, and that is pretty convenient.
+
+47
+00:03:18,900 --> 00:03:22,300
+我们来看看能不能把这些连接到GitHub
+So let's go ahead and see if we can connect these to GitHub
+
+48
+00:03:22,300 --> 00:03:26,300
+我们一直在做的工作。我们回到这一页。
+ the work that we've been doing. We're back on this page right here.
+
+49
+00:03:26,400 --> 00:03:29,600
+我真正需要从这个页面的唯一东西是我需要添加的远程的url
+The only thing I really need from this page is the url of the remote that I need to add 
+
+50
+00:03:29,600 --> 00:03:38,900
+下面的URL与扩展名为.git的代码仓库的URL相同。
+that URL down here is the same as the url of the repository with the .git extension.
+
+51
+00:03:38,990 --> 00:03:45,550
+如果你想记住url，它和常规url是一样的。
+So if you ever want to remember the url, it's just the same thing as the regular url.
+
+52
+00:03:45,970 --> 00:03:51,510
+但是让我们继续从这里复制它 然后回到我们的项目
+But let's go ahead and copy it from here, and we'll go back into our project.
+
+53
+00:03:52,270 --> 00:03:54,410
+我还有一些打开的文件
+And I have some open files.
+
+54
+00:03:54,500 --> 00:03:57,400
+这是从之前的视频中被删除的，
+This one from a previous video that's actually deleted, 
+
+55
+00:03:57,400 --> 00:04:01,600
+让我们把这些东西关起来，把自述留着，
+so let's go ahead and just close the stuff out, and we'll leave the readme up, 
+
+56
+00:04:01,600 --> 00:04:04,500
+我将开始发出一些这样的命令。
+and I'm going to start issuing some of these commands.
+
+57
+00:04:05,000 --> 00:04:09,300
+我要做的第一件事就是设置好远程代码库，
+So the 1st thing I need to do is set up my remote, 
+
+58
+00:04:09,300 --> 00:04:13,000
+所以我要发出一个git remote addorigin，
+so I'm gonna issue a git remote add origin, 
+
+59
+00:04:13,000 --> 00:04:18,500
+然后粘贴url，然后使用git push，
+and then I'll paste the url, and then I'm going to use git push, 
+
+60
+00:04:18,500 --> 00:04:21,200
+我可以推原点，
+and I can just push the origin, 
+
+61
+00:04:21,200 --> 00:04:29,000
+然后我也可以使用git push - - all，这将会推入所有分支。
+but then I can also just use git push minus minus all, and this will push all the branches.
+
+62
+00:04:29,100 --> 00:04:32,300
+现在，我不想向你展示github上的分支是如何出现的，
+Now, I don't want to show you how branches appear on github, 
+
+63
+00:04:32,300 --> 00:04:34,200
+这里有几个分支。
+so I have a couple of branches here. 
+
+64
+00:04:34,200 --> 00:04:37,000
+这既影响标题分支，也影响主分支。
+This affects headline branch as well as the main branch.
+
+65
+00:04:37,100 --> 00:04:40,300
+所以我想把它们都放到github上，
+So I want to go ahead and push them all to github,
+
+66
+00:04:40,300 --> 00:04:42,900
+它会把它们发送到GitHub，
+ and it's going to send them to GitHub, 
+
+67
+00:04:42,900 --> 00:04:44,900
+创建这两个新分支，
+create these two new branches, 
+
+68
+00:04:44,900 --> 00:04:49,700
+并在当地的分支机构之间建立关系，
+and also create the relationships between the branch that is here locally, 
+
+69
+00:04:49,700 --> 00:04:53,000
+以及将被发送到github的分支。
+as well as the branch that will be sent to github.
+
+70
+00:04:53,200 --> 00:04:56,300
+记住您可以使用的另一个命令
+so remember the other command that you can use
+
+71
+00:04:56,300 --> 00:05:00,600
+如果你只想推主分支，就是git push - u。
+ if you just want to push the main branch, is git push minus u.
+
+72
+00:05:00,770 --> 00:05:01,470
+这就建立了上游的链接，
+That sets up the upstream link, 
+
+73
+00:05:01,700 --> 00:05:04,000
+然后你写入origin main，
+and then you would say, origin main, 
+
+74
+00:05:04,000 --> 00:05:06,400
+如果你只是想送其中一个，
+if you just want to send one of them, 
+
+75
+00:05:06,400 --> 00:05:08,400
+我通常push所有东西。
+I usually just push everything.
+
+76
+00:05:08,480 --> 00:05:10,470
+这就是我。
+That's just me.
+
+77
+00:05:10,740 --> 00:05:14,480
+让我们把这个清除掉，看看GitHub上的这个页面。
+So let's go ahead and clear this out and take a look at this page on GitHub.
+
+78
+00:05:14,640 --> 00:05:17,400
+我们会刷新这个 因为我们推送了一个提交
+We're going to refresh this since we've pushed a commit.
+
+79
+00:05:17,500 --> 00:05:19,800
+你可以看到我们的文件，
+You can see that our documents, 
+
+80
+00:05:19,800 --> 00:05:25,600
+Readme文件许可证，git忽略我们本地拥有的，已经在github上了。
+the Readme file license, and git ignore that we had locally, is already on github.
+
+81
+00:05:25,600 --> 00:05:27,300
+如果你点击这里，
+And if you click right here, 
+
+82
+00:05:27,300 --> 00:05:30,000
+你可以看到有多个分支，
+you can see that you have multiple branches, 
+
+83
+00:05:30,000 --> 00:05:32,000
+我们推的两个分支，你可以说，
+the two branches that we pushed, and you can say,
+
+84
+00:05:32,000 --> 00:05:34,700
+我想查看这里所有的分支
+ I want to view all the branches here 
+
+85
+00:05:34,700 --> 00:05:38,500
+看看你所有的分支。
+and take a look at any of the branches that you have.
+
+86
+00:05:38,800 --> 00:05:43,500
+你也可以在这里删除它们，如果你愿意，可以添加分支名称，
+You can also delete them here, added the branch names if you want to, 
+
+87
+00:05:43,500 --> 00:05:46,400
+然后创建拉取请求，我们会讲到
+and create something called pull requests, which we will get to
+
+88
+00:05:46,400 --> 00:05:51,800
+我点击这里回到我的主文件夹。
+ So I'm going to click back here to go back into my main folder.
+
+89
+00:05:51,920 --> 00:05:56,440
+还有很多其他的信息我会在下个视频中讲到
+And there's all kinds of other information which I want to go to in the next video.
+
+90
+00:05:56,740 --> 00:06:01,120
+但是推送第一个代码仓库 第一次做的时候不会很兴奋
+But pushing that 1st repository, it can't be really exciting the 1st time you do it.
+
+91
+00:06:01,330 --> 00:06:04,870
+但是GitHub要求这么多选项，这可能有点令人生畏。
+But GitHub asked so many options that it could be a little bit daunting.
+
+92
+00:06:05,170 --> 00:06:08,430
+我将在下个视频中讨论所有这些选项
+I'll go over all those options in the next video.

@@ -1,0 +1,339 @@
+0
+00:00:00,140 --> 00:00:02,630
+Github是一个允许开发人员一起工作的在线服务。
+Github is an online service that allows developers to work together.
+
+1
+00:00:02,800 --> 00:00:13,900
+它有时被称为社交编码网站。
+ It's sometimes known as a social coding website. 
+
+2
+00:00:06,700 --> 00:00:13,900
+现在，GitHub本质上是一个云存储服务，开发人员可以在这里相互协作编写代码。
+Now, GitHub is essentially a storage service in the cloud where developers can work with each other on code.
+
+3
+00:00:14,090 --> 00:00:17,750
+现在，你学到的关于git的所有知识仍然适用于GitHub。
+Now, everything you learn about git is still applicable to GitHub.
+
+4
+00:00:17,970 --> 00:00:24,140
+GitHub添加的是一个协作平台，它实际上只是允许您与其他人一起工作的功能。
+What GitHub adds is a collaborative platform, and that's really just features that allow you to work with others.
+
+5
+00:00:24,300 --> 00:00:28,500
+因此，例如，它提供了许多工具来跟踪您的网站的变化，
+So, e.g. it offers many tools for tracking changes to your site, 
+
+6
+00:00:28,500 --> 00:00:31,800
+将问题分配给人们并部署代码。
+assigning issues to people and deploying your code.
+
+7
+00:00:32,280 --> 00:00:37,980
+现在，GitHub也有很多项目管理工具，可以让你管理开发项目。
+Now, GitHub also has a lot of project management tools that lets you manage development projects.
+
+8
+00:00:38,140 --> 00:00:42,620
+您可以创建问题并将其分配给开发人员，同时在Kannan板中组织您的项目。
+You can create issues and assign them to developers while organizing your project in a Kannan board.
+
+9
+00:00:42,780 --> 00:00:49,080
+虽然github有大量的特性，但实际上你只需要知道几件事。
+Although github has a ton of features, there's really only a few things that you need to know.
+
+10
+00:00:49,100 --> 00:00:52,100
+首先，你需要知道如何设置远程库。
+1st, you need to know how to set up a remote. 
+
+11
+00:00:52,100 --> 00:00:59,600
+为此，您需要在GitHub上创建一个存储库，并将本地存储库绑定到远程存储库。
+And to do this, you need to create a repository on GitHub and tie your local repository to the remote repository.
+
+12
+00:00:59,970 --> 00:01:05,480
+接下来 您需要学习如何推送更改以将本地文件添加到远程存储库
+Next, you need to learn how to push changes to add your local files to the remote repository.
+
+13
+00:01:05,800 --> 00:01:06,800
+最后，
+And then finally, 
+
+14
+00:01:06,800 --> 00:01:14,300
+您需要学习如何获取存储库中发生的任何更改，并将这些更改拉到本地机器上。
+you'll need to learn how to fetch any changes that have happened in the repository and pull those changes onto your local machine.
+
+15
+00:01:14,460 --> 00:01:17,340
+让我们看一下如何设置存储库
+Let's take a look at how we set up a repository.
+
+16
+00:01:17,560 --> 00:01:19,320
+所以我要去github
+So I'm gonna go to github.
+
+17
+00:01:19,700 --> 00:01:22,000
+我猜你已经开了一个github账户，
+I'm assuming that you've already opened a github account, 
+
+18
+00:01:22,000 --> 00:01:26,300
+现在我在我账户的存储库部分。
+and right now I'm in this repository section of my account.
+
+19
+00:01:26,360 --> 00:01:29,910
+您现在可以在这个选项卡中看到我的存储库
+You can see my repositories now in this tab.
+
+20
+00:01:30,070 --> 00:01:33,450
+你可以点击这里的新项目
+You can click on this new item right here.
+
+21
+00:01:33,450 --> 00:01:43,420
+但创建存储库的最快方法是转到github.new链接。它的作用和点击那个按钮一样。
+But the quickest way to create a repository is by going to the github.new url. It does the same thing as clicking on that button.
+
+22
+00:01:43,760 --> 00:01:47,400
+这里的选项是选择以前的模板
+The options here are to choose a previous template.
+
+23
+00:01:47,560 --> 00:01:49,560
+稍后我会告诉你怎么做
+I'll show you how to make one later on.
+
+24
+00:01:49,720 --> 00:01:52,580
+接下来，您可以为存储库创建一个名称。
+And next, you can create a name for the repository.
+
+25
+00:01:52,910 --> 00:01:59,890
+名称可以包含字母和数字 也可以包含下划线 句号或连字符
+The name can have letters and numbers as well as either the underscore, period or hyphen characters.
+
+26
+00:02:00,010 --> 00:02:05,270
+我几乎总是使用小写字母，但从技术上讲，你也可以在那里使用大写字母。
+I almost always use lowercase, but technically you can also have uppercase characters in there.
+
+27
+00:02:05,430 --> 00:02:08,470
+现在 该名称必须是您的帐户唯一的
+Now, the name does need to be unique to your account.
+
+28
+00:02:08,630 --> 00:02:14,290
+您可以拥有两个具有相同名称的存储库 只要它们位于不同的帐户上
+You can have two repositories with the same name, as long as they are on different accounts.
+
+29
+00:02:14,600 --> 00:02:18,100
+现在，你甚至可以在这里得到一个存储库名称的建议，
+Now, you even get a suggestion here for a repository name, 
+
+30
+00:02:18,100 --> 00:02:20,300
+所以我要点击那个名字，
+so I'm just gonna click on that name, 
+
+31
+00:02:20,300 --> 00:02:26,100
+你可以在这里输入其他东西，git帮助会帮你检查你输入的东西。
+and you can type in something else in here, and git help will check what you're typing in for you.
+
+32
+00:02:26,300 --> 00:02:29,600
+所以你可以试着输入一些野字符。
+So you can actually try to put in wild characters. 
+
+33
+00:02:29,600 --> 00:02:35,700
+注意它仍然会把它们转换成它喜欢的逻辑名称。
+And notice that it's still going to just sort of convert them to a logical name that it likes.
+
+34
+00:02:36,240 --> 00:02:39,000
+所以我们就把它留给音乐勺子吧
+So we'll just leave it with Musical Spoon.
+
+35
+00:02:39,300 --> 00:02:52,420
+然后 您可以添加描述并选择该回购是公共回购还是私有回购
+You can then add a description and also choose whether the repo is a public or a private repo.
+
+36
+00:02:52,490 --> 00:02:58,750
+私有意味着只有你分配给这个仓库的用户才能看到它并对它做一些事情
+Private means that only users that you assign to this repo will be able to see it and do things to it.
+
+37
+00:02:58,910 --> 00:03:01,290
+让我们将其添加为私有仓库
+Let's go ahead and add this as a private repo.
+
+38
+00:03:01,740 --> 00:03:05,920
+现在 您还可以用许多不同的文件初始化存储库
+Now you can also initialize the repositories with a number of different files.
+
+39
+00:03:06,100 --> 00:03:08,100
+您可以添加自述文档，
+You can add a Readme document, 
+
+40
+00:03:08,100 --> 00:03:11,300
+我们已经在本地存储库中做过了，
+we've already done that in the local repository, 
+
+41
+00:03:11,300 --> 00:03:16,800
+同时添加gitignore文件，我们也做过了，还有一个许可证。
+and also add the gitignore file, which we've also done, and also a license as well.
+
+42
+00:03:17,070 --> 00:03:22,430
+如果你只是快速使用这个网站 它会自动为你创建一些
+It'll automatically create some for you if you're just quickly using this website right here.
+
+43
+00:03:22,590 --> 00:03:30,060
+我要点击创建存储库 这将带你到这个快速设置页面
+So I'm gonna click on create repository, and that'll take you to this quick setup page.
+
+44
+00:03:30,100 --> 00:03:32,900
+在你将一些内容推送到存储库之前，
+Until you push some content to the repository, 
+
+45
+00:03:32,900 --> 00:03:36,000
+它会有不同设置方法的说明，
+it will have these instructions for different ways to set things up, 
+
+46
+00:03:36,000 --> 00:03:43,000
+但我经常在我的本地目录上开始存储库，然后我手动将它们推送到GitHub。
+but I often begin the repositories on my local directory, and then I push things manually into GitHub.
+
+47
+00:03:43,210 --> 00:03:47,630
+如果你看一下这些说明 我们已经做过很多了
+So if you take a look at these instructions, we've already done a lot of this.
+
+48
+00:03:47,800 --> 00:03:51,000
+这是创建一个新的自述文档，
+This is creating a new Readme document, 
+
+49
+00:03:51,000 --> 00:03:55,800
+然后初始化repo，然后添加一个自述文件，
+then initializing the repo, and then adding a readme file, 
+
+50
+00:03:55,800 --> 00:04:00,200
+提交文件，然后创建一个主分支。
+committing the file, and then creating a main branch.
+
+51
+00:04:00,500 --> 00:04:03,480
+这两个部分就是我们要做的
+And these two are the parts that we're going to be doing.
+
+52
+00:04:03,600 --> 00:04:04,900
+下个视频，
+And the next video, 
+
+53
+00:04:04,900 --> 00:04:09,100
+我们将添加一个远程原点，我会解释这是什么，
+we're going to add a remote origin, and I'll explain what that is, 
+
+54
+00:04:09,100 --> 00:04:13,200
+然后我们把本地的文件放到github上。
+and then we'll push the files that we have locally on to github.
+
+55
+00:04:13,360 --> 00:04:15,240
+然后你可以在这里做其他事情
+And then you can do other things here.
+
+56
+00:04:15,400 --> 00:04:17,080
+这是一条捷径。
+So this is actually a shorter way.
+
+57
+00:04:17,200 --> 00:04:20,200
+如果你有现成的存储库，
+If you do have an existing repository, 
+
+58
+00:04:20,200 --> 00:04:25,800
+您将创建远程添加到repo，然后可以添加主分支。
+you create the remote add to the repo, and then you can add a main branch.
+
+59
+00:04:26,030 --> 00:04:30,590
+我们已经有了一个主分支，所以我们不需要做这些，然后再推送存储库。
+We've already got a main branch, so we wouldn't need to do this and then push the repository.
+
+60
+00:04:30,750 --> 00:04:33,690
+实际上 你只需要这个 还有这个
+So really, you just need this right here, as well as this.
+
+61
+00:04:33,910 --> 00:04:37,400
+这就是为什么我不喜欢用网站上的这些
+And that's why I don't like to use these from the website.
+
+62
+00:04:37,560 --> 00:04:39,540
+我喜欢自己打出来
+I like to just type them in myself.
+
+63
+00:04:39,800 --> 00:04:42,900
+现在，你可以使用github，
+Now, working with github is something that you can do, 
+
+64
+00:04:42,900 --> 00:04:48,600
+无论您是否与团队合作，将您的项目安全地放在云中都有好处，
+whether you work with teams or not, there are benefits to having your project safely in the cloud, 
+
+65
+00:04:48,600 --> 00:04:51,300
+这样如果你的电脑出了什么问题，
+so that if something happens to your computer, 
+
+66
+00:04:51,300 --> 00:04:56,900
+或者，如果你是远程工作，你只是需要一些你写的代码，
+or perhaps if you're working remotely and you just need to get to some code that you've written, 
+
+67
+00:04:56,900 --> 00:05:02,000
+代码仍然安全地保存在云中，您或任何需要它的人都可以轻松访问。
+the code is still safely in the cloud and easy accessible to you, or anybody who needs it.

@@ -1,0 +1,804 @@
+0
+00:00:00,100 --> 00:00:02,300
+现在我们已经将站点添加到GitHub上，
+Now that we've added the site to GitHub, 
+
+1
+00:00:02,300 --> 00:00:05,800
+让我们来看看你可以在GitHub里面做什么。
+let's go around and take a look at what you can do inside of GitHub.
+
+2
+00:00:06,100 --> 00:00:09,300
+我们已经看了分支部分，
+We've already taken a look at the branches section, 
+
+3
+00:00:09,300 --> 00:00:14,800
+但你可以看到这里有一个完整的子菜单包含了所有类型的东西。
+but you can see that you have this sort of entire sub menu here with all types of things.
+
+4
+00:00:15,100 --> 00:00:17,400
+除了你们的常规菜单，
+In addition to your regular menu, 
+
+5
+00:00:17,400 --> 00:00:23,800
+里面有你的账户和个人资料的工作偏好等等。
+which has your sort of work preferences for your account and your profile and all that stuff.
+
+6
+00:00:24,040 --> 00:00:24,840
+所有这些东西都在这里
+There's all these things right here.
+
+7
+00:00:24,900 --> 00:00:26,580
+我们来看看它们
+So let's just kind of go through them.
+
+8
+00:00:26,900 --> 00:00:30,000
+你可以用GitHub做的一件事是查看不同的分支，
+One of the things that you can do with GitHub is take a look at different branches, 
+
+9
+00:00:30,000 --> 00:00:34,000
+我们已经看过了，你可以删除和编辑新的分支。
+which we've looked at, and you can delete and edit new branches.
+
+10
+00:00:34,240 --> 00:00:40,910
+你几乎可以在GitHub本地做所有你能做的事情。
+And you can actually do almost everything that you can do locally inside of GitHub.
+
+11
+00:00:41,000 --> 00:00:43,200
+所以我们可以取，例如这个自述文件，
+So we can take, e.g. this readme file, 
+
+12
+00:00:43,200 --> 00:00:50,600
+我们可以通过点击编辑它，
+and we can edit it by clicking on it, 
+
+13
+00:00:45,800 --> 00:00:50,600
+或者记住自述文件相当于你的主页。
+or actually remember that the readme file is sort of your home page.
+
+14
+00:00:51,060 --> 00:00:53,480
+这就是这里展示的
+It's what is being displayed right here.
+
+15
+00:00:53,800 --> 00:00:56,300
+如果我们看一下这个按钮，
+So if we take a look at this button right here, 
+
+16
+00:00:56,300 --> 00:00:59,300
+你可以看到你可以在里面编辑任何东西。
+you can see that you can actually edit anything in there.
+
+17
+00:00:59,500 --> 00:01:02,000
+这是一种叫做markdown的特殊形式。
+It's in a special format called markdown.
+
+18
+00:01:02,400 --> 00:01:03,900
+Markdown很简单。
+Markdown is pretty simple. 
+
+19
+00:01:03,900 --> 00:01:07,000
+这个标签率意味着我想要创造一个一级标题，
+This hashtag rate here means that I want to create a headline level one, 
+
+20
+00:01:07,000 --> 00:01:11,800
+然后你就像平常一样写出段落。
+and then you just write out your paragraphs like you normally would.
+
+21
+00:01:12,200 --> 00:01:17,300
+它在这里有一个预览按钮你可以预览你所做的改变
+It does have a preview button right here so you can preview the changes that you're making.
+
+22
+00:01:17,590 --> 00:01:19,190
+我们现在不打算做任何改变
+We're not going to do any changes right now.
+
+23
+00:01:19,210 --> 00:01:22,390
+稍后我将向您展示如何执行拉取请求和创建更改
+I'll show you how to do pull requests and create changes later on.
+
+24
+00:01:22,550 --> 00:01:24,330
+现在 我们先取消
+For right now, we're going to cancel.
+
+25
+00:01:24,500 --> 00:01:29,100
+除了能够查看不同的代码片段，
+In addition to being able to just look at your different pieces of code, 
+
+26
+00:01:29,100 --> 00:01:30,800
+你可以添加一个文件。
+you can actually add a file.
+
+27
+00:01:31,140 --> 00:01:33,860
+通常你只需要把文件拖到GitHub上就可以了。
+And normally you can do that just by dragging a file into GitHub.
+
+28
+00:01:34,020 --> 00:01:36,980
+这是把东西放到github中最快的方法
+So that's the quickest way of putting something in github.
+
+29
+00:01:37,000 --> 00:01:38,800
+但你也可以在这里做
+But you can also do that through here.
+
+30
+00:01:39,100 --> 00:01:41,600
+你可以上传文件或创建新文件，
+You can upload files or create a new file, 
+
+31
+00:01:41,600 --> 00:01:44,200
+当你创建一个新文件时，如果你愿意，
+and when you create a new file, if you want,
+
+32
+00:01:44,200 --> 00:01:48,400
+实际上，您可以通过先添加目录名来创建目录。
+ you can actually create a directory by adding the directory name first.
+
+33
+00:01:48,700 --> 00:01:51,800
+所以你会说，比如，下标，然后加上斜杠，
+So you would say, like, sub and then put a slash, 
+
+34
+00:01:51,800 --> 00:01:57,800
+这会为你创建一个额外的目录，然后你可以在里面放一个名字。
+and that would create the additional directory for you, and then you can place a name in there.
+
+35
+00:01:57,900 --> 00:01:58,800
+点击取消，
+So I'm going to hit cancel, 
+
+36
+00:01:58,800 --> 00:02:00,200
+因为我不想添加任何东西。
+because I don't really want to add anything.
+
+37
+00:02:00,410 --> 00:02:02,550
+我们继续吧 别再管这事了
+Let's go ahead and leave this alone.
+
+38
+00:02:02,830 --> 00:02:04,930
+然后你可以添加标签
+And then you can add tags.
+
+39
+00:02:05,100 --> 00:02:09,500
+现在，你没有任何文本，我们可以在你的项目中添加标签
+Right now, you don't have any text, we can add tags into your projects 
+
+40
+00:02:09,500 --> 00:02:13,500
+而文字只是让人们找到你的内容的方式
+and the text are just ways to allow people to find your content 
+
+41
+00:02:13,500 --> 00:02:17,000
+如果有人正在搜索你的一个项目。
+if somebody is doing a search for one of your projects.
+
+42
+00:02:17,280 --> 00:02:24,260
+注意这里的about部分有我们项目的测试网站
+So notice that over here we have the about section where it has a test website for our project.
+
+43
+00:02:24,480 --> 00:02:28,340
+如果你点击这里 你可以添加更多的信息
+If you click right here, you'll be able to add a little bit more information.
+
+44
+00:02:28,700 --> 00:02:33,700
+其中一个非常有用的东西是，如果你的项目有一个网站，
+One of the things that's pretty useful is that if there is a website for your project,
+
+45
+00:02:33,700 --> 00:02:35,300
+你可以把它加在这里。
+ you can add it right here.
+
+46
+00:02:35,700 --> 00:02:38,000
+很多时候代码仓库会是一些代码，
+So a lot of times the repo will be sort of some code,
+
+47
+00:02:38,000 --> 00:02:42,100
+但你已经在网上发布了你的网站，
+ but you've actually published your website on the Web, 
+
+48
+00:02:42,100 --> 00:02:44,900
+你可以在这里放一个链接。
+so you can put a link to it right here.
+
+49
+00:02:45,210 --> 00:02:52,230
+主题是你如何创造方法，让人们在GitHub上找到你如果他们在做搜索。
+And topics is how you create ways, again, of people finding you on GitHub if they're doing a search.
+
+50
+00:02:52,460 --> 00:02:55,500
+你可以在这里输入HTML 然后加一个逗号
+So you can type in here, HTML, and then you add a comma.
+
+51
+00:02:55,600 --> 00:03:00,800
+无论何时你想添加一个新标签，css逗号和Java脚本，
+Whenever you want to add a new tag, css comma and Java script, perhaps, 
+
+52
+00:03:00,800 --> 00:03:03,000
+如果有人在找这个，
+if somebody's looking for that,
+
+53
+00:03:03,000 --> 00:03:09,700
+然后你可以在这里输入标签，然后你也可以选择你想要显示的项目。
+ then you can type the tags in here, and then you can also choose what items you want to show.
+
+54
+00:03:09,700 --> 00:03:13,100
+所以我不打算讲发行版和包，
+So I'm not really gonna be covering releases and packages, 
+
+55
+00:03:13,100 --> 00:03:14,900
+所以我们可以把它们去掉，
+so we can maybe take those out, 
+
+56
+00:03:14,900 --> 00:03:18,400
+你可以自定义所有东西的样子。
+and you can sort of customize the way that everything looks.
+
+57
+00:03:18,700 --> 00:03:21,600
+现在你可以看到这个短了一点，
+And now you can see that this is a little bit shorter, 
+
+58
+00:03:21,600 --> 00:03:23,600
+我们在这里有这些小标签。
+and we have these little tags in here.
+
+59
+00:03:23,680 --> 00:03:29,060
+除此之外 还有各种子标签
+So in addition to that, there's also all kinds of sub tabs.
+
+60
+00:03:29,220 --> 00:03:31,300
+我很快地过一遍
+So I'll just go through them pretty quickly.
+
+61
+00:03:31,460 --> 00:03:35,040
+有些你不会用到 但有些是很重要的
+You're not going to use some of these, but some of these are pretty important.
+
+62
+00:03:35,200 --> 00:03:41,940
+第一个是问题 问题是你如何为自己或他人写小纸条
+So 1st one is issues. Issues is how you write little notes for yourself or others.
+
+63
+00:03:42,350 --> 00:03:44,850
+这些可以用来做项目
+And these can be sort of like to do items.
+
+64
+00:03:44,900 --> 00:03:48,000
+你可以创建它，然后把它分配给个人，
+And you can create it to do and then assign it to an individual, 
+
+65
+00:03:48,000 --> 00:03:53,400
+然后那个人可以对你分配给他们的任务进行评论，
+and then that individual can comment on the to do that you've assigned them, 
+
+66
+00:03:53,400 --> 00:03:56,900
+这就是你开始与人合作的方式。
+and it's how you start to collaborate with people.
+
+67
+00:03:57,000 --> 00:03:59,900
+这里还有一个非常重要的标签
+There's another tab here that's pretty important 
+
+68
+00:03:59,900 --> 00:04:04,800
+我们稍后会在实际更改文档调用拉取请求时讲到。
+that we'll get into later when we actually change our document call pull requests.
+
+69
+00:04:05,040 --> 00:04:10,140
+拉请求是批准其他人所做更改的方法
+Pull requests are ways of approving changes that somebody else has made.
+
+70
+00:04:10,140 --> 00:04:17,700
+你也可以用它来比较不同的分支 看看它们之间有什么不同
+And you can also use this to compare different branches and take a look at what the difference is in between them.
+
+71
+00:04:17,900 --> 00:04:19,400
+下一个是动作。
+So next up is actions. 
+
+72
+00:04:19,400 --> 00:04:25,700
+它们可以让你做一些事情，比如运行测试或将代码自动发送到托管的地方。
+They let you do things like run tests or send your code to where it will be hosted automatically.
+
+73
+00:04:25,800 --> 00:04:30,300
+它是一种程序，你可以写它来管理你的仓库，
+It's sort of a program that you can write to manage your repositories, 
+
+74
+00:04:30,300 --> 00:04:32,600
+他们可以做各种各样的事情。
+and they can do all kinds of things.
+
+75
+00:04:32,770 --> 00:04:37,270
+你也可以下载或使用别人创建的动作
+And you can actually also download or use actions that other people have built.
+
+76
+00:04:37,400 --> 00:04:39,700
+它非常方便，但有点先进，
+It extremely handy, but somewhat advanced, 
+
+77
+00:04:39,700 --> 00:04:43,800
+所以当你第一次开始的时候，这不是你想要的。
+so not the thing you want to mess around with when you're 1st getting started.
+
+78
+00:04:44,060 --> 00:04:49,320
+项目是您可以管理正在使用的代码的地方
+The project is where you can manage the code that is being used.
+
+79
+00:04:49,470 --> 00:04:51,950
+你可以做一个叫做可弯曲板的东西
+You can create something called a can bend board.
+
+80
+00:04:52,210 --> 00:04:56,010
+开发人员就是这样管理他们的项目的 这样你就可以创建任务了
+That is how developer manage their projects, so you can create tasks.
+
+81
+00:04:56,100 --> 00:04:59,700
+这有点像一种幻想，太立体了，
+It's sort of like a fancy to do that is too dimensional, 
+
+82
+00:04:59,700 --> 00:05:02,900
+有点像Excel电子表格，你可以
+kind of like a Excel spreadsheet, where you can have
+
+83
+00:05:03,270 --> 00:05:05,570
+做一些事情 然后把它移到不同的列中
+to do something then move it into different columns.
+
+84
+00:05:05,810 --> 00:05:10,250
+这是一个非常有趣的方式来计划你可能想要研究的项目，
+It's a really fun way to plan your projects that you may want to look into, 
+
+85
+00:05:10,310 --> 00:05:14,670
+Github也给你一个wiki。维基只是一个简单的方法
+github also gives you a wiki. And the wiki is just a simple way to
+
+86
+00:05:14,840 --> 00:05:19,480
+创建便于人们查看的文档
+create documentation that is really easy for people to look at.
+
+87
+00:05:19,580 --> 00:05:20,270
+它有点像创造
+It sort of like creates
+
+88
+00:05:20,480 --> 00:05:27,310
+一个小网站 它不是很高级 所以你不需要用到wiki
+like a little website. It's not very advanced, so you don't really also need the wiki.
+
+89
+00:05:27,600 --> 00:05:32,800
+很多文档都可以在主项目中完成，
+A lot of the documentation could just be done with mark down in the main project, 
+
+90
+00:05:32,800 --> 00:05:37,200
+或者你可以建一个网站，上面有相关文档。
+or you can actually just build a website that has the documentation.
+
+91
+00:05:37,600 --> 00:05:40,900
+这里还有一个安全区域，
+Now, there's also a section for security, 
+
+92
+00:05:40,900 --> 00:05:45,400
+您可以在哪里管理您的安全策略
+which is where you can manage your policies for security 
+
+93
+00:05:45,400 --> 00:05:51,800
+为你的代码出现问题时的情况做好准备。
+and set things up for what's gonna happen when there are problems with your code.
+
+94
+00:05:52,000 --> 00:05:53,800
+这是非常重要的一部分，
+This is a pretty important section, 
+
+95
+00:05:53,800 --> 00:05:59,500
+但同样，它是高级的，所以你不需要担心它作为你第一次学习GitHub本身。
+but again, it's sort of advanced, so you don't need to worry about it as your 1st learning about GitHub itself.
+
+96
+00:05:59,990 --> 00:06:02,670
+然后是洞察部分 这很有用
+Then there's this insights section. This is pretty useful.
+
+97
+00:06:02,690 --> 00:06:07,170
+它可以让你知道为这个项目做出贡献的不同的人
+It can let you know the different people who are contributing to this project.
+
+98
+00:06:07,300 --> 00:06:09,200
+这是一个私人项目，
+This is a private project, 
+
+99
+00:06:09,200 --> 00:06:16,900
+因此，您将能够找到为您的应用程序工作的不同人员的贡献。
+so you will be able to find the contributions of the different people that are working on your application.
+
+100
+00:06:17,280 --> 00:06:18,840
+还有流量问题
+And then there's things like traffic.
+
+101
+00:06:19,000 --> 00:06:21,600
+我刚刚创建了这个，所以这里什么都没有，
+I just created this so there's nothing here, 
+
+102
+00:06:21,600 --> 00:06:25,700
+但是当人们访问这个存储库时，流量会告诉你，
+but the traffic will let you know when people come to this repository, 
+
+103
+00:06:25,700 --> 00:06:27,600
+他们在GitHub做什么。
+what they're doing within GitHub.
+
+104
+00:06:27,730 --> 00:06:30,900
+所以它对跟踪发生的事情非常有用
+So it's actually quite useful for tracking what's going on.
+
+105
+00:06:31,000 --> 00:06:34,800
+然后你可以看看其他的一些，
+And then you can take a look at some of these other ones, 
+
+106
+00:06:34,800 --> 00:06:39,600
+比如你提交了多少次，人们提交的频率有多高，
+like how many commits you've done, how often people have submitted stuff, 
+
+107
+00:06:39,600 --> 00:06:45,600
+然后依赖关系图会显示你的项目正在使用什么工具，等等。
+and then the dependency graph will be what tools your project is using, et cetera, et cetera.
+
+108
+00:06:45,770 --> 00:06:51,630
+除此之外 在设置下还有很多其他的设置
+So in addition to that, there are also a whole bunch of other settings under settings.
+
+109
+00:06:51,820 --> 00:06:55,160
+这是你可以加的地方 例如
+And this is where you can add, e.g.
+
+110
+00:06:55,320 --> 00:06:57,740
+您可以将此存储库转换为模板
+you can convert this repository to be a template.
+
+111
+00:06:57,700 --> 00:07:00,600
+所以当你创建一个新的存储库时，
+So when you create a new repository, 
+
+112
+00:07:00,600 --> 00:07:05,900
+你可以选择这种方式来创建一个简单的网站。
+you can choose this as perhaps a way of creating a simple website.
+
+113
+00:07:06,200 --> 00:07:08,900
+你所需要做的就是点击模板库，
+All you need to do is just click on template repository, 
+
+114
+00:07:08,900 --> 00:07:10,700
+它会把它转换成模板。
+and it will convert it into a template.
+
+115
+00:07:10,800 --> 00:07:13,800
+当你回到你的储存库时，
+And then when you go back into your repository, 
+
+116
+00:07:13,800 --> 00:07:17,100
+你会看到它现在是一个私有模板。
+you'll see that it's as it's a private template now.
+
+117
+00:07:17,200 --> 00:07:19,700
+回到设置。让我们来做一下，
+So back to settings. Let's go ahead and do that, 
+
+118
+00:07:19,700 --> 00:07:22,400
+因为我们并不需要它是一个存储库。
+because we don't really need it to be a repository.
+
+119
+00:07:22,600 --> 00:07:27,600
+这是你如何添加一个图像，当人们将url复制到你的项目时，
+This is how you can add an image that when people copy the url to your project, 
+
+120
+00:07:27,600 --> 00:07:29,500
+它会显示出这个图像。
+it'll show up this image here.
+
+121
+00:07:29,860 --> 00:07:33,960
+然后你也可以在这部分关闭很多功能
+And then you can also turn off a lot of features over here in this section.
+
+122
+00:07:34,100 --> 00:07:36,800
+很多其他的东西都很先进，
+A lot of these other things are pretty advanced, 
+
+123
+00:07:36,800 --> 00:07:38,900
+所以我真的不想掩盖它们。
+so I don't really want to cover them.
+
+124
+00:07:38,980 --> 00:07:40,900
+如果你想的话 你可以点击它们
+You can tap through them if you want to.
+
+125
+00:07:41,100 --> 00:07:45,900
+你可以看到有一个地方你可以管理它是你的默认分支，
+You can see that there's the place where you can sort of manage which is your default branch, 
+
+126
+00:07:45,900 --> 00:07:46,900
+诸如此类。
+and stuff like that.
+
+127
+00:07:47,090 --> 00:07:53,750
+我想给你们展示的最后一件重要的事情是这里的最后一个链接率，叫做Github Pages。
+The last important thing that I want to show you is this very last link rate here, called Github Pages.
+
+128
+00:07:53,910 --> 00:08:00,920
+因此，GitHub Pages旨在让您从GitHub存储库托管您的网站。
+So GitHub Pages is designed to allow you to host your website from a gitub repository.
+
+129
+00:08:01,000 --> 00:08:04,000
+这是一种方法，如果你有一个像我们这样简单的静态网站，
+So this is a way, if you have a simple, static site like ours, 
+
+130
+00:08:04,000 --> 00:08:08,300
+你可以让GitHub免费托管你的网站。
+you can actually have GitHub host your site for free.
+
+131
+00:08:08,600 --> 00:08:14,200
+所以你要做的就是选择你想要使用的分支，
+So what you do is you have to choose the branch that you want to use, 
+
+132
+00:08:14,200 --> 00:08:20,500
+你可以选择把所有的东西都放在你网站的主要层次上。
+and you can choose to either have everything at the main level of your website.
+
+133
+00:08:20,600 --> 00:08:26,100
+而不是把所有东西都放在旧的这里，比如我有这个docs文件夹，
+So instead of putting everything in a older here, like I have this docs folder, 
+
+134
+00:08:26,100 --> 00:08:30,200
+你可以把所有的index。html放到这一层，
+you can just put everything the index.HTML at this level, 
+
+135
+00:08:30,200 --> 00:08:34,000
+然后它将从根级别构建网站。
+and it will then build the website from the root level.
+
+136
+00:08:34,100 --> 00:08:40,700
+或者你也可以把所有东西都放在docs文件夹里，这就是为什么我把那个文件夹叫做docs，
+Or you can also have everything in a docs folder, which is the reason why I call that folder docs, 
+
+137
+00:08:40,700 --> 00:08:45,300
+因为我知道我要继续创建GitHub页面，
+because I knew that I was going to go ahead and create GitHub pages, 
+
+138
+00:08:45,300 --> 00:08:48,400
+或者使用GitHub页面来显示它。
+or use GitHub pages to allow you to display it.
+
+139
+00:08:48,400 --> 00:08:51,000
+所以我要回到这里选择我，
+So I'm going to go back to choosing me here, 
+
+140
+00:08:51,000 --> 00:08:54,600
+然后打开docs文件夹，点击安全键。
+and then I'm going to use the docs folder, and I'll hit safe.
+
+141
+00:08:54,690 --> 00:08:58,930
+之后，你会看到这样的URL。
+And then after you do that, you should see a URL like this.
+
+142
+00:08:59,210 --> 00:09:04,810
+它确实需要一点时间才能在GitHub上看到它的结果。
+It does take a little bit of time before you can see the result of it to GitHub.
+
+143
+00:09:04,870 --> 00:09:07,860
+确实需要做一些设置 但这很酷
+Does have to do a little bit of set up, but this is pretty cool.
+
+144
+00:09:08,020 --> 00:09:10,700
+一旦运行 你就可以访问这个网站
+Once it runs, you can go to this website.
+
+145
+00:09:10,800 --> 00:09:13,100
+现在，你的将是不同的，
+Now, yours will be different, 
+
+146
+00:09:13,100 --> 00:09:17,700
+我已经添加了一个自定义域到我的整个github帐户。
+and I have added a custom domain to my entire github account.
+
+147
+00:09:17,810 --> 00:09:20,110
+您还可以添加自己的自定义域名。
+You can also add your own custom domain.
+
+148
+00:09:20,200 --> 00:09:22,500
+这里有一些设置，
+There is a little bit of setup, 
+
+149
+00:09:22,500 --> 00:09:29,000
+但是你的应该稍微长一点，在最后加上存储库的名称。
+but yours should be a little bit longer, with the name of the repository at the very end.
+
+150
+00:09:29,400 --> 00:09:32,700
+注意，因为这是一个私有存储库，
+And notice that because this is a private repository, 
+
+151
+00:09:32,700 --> 00:09:38,200
+这个站点仍然是公开的，因为您确实希望能够在任何机器上查看它。
+this site will still be public, because you do want to be able to look at it on any machine.
+
+152
+00:09:38,400 --> 00:09:45,900
+还有一种方法是选择一种叫做Jakyl的服务，它可以让你更容易地建立网站，
+And there is also a way to choose a service called Jakyl that will let you build websites a little bit easier, 
+
+153
+00:09:45,900 --> 00:09:53,100
+但我真的很喜欢用GitHub来创建简单的网站，让他们免费托管很多网站，例如。
+but I really like to use GitHub to create simple websites and let them host a lot of sites for free, e.g.
+
+154
+00:09:53,200 --> 00:09:57,700
+我的个人博客rebel.org都是由GitHub免费托管的，
+my personal blog, rebel.org, is all hosted for free by GitHub, 
+
+155
+00:09:57,700 --> 00:10:02,100
+我甚至不用担心会有多少流量。
+and I don't even have to worry about how much traffic it gets.
+
+156
+00:10:02,430 --> 00:10:04,550
+他们只是对此很好
+They just are very nice about it.
+
+157
+00:10:04,710 --> 00:10:07,530
+现在这些设置中有很多选项
+So now there's so many options in all these settings.
+
+158
+00:10:07,570 --> 00:10:08,510
+我们有一些很棒的
+We have some great
+
+159
+00:10:08,790 --> 00:10:10,930
+更深入这个主题的课程
+courses that go deeper on this topics.
+
+160
+00:10:11,100 --> 00:10:16,030
+不过，我真的很喜欢GitHub免费托管东西的能力。
+I do really like the ability to have GitHub host things for free, though.
