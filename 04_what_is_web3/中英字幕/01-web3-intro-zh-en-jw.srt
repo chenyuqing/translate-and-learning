@@ -1,0 +1,109 @@
+0
+00:00:00,380 --> 00:00:04,950
+区块链、加密货币、非同质化代币、去中心化、去中心化金融、去中心化自治组织
+Blockchain, crypto currency, NFT, decentralization, DEFI, DAO
+
+1
+00:00:05,100 --> 00:00:10,800
+不管你问的是投资者、风险投资家还是技术爱好者，
+Whether you ask investors or venture capitalists or technology enthusiasts, 
+
+2
+00:00:10,800 --> 00:00:16,200
+在社交媒体上，网络被认为是科技的下一件大事。
+on social media, web is supposed to be the next big thing for technology.
+
+3
+00:00:16,440 --> 00:00:16,720
+在未来，
+And in the future, 
+
+4
+00:00:17,100 --> 00:00:18,400
+你所做的一切，
+everything you do, 
+
+5
+00:00:18,400 --> 00:00:26,800
+从在网上发布内容到进行金融交易，都将转化为存储在区块链上的令牌。
+from posting content on the Web to making a financial transaction will be turned into a token stored on the blockchain.
+
+6
+00:00:27,000 --> 00:00:31,500
+现在，取决于你是谁，你在哪里，你知道什么，
+Now, depending on who you are and where you are and what you know, 
+
+7
+00:00:31,500 --> 00:00:38,100
+这听起来可能很棒，也可能很可怕，或者只是很困惑，或者同时是以上所有的，
+this may sound awesome or terrifying or just plain confusing or all of the above at the same time, 
+
+8
+00:00:38,100 --> 00:00:40,500
+我们一起来理解一下。
+so let's make sense of this together.
+
+9
+00:00:40,600 --> 00:00:45,500
+我花了很多时间研究去中心化区块链技术，
+I've spent a lot of time researching decentralization blockchain technologies, 
+
+10
+00:00:45,500 --> 00:00:47,600
+这个想法被称为网络三。
+and this idea promoted as web three.
+
+11
+00:00:47,800 --> 00:00:50,700
+我把这门课写成了资料词典
+And I've made this course as a dictionary of source 
+
+12
+00:00:50,700 --> 00:00:54,900
+帮助理解支撑这一切的术语和技术。
+to help make sense of the jargon and technologies underpinning all of this.
+
+13
+00:00:55,110 --> 00:00:57,790
+本课程分为两章
+This course is split into two chapters.
+
+14
+00:00:58,050 --> 00:01:06,030
+第一章是对web三和下一代web概念的高层次解释。
+The 1st chapter is a high level explanation of the idea refer to as web three and the next version of the Web.
+
+15
+00:01:06,200 --> 00:01:10,900
+第二章深入探讨了区块链技术的工作原理，
+The 2nd chapter is a deep dive into how blockchain technology works, 
+
+16
+00:01:10,900 --> 00:01:15,100
+以及与区块链相关的所有术语的含义。
+and what all the terminology associated with blockchain means.
+
+17
+00:01:15,200 --> 00:01:17,600
+对原则有牢固的把握
+Having a firm grasp of the principles 
+
+18
+00:01:17,600 --> 00:01:21,200
+以及围绕区块链和Web三意识形态的实践
+and practices around blockchain and Web three ideology 
+
+19
+00:01:21,200 --> 00:01:26,200
+让你有能力就我们共同的未来进行有意义的对话，
+gives you the power to have meaningful conversations about our shared future, 
+
+20
+00:01:26,200 --> 00:01:28,700
+我是来帮你做好的
+and I'm here to help you get it right.
+
+21
+00:01:28,950 --> 00:01:31,190
+让我们开始吧
+So let's get cracking.
