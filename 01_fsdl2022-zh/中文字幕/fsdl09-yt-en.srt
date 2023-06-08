@@ -1,0 +1,9280 @@
+1
+00:00:00,539 --> 00:00:04,259
+hey everyone welcome to the ninth and
+
+2
+00:00:04,259 --> 00:00:06,000
+final lecture of full stack deep
+
+3
+00:00:06,000 --> 00:00:08,039
+learning 2022. today we'll be talking
+
+4
+00:00:08,039 --> 00:00:10,080
+about ethics after going through a
+
+5
+00:00:10,080 --> 00:00:13,440
+little bit of context of what it is that
+
+6
+00:00:13,440 --> 00:00:15,719
+we mean by ethics what I mean by ethics
+
+7
+00:00:15,719 --> 00:00:17,580
+when I talk about it we'll go through
+
+8
+00:00:17,580 --> 00:00:20,340
+three different areas where ethics comes
+
+9
+00:00:20,340 --> 00:00:22,800
+up both Broad tech ethics ethics that
+
+10
+00:00:22,800 --> 00:00:25,680
+anybody who works in the tech industry
+
+11
+00:00:25,680 --> 00:00:27,660
+broadly needs to think about and care
+
+12
+00:00:27,660 --> 00:00:29,640
+about what ethics has meant specifically
+
+13
+00:00:29,640 --> 00:00:31,320
+for the machine learning industry what's
+
+14
+00:00:31,320 --> 00:00:33,180
+happened in the last couple of years as
+
+15
+00:00:33,180 --> 00:00:34,680
+ethical concerns have come to the
+
+16
+00:00:34,680 --> 00:00:36,899
+Forefront and then finally what ethics
+
+17
+00:00:36,899 --> 00:00:39,360
+might mean in a future where true
+
+18
+00:00:39,360 --> 00:00:41,100
+artificial general intelligence exists
+
+19
+00:00:41,100 --> 00:00:42,899
+so first let's do a little bit of
+
+20
+00:00:42,899 --> 00:00:45,660
+context setting even more so than other
+
+21
+00:00:45,660 --> 00:00:48,360
+topics all lectures on ethics are wrong
+
+22
+00:00:48,360 --> 00:00:51,420
+but some of them are useful and they're
+
+23
+00:00:51,420 --> 00:00:54,899
+more useful if we admit and state what
+
+24
+00:00:54,899 --> 00:00:57,360
+our assumptions or biases or approaches
+
+25
+00:00:57,360 --> 00:00:59,699
+are before we dive into the material and
+
+26
+00:00:59,699 --> 00:01:01,860
+then I'll also talk about three kind of
+
+27
+00:01:01,860 --> 00:01:04,500
+General themes that I see coming up
+
+28
+00:01:04,500 --> 00:01:06,420
+again and again when ethical concerns
+
+29
+00:01:06,420 --> 00:01:09,000
+are raised in Tech and in machine
+
+30
+00:01:09,000 --> 00:01:11,580
+learning themes of alignment themes of
+
+31
+00:01:11,580 --> 00:01:13,740
+trade-off and the critical theme of
+
+32
+00:01:13,740 --> 00:01:15,659
+humility so in this lecture I'm going to
+
+33
+00:01:15,659 --> 00:01:17,760
+approach ethics on the basis of concrete
+
+34
+00:01:17,760 --> 00:01:20,580
+cases specific instances where people
+
+35
+00:01:20,580 --> 00:01:23,040
+have raised concerns so we'll talk about
+
+36
+00:01:23,040 --> 00:01:24,840
+cases where people have taken actions
+
+37
+00:01:24,840 --> 00:01:26,759
+that have led to claims and counter
+
+38
+00:01:26,759 --> 00:01:29,040
+claims of ethical or unethical Behavior
+
+39
+00:01:29,040 --> 00:01:33,000
+the use of automated weapons the use of
+
+40
+00:01:33,000 --> 00:01:35,220
+machine learning systems for making
+
+41
+00:01:35,220 --> 00:01:38,100
+decisions like sentencing and bail and
+
+42
+00:01:38,100 --> 00:01:40,439
+the use of machine learning algorithms
+
+43
+00:01:40,439 --> 00:01:42,479
+to generate art in each case one
+
+44
+00:01:42,479 --> 00:01:44,340
+criticism has been raised part of the
+
+45
+00:01:44,340 --> 00:01:46,259
+criticism has been that the technology
+
+46
+00:01:46,259 --> 00:01:48,720
+Awards impact is unethical so
+
+47
+00:01:48,720 --> 00:01:51,420
+approaching ethics in this way allows me
+
+48
+00:01:51,420 --> 00:01:53,399
+to give my favorite answer to the
+
+49
+00:01:53,399 --> 00:01:55,320
+question of what is ethics which is to
+
+50
+00:01:55,320 --> 00:01:56,880
+quote one of my favorite philosophers
+
+51
+00:01:56,880 --> 00:01:58,920
+Ludwig wickenstein and say that the
+
+52
+00:01:58,920 --> 00:02:00,420
+meaning of a word is its use in the
+
+53
+00:02:00,420 --> 00:02:02,520
+language so we'll be focusing on times
+
+54
+00:02:02,520 --> 00:02:04,259
+when people have used the word ethics to
+
+55
+00:02:04,259 --> 00:02:06,840
+describe what they like or dislike about
+
+56
+00:02:06,840 --> 00:02:09,840
+some piece of technology and this
+
+57
+00:02:09,840 --> 00:02:11,940
+approach to definition is an interesting
+
+58
+00:02:11,940 --> 00:02:13,680
+one if you want to try it out for
+
+59
+00:02:13,680 --> 00:02:14,879
+yourself you should check out the game
+
+60
+00:02:14,879 --> 00:02:16,739
+something something soup something which
+
+61
+00:02:16,739 --> 00:02:18,239
+is a browser game at the link in the
+
+62
+00:02:18,239 --> 00:02:19,739
+bottom left of this slide in which you
+
+63
+00:02:19,739 --> 00:02:21,900
+presented with a bunch of dishes and you
+
+64
+00:02:21,900 --> 00:02:24,360
+have to decide whether they are soup or
+
+65
+00:02:24,360 --> 00:02:26,220
+not soup whether they can be served to
+
+66
+00:02:26,220 --> 00:02:29,040
+somebody who ordered soup and by playing
+
+67
+00:02:29,040 --> 00:02:30,540
+a game like this you can discover both
+
+68
+00:02:30,540 --> 00:02:32,280
+how difficult it is to really put your
+
+69
+00:02:32,280 --> 00:02:34,620
+finger on a concrete definition of soup
+
+70
+00:02:34,620 --> 00:02:37,739
+and how poorly maybe your working
+
+71
+00:02:37,739 --> 00:02:40,260
+definition of soup fits with any given
+
+72
+00:02:40,260 --> 00:02:42,480
+soup theory because of this sort of
+
+73
+00:02:42,480 --> 00:02:43,860
+case-based approach we won't be talking
+
+74
+00:02:43,860 --> 00:02:45,720
+about ethical schools and we won't be
+
+75
+00:02:45,720 --> 00:02:48,300
+doing any trolley problems so this
+
+76
+00:02:48,300 --> 00:02:50,400
+article here from current affairs asks
+
+77
+00:02:50,400 --> 00:02:51,959
+you to consider this particular example
+
+78
+00:02:51,959 --> 00:02:54,120
+of a of an ethical dilemma where an
+
+79
+00:02:54,120 --> 00:02:55,920
+asteroid containing all of the
+
+80
+00:02:55,920 --> 00:02:58,080
+universe's top doctors who are working
+
+81
+00:02:58,080 --> 00:03:00,840
+on a cure for all possible illnesses is
+
+82
+00:03:00,840 --> 00:03:02,879
+hurtling towards the planet of Orphans
+
+83
+00:03:02,879 --> 00:03:05,040
+and you can destroy the asteroid and
+
+84
+00:03:05,040 --> 00:03:06,720
+save the orphans but if you do so the
+
+85
+00:03:06,720 --> 00:03:08,580
+hope for a cure for all diseases will be
+
+86
+00:03:08,580 --> 00:03:10,800
+lost forever and the question posed by
+
+87
+00:03:10,800 --> 00:03:12,780
+the authors of this article is is this
+
+88
+00:03:12,780 --> 00:03:14,040
+hypothetical useful at all for
+
+89
+00:03:14,040 --> 00:03:16,500
+Illuminating any moral truths so rather
+
+90
+00:03:16,500 --> 00:03:18,720
+than considering these hypothetical
+
+91
+00:03:18,720 --> 00:03:21,360
+scenarios about trolley cars going down
+
+92
+00:03:21,360 --> 00:03:24,120
+rails and fat men standing on Bridges
+
+93
+00:03:24,120 --> 00:03:26,480
+we'll talk about concrete specific
+
+94
+00:03:26,480 --> 00:03:30,120
+examples from the last 10 years of work
+
+95
+00:03:30,120 --> 00:03:32,580
+in our field and adjacent Fields but
+
+96
+00:03:32,580 --> 00:03:34,800
+this isn't the only way of talking about
+
+97
+00:03:34,800 --> 00:03:36,300
+or thinking about ethics it's the way
+
+98
+00:03:36,300 --> 00:03:37,739
+that I think about it is the way that I
+
+99
+00:03:37,739 --> 00:03:39,360
+prefer to talk about it is not the only
+
+100
+00:03:39,360 --> 00:03:40,739
+one and it might not be the one that
+
+101
+00:03:40,739 --> 00:03:42,480
+works for you so if you want another
+
+102
+00:03:42,480 --> 00:03:44,700
+point of view and one that really
+
+103
+00:03:44,700 --> 00:03:46,799
+emphasizes and loves trolley problems
+
+104
+00:03:46,799 --> 00:03:48,299
+then you should check out sergey's
+
+105
+00:03:48,299 --> 00:03:49,980
+lecture from the last edition of the
+
+106
+00:03:49,980 --> 00:03:51,840
+course from 2021 it's a really
+
+107
+00:03:51,840 --> 00:03:54,239
+delightful talk and presents some
+
+108
+00:03:54,239 --> 00:03:56,400
+similar ideas from a very different
+
+109
+00:03:56,400 --> 00:03:58,200
+perspective coming to some of the same
+
+110
+00:03:58,200 --> 00:03:59,220
+conclusions and some different
+
+111
+00:03:59,220 --> 00:04:00,900
+conclusions a useful theme team from
+
+112
+00:04:00,900 --> 00:04:02,159
+that lecture that I think we should all
+
+113
+00:04:02,159 --> 00:04:03,900
+have in mind when we're pondering
+
+114
+00:04:03,900 --> 00:04:06,360
+ethical dilemmas and the related
+
+115
+00:04:06,360 --> 00:04:09,060
+questions that they bring up is the
+
+116
+00:04:09,060 --> 00:04:11,040
+theme of what is water from last year's
+
+117
+00:04:11,040 --> 00:04:13,319
+lecture so this is a famous little story
+
+118
+00:04:13,319 --> 00:04:15,239
+from a commencement speech by David
+
+119
+00:04:15,239 --> 00:04:18,180
+Foster Wallace where an older fish swing
+
+120
+00:04:18,180 --> 00:04:19,798
+by two younger fish says morning boys
+
+121
+00:04:19,798 --> 00:04:22,560
+how's the water and after he swims away
+
+122
+00:04:22,560 --> 00:04:24,360
+one of the younger fish turns the other
+
+123
+00:04:24,360 --> 00:04:26,699
+and says wait what the hell is water the
+
+124
+00:04:26,699 --> 00:04:29,520
+idea is that if we aren't thoughtful if
+
+125
+00:04:29,520 --> 00:04:31,020
+we aren't paying attention some things
+
+126
+00:04:31,020 --> 00:04:33,660
+that are very important can become
+
+127
+00:04:33,660 --> 00:04:36,000
+background can become assumption and can
+
+128
+00:04:36,000 --> 00:04:37,680
+become invisible and so when I share
+
+129
+00:04:37,680 --> 00:04:39,600
+these slides with Sergey he challenged
+
+130
+00:04:39,600 --> 00:04:42,060
+me to answer this question for myself
+
+131
+00:04:42,060 --> 00:04:44,639
+about how we were approaching ethics
+
+132
+00:04:44,639 --> 00:04:46,440
+this time around and I'll say that this
+
+133
+00:04:46,440 --> 00:04:48,180
+approach of relying on prominent cases
+
+134
+00:04:48,180 --> 00:04:50,520
+risks replicating a lot of social biases
+
+135
+00:04:50,520 --> 00:04:52,080
+some people's ethical claims are
+
+136
+00:04:52,080 --> 00:04:54,840
+Amplified and some fall on unhearing
+
+137
+00:04:54,840 --> 00:04:57,600
+ears some stories travel more because
+
+138
+00:04:57,600 --> 00:04:59,460
+the people involved have more resources
+
+139
+00:04:59,460 --> 00:05:01,560
+and are better connected and using these
+
+140
+00:05:01,560 --> 00:05:03,479
+forms of case-based reasoning where you
+
+141
+00:05:03,479 --> 00:05:07,020
+explain your response or your beliefs in
+
+142
+00:05:07,020 --> 00:05:09,540
+terms of these concrete specifics can
+
+143
+00:05:09,540 --> 00:05:11,280
+end up hiding the principles that are
+
+144
+00:05:11,280 --> 00:05:12,600
+actually in operation maybe you don't
+
+145
+00:05:12,600 --> 00:05:13,800
+even realize that that's how you're
+
+146
+00:05:13,800 --> 00:05:15,479
+making the decision maybe some of the
+
+147
+00:05:15,479 --> 00:05:17,040
+true ethical principles that you're
+
+148
+00:05:17,040 --> 00:05:18,600
+operating under can disappear like water
+
+149
+00:05:18,600 --> 00:05:21,180
+to these fish so don't claim that the
+
+150
+00:05:21,180 --> 00:05:23,759
+approach I'm taking here is perfect but
+
+151
+00:05:23,759 --> 00:05:26,400
+in the end so much of Ethics is deeply
+
+152
+00:05:26,400 --> 00:05:28,560
+personal that we can't expect to have a
+
+153
+00:05:28,560 --> 00:05:30,479
+perfect approach we can just do the best
+
+154
+00:05:30,479 --> 00:05:33,060
+we can and hopefully better every day so
+
+155
+00:05:33,060 --> 00:05:35,280
+we're gonna see three themes repeatedly
+
+156
+00:05:35,280 --> 00:05:37,259
+come up throughout this talk two
+
+157
+00:05:37,259 --> 00:05:39,539
+different forms of conflict that give
+
+158
+00:05:39,539 --> 00:05:42,419
+rise to ethical disputes one when there
+
+159
+00:05:42,419 --> 00:05:44,100
+is conflict between what we want and
+
+160
+00:05:44,100 --> 00:05:46,440
+what we get and another when there is
+
+161
+00:05:46,440 --> 00:05:48,600
+conflict between what we want and what
+
+162
+00:05:48,600 --> 00:05:51,180
+others want and then finally a theme of
+
+163
+00:05:51,180 --> 00:05:53,520
+maybe an appropriate response a response
+
+164
+00:05:53,520 --> 00:05:55,800
+of humility when we don't know what we
+
+165
+00:05:55,800 --> 00:05:57,720
+want or how to get it the problem of
+
+166
+00:05:57,720 --> 00:06:00,240
+alignment where what we want and what we
+
+167
+00:06:00,240 --> 00:06:02,639
+get differ we'll come up over and over
+
+168
+00:06:02,639 --> 00:06:04,979
+again and one of the primary drivers of
+
+169
+00:06:04,979 --> 00:06:07,320
+this is what you might call the proxy
+
+170
+00:06:07,320 --> 00:06:10,979
+problem which is in the end we are often
+
+171
+00:06:10,979 --> 00:06:13,860
+optimizing or maximizing some proxy of
+
+172
+00:06:13,860 --> 00:06:15,720
+the thing that we really care about and
+
+173
+00:06:15,720 --> 00:06:18,120
+if the alignment or Loosely the
+
+174
+00:06:18,120 --> 00:06:20,580
+correlation between that proxy and the
+
+175
+00:06:20,580 --> 00:06:21,780
+thing that we actually care about is
+
+176
+00:06:21,780 --> 00:06:24,060
+poor enough then by trying to maximize
+
+177
+00:06:24,060 --> 00:06:26,639
+that proxy we can end up hurting the
+
+178
+00:06:26,639 --> 00:06:27,780
+thing that we originally cared about
+
+179
+00:06:27,780 --> 00:06:30,120
+there is a nice paper that came out just
+
+180
+00:06:30,120 --> 00:06:32,520
+very recently doing a mathematical
+
+181
+00:06:32,520 --> 00:06:33,900
+analysis of this idea that's actually
+
+182
+00:06:33,900 --> 00:06:35,580
+been around for quite some time excuse
+
+183
+00:06:35,580 --> 00:06:36,780
+you can see these kinds of proxy
+
+184
+00:06:36,780 --> 00:06:38,220
+problems everywhere once you're looking
+
+185
+00:06:38,220 --> 00:06:40,259
+for them on the top right I have a train
+
+186
+00:06:40,259 --> 00:06:42,600
+and validation loss chart from one of
+
+187
+00:06:42,600 --> 00:06:43,860
+the training runs for the full stack
+
+188
+00:06:43,860 --> 00:06:45,900
+deep learning text recognizer the thing
+
+189
+00:06:45,900 --> 00:06:47,880
+that we can actually optimize is the
+
+190
+00:06:47,880 --> 00:06:49,319
+training loss that's what we can use to
+
+191
+00:06:49,319 --> 00:06:50,639
+calculate gradients and improve the
+
+192
+00:06:50,639 --> 00:06:52,080
+parameters of our network but the thing
+
+193
+00:06:52,080 --> 00:06:53,520
+that we really care about is the
+
+194
+00:06:53,520 --> 00:06:54,900
+performance of the network on data
+
+195
+00:06:54,900 --> 00:06:56,220
+points it hasn't seen like the
+
+196
+00:06:56,220 --> 00:06:58,560
+validation set or the test set or data
+
+197
+00:06:58,560 --> 00:06:59,940
+in production if we optimize our
+
+198
+00:06:59,940 --> 00:07:01,979
+training lost too much then we can
+
+199
+00:07:01,979 --> 00:07:04,740
+actually cause our validation loss to go
+
+200
+00:07:04,740 --> 00:07:06,600
+up similarly there was an interesting
+
+201
+00:07:06,600 --> 00:07:09,240
+paper that suggested that increasing
+
+202
+00:07:09,240 --> 00:07:12,240
+your accuracy on classification tasks
+
+203
+00:07:12,240 --> 00:07:15,900
+can actually result in a decrease in the
+
+204
+00:07:15,900 --> 00:07:19,199
+utility of your embeddings in Downstream
+
+205
+00:07:19,199 --> 00:07:21,180
+tasks and you can find these proxy
+
+206
+00:07:21,180 --> 00:07:23,340
+problems outside of machine learning as
+
+207
+00:07:23,340 --> 00:07:25,319
+well there's a famous story involving a
+
+208
+00:07:25,319 --> 00:07:27,300
+Soviet Factory and nails that turned out
+
+209
+00:07:27,300 --> 00:07:29,580
+to be false but in looking up a
+
+210
+00:07:29,580 --> 00:07:31,380
+reference for it I was able to find an
+
+211
+00:07:31,380 --> 00:07:33,300
+actual example where a factory that was
+
+212
+00:07:33,300 --> 00:07:35,400
+making chemical machines rather than
+
+213
+00:07:35,400 --> 00:07:38,280
+creating a machine that was cheaper and
+
+214
+00:07:38,280 --> 00:07:40,319
+better chose not to adopt producing that
+
+215
+00:07:40,319 --> 00:07:41,880
+machine because their output was
+
+216
+00:07:41,880 --> 00:07:44,039
+measured in weight so the thing that
+
+217
+00:07:44,039 --> 00:07:46,080
+that the planners actually cared about
+
+218
+00:07:46,080 --> 00:07:49,020
+economic efficiency and output was not
+
+219
+00:07:49,020 --> 00:07:50,819
+what was being optimized for because it
+
+220
+00:07:50,819 --> 00:07:52,380
+was too difficult to measure and one
+
+221
+00:07:52,380 --> 00:07:54,780
+reason why these kinds of proxy problems
+
+222
+00:07:54,780 --> 00:07:57,360
+arise so frequently is due to issues of
+
+223
+00:07:57,360 --> 00:07:59,220
+information the information that we're
+
+224
+00:07:59,220 --> 00:08:01,440
+able to measure is not the information
+
+225
+00:08:01,440 --> 00:08:04,919
+that we want so the training loss is the
+
+226
+00:08:04,919 --> 00:08:06,180
+information that we have but the
+
+227
+00:08:06,180 --> 00:08:08,039
+information that we want is the
+
+228
+00:08:08,039 --> 00:08:10,380
+validation loss but then at a higher
+
+229
+00:08:10,380 --> 00:08:12,720
+level we often don't even know what it
+
+230
+00:08:12,720 --> 00:08:15,360
+is that we truly need so we may want the
+
+231
+00:08:15,360 --> 00:08:18,120
+validation loss but what we need is the
+
+232
+00:08:18,120 --> 00:08:21,300
+loss in production or really the value
+
+233
+00:08:21,300 --> 00:08:24,000
+our users will derive from this model
+
+234
+00:08:24,000 --> 00:08:26,759
+but even when we do know what it is that
+
+235
+00:08:26,759 --> 00:08:29,160
+we want or what it is that we need we're
+
+236
+00:08:29,160 --> 00:08:30,960
+likely to run into the second kind of
+
+237
+00:08:30,960 --> 00:08:32,580
+problem the problem of a trade-off
+
+238
+00:08:32,580 --> 00:08:35,099
+between stakeholders going back to our
+
+239
+00:08:35,099 --> 00:08:37,620
+hypothetical example with the asteroid
+
+240
+00:08:37,620 --> 00:08:40,020
+of doctors hurtling towards the planet
+
+241
+00:08:40,020 --> 00:08:42,299
+of Orphans what makes this challenging
+
+242
+00:08:42,299 --> 00:08:44,820
+is the need to determine a trade-off
+
+243
+00:08:44,820 --> 00:08:48,300
+between the wants and needs of the
+
+244
+00:08:48,300 --> 00:08:50,399
+people on the asteroid the wants and
+
+245
+00:08:50,399 --> 00:08:53,519
+needs of the orphans on the planet and
+
+246
+00:08:53,519 --> 00:08:56,519
+the wants and needs of future people who
+
+247
+00:08:56,519 --> 00:08:58,380
+cannot be reached for comment and to
+
+248
+00:08:58,380 --> 00:09:00,060
+weigh in on this concern is some
+
+249
+00:09:00,060 --> 00:09:02,040
+sometimes said that this need to
+
+250
+00:09:02,040 --> 00:09:03,660
+negotiate trade offices one of the
+
+251
+00:09:03,660 --> 00:09:05,519
+reasons why Engineers don't like
+
+252
+00:09:05,519 --> 00:09:07,019
+thinking about some of these problems
+
+253
+00:09:07,019 --> 00:09:08,640
+around ethics I don't think that's quite
+
+254
+00:09:08,640 --> 00:09:11,160
+right because we do accept trade-offs as
+
+255
+00:09:11,160 --> 00:09:13,140
+a key component of engineering there's
+
+256
+00:09:13,140 --> 00:09:14,459
+this nice O'Reilly book on the
+
+257
+00:09:14,459 --> 00:09:15,779
+fundamentals of software architecture
+
+258
+00:09:15,779 --> 00:09:17,700
+the first thing that they State at the
+
+259
+00:09:17,700 --> 00:09:19,320
+very beginning is that everything in
+
+260
+00:09:19,320 --> 00:09:21,180
+software architecture is a trade-off and
+
+261
+00:09:21,180 --> 00:09:24,240
+even this satirical oh really book says
+
+262
+00:09:24,240 --> 00:09:26,279
+that every programming question has the
+
+263
+00:09:26,279 --> 00:09:28,019
+answer it depends so we're comfortable
+
+264
+00:09:28,019 --> 00:09:30,240
+negotiating trade-offs take for example
+
+265
+00:09:30,240 --> 00:09:32,339
+this famous chart comparing the
+
+266
+00:09:32,339 --> 00:09:33,959
+different convolutional networks on the
+
+267
+00:09:33,959 --> 00:09:36,360
+basis of their accuracy and the number
+
+268
+00:09:36,360 --> 00:09:38,580
+of operations that it takes to run them
+
+269
+00:09:38,580 --> 00:09:40,920
+thinking about these kinds of trade-offs
+
+270
+00:09:40,920 --> 00:09:45,060
+between speed and correctness is exactly
+
+271
+00:09:45,060 --> 00:09:47,160
+the sort of thing that we have to do all
+
+272
+00:09:47,160 --> 00:09:49,860
+the time in our job as engineers and one
+
+273
+00:09:49,860 --> 00:09:52,080
+part of it that is maybe easier is at
+
+274
+00:09:52,080 --> 00:09:54,000
+least selecting What's called the Pareto
+
+275
+00:09:54,000 --> 00:09:56,519
+front for the metrics that we care about
+
+276
+00:09:56,519 --> 00:09:58,260
+my favorite way of remembering what a
+
+277
+00:09:58,260 --> 00:10:00,540
+Pareto front is is this definition of a
+
+278
+00:10:00,540 --> 00:10:02,640
+data scientist from Josh Wills which is
+
+279
+00:10:02,640 --> 00:10:04,500
+a data scientist who's better at Stats
+
+280
+00:10:04,500 --> 00:10:05,940
+than any software engineer and better at
+
+281
+00:10:05,940 --> 00:10:06,959
+software engineering than any
+
+282
+00:10:06,959 --> 00:10:09,060
+statistician so this Pareto front that
+
+283
+00:10:09,060 --> 00:10:11,160
+I've drawn here is the models that have
+
+284
+00:10:11,160 --> 00:10:13,800
+are more accurate than anybody who takes
+
+285
+00:10:13,800 --> 00:10:16,440
+fewer flops and use fewer flops than
+
+286
+00:10:16,440 --> 00:10:18,540
+anybody who is more accurate so I think
+
+287
+00:10:18,540 --> 00:10:20,100
+rather than fundamentally being about
+
+288
+00:10:20,100 --> 00:10:22,080
+trade-offs one of the reasons why
+
+289
+00:10:22,080 --> 00:10:24,480
+Engineers maybe dislike thinking about
+
+290
+00:10:24,480 --> 00:10:26,820
+these problems is that it's really hard
+
+291
+00:10:26,820 --> 00:10:30,480
+to identify the axes for a chart like
+
+292
+00:10:30,480 --> 00:10:32,040
+the one that I just showed it's very
+
+293
+00:10:32,040 --> 00:10:33,779
+hard to quantify these things and if we
+
+294
+00:10:33,779 --> 00:10:36,120
+do quantify things like the utility or
+
+295
+00:10:36,120 --> 00:10:38,279
+the rights of people involved in a
+
+296
+00:10:38,279 --> 00:10:39,420
+problem we know that those
+
+297
+00:10:39,420 --> 00:10:41,399
+quantifications are far away from what
+
+298
+00:10:41,399 --> 00:10:42,720
+what they truly want to measure there's
+
+299
+00:10:42,720 --> 00:10:45,540
+a proxy problem in fact but even further
+
+300
+00:10:45,540 --> 00:10:48,420
+ones measured where on that front do we
+
+301
+00:10:48,420 --> 00:10:50,459
+fall as Engineers we maybe develop an
+
+302
+00:10:50,459 --> 00:10:52,560
+expertise in knowing whether we want
+
+303
+00:10:52,560 --> 00:10:55,140
+high accuracy or low latency or
+
+304
+00:10:55,140 --> 00:10:57,720
+computational load but we are not as
+
+305
+00:10:57,720 --> 00:10:59,399
+comfortable deciding how many current
+
+306
+00:10:59,399 --> 00:11:01,260
+orphans we want to trade for what amount
+
+307
+00:11:01,260 --> 00:11:02,640
+of future health so this raises
+
+308
+00:11:02,640 --> 00:11:05,040
+questions both in terms of measurement
+
+309
+00:11:05,040 --> 00:11:07,140
+and in terms of decision making that are
+
+310
+00:11:07,140 --> 00:11:09,240
+outside of our expertise so the
+
+311
+00:11:09,240 --> 00:11:11,399
+appropriate response here is humility
+
+312
+00:11:11,399 --> 00:11:13,440
+because we don't explicitly train these
+
+313
+00:11:13,440 --> 00:11:15,060
+skills the way that we do many of the
+
+314
+00:11:15,060 --> 00:11:16,440
+other skills that are critical for our
+
+315
+00:11:16,440 --> 00:11:18,899
+job and many folks engineers and
+
+316
+00:11:18,899 --> 00:11:21,300
+managers in technology seem to kind of
+
+317
+00:11:21,300 --> 00:11:23,579
+deepen their bones prefer optimizing
+
+318
+00:11:23,579 --> 00:11:26,279
+single metrics making a number go up so
+
+319
+00:11:26,279 --> 00:11:28,320
+there's no trade-offs to think about and
+
+320
+00:11:28,320 --> 00:11:30,180
+those metrics are they're not proxies
+
+321
+00:11:30,180 --> 00:11:31,980
+they're the exact same thing that you
+
+322
+00:11:31,980 --> 00:11:34,380
+care about my goal within this company
+
+323
+00:11:34,380 --> 00:11:37,440
+my objective for this quarter my North
+
+324
+00:11:37,440 --> 00:11:41,519
+Star is user growth or lines of code and
+
+325
+00:11:41,519 --> 00:11:43,380
+by God I'll make that go up so when we
+
+326
+00:11:43,380 --> 00:11:45,120
+encounter a different kind of problem
+
+327
+00:11:45,120 --> 00:11:48,000
+it's important to bring a humble mindset
+
+328
+00:11:48,000 --> 00:11:51,660
+a student mindset to the problems to ask
+
+329
+00:11:51,660 --> 00:11:54,480
+for help to look for experts and to
+
+330
+00:11:54,480 --> 00:11:56,040
+recognize that the help that you get and
+
+331
+00:11:56,040 --> 00:11:57,959
+the experts that you find might not be
+
+332
+00:11:57,959 --> 00:12:00,660
+immediately obviously which you want or
+
+333
+00:12:00,660 --> 00:12:02,820
+what you're used to additionally one
+
+334
+00:12:02,820 --> 00:12:04,320
+form of this that we'll see repeatedly
+
+335
+00:12:04,320 --> 00:12:07,019
+is that when attempting to intervene
+
+336
+00:12:07,019 --> 00:12:09,060
+because of an ethical concern it's
+
+337
+00:12:09,060 --> 00:12:10,680
+important to remember this same humility
+
+338
+00:12:10,680 --> 00:12:12,959
+it's easy to think when you are on the
+
+339
+00:12:12,959 --> 00:12:14,880
+good side that this humility is not
+
+340
+00:12:14,880 --> 00:12:17,220
+necessary but even trying to be helpful
+
+341
+00:12:17,220 --> 00:12:19,380
+is a delicate and dangerous undertaking
+
+342
+00:12:19,380 --> 00:12:21,120
+one of my favorite quotes from the
+
+343
+00:12:21,120 --> 00:12:23,040
+systems Bible so we want to make sure as
+
+344
+00:12:23,040 --> 00:12:26,220
+we resolve the ethical concerns that
+
+345
+00:12:26,220 --> 00:12:28,800
+people raise about our technology that
+
+346
+00:12:28,800 --> 00:12:30,660
+we come up with solutions that are not
+
+347
+00:12:30,660 --> 00:12:32,459
+just part of the problem so the way that
+
+348
+00:12:32,459 --> 00:12:35,579
+I resolve all of these is through user
+
+349
+00:12:35,579 --> 00:12:37,920
+orientation by getting feedback from
+
+350
+00:12:37,920 --> 00:12:39,540
+users we maintain alignment between
+
+351
+00:12:39,540 --> 00:12:40,980
+ourselves and the system that we're
+
+352
+00:12:40,980 --> 00:12:43,139
+creating and the users that it's meant
+
+353
+00:12:43,139 --> 00:12:45,180
+to serve and then when it's time to make
+
+354
+00:12:45,180 --> 00:12:46,500
+trade-offs we should resolve them in
+
+355
+00:12:46,500 --> 00:12:48,480
+consultation with users and in my
+
+356
+00:12:48,480 --> 00:12:51,120
+opinion we should tilt the scales in
+
+357
+00:12:51,120 --> 00:12:53,279
+their favor and away from the favor of
+
+358
+00:12:53,279 --> 00:12:55,200
+other stakeholders including within our
+
+359
+00:12:55,200 --> 00:12:57,360
+own organization and then humility is
+
+360
+00:12:57,360 --> 00:12:58,800
+one of the reasons why we actually
+
+361
+00:12:58,800 --> 00:13:00,839
+listen to users at all all because we
+
+362
+00:13:00,839 --> 00:13:02,339
+are humble enough to recognize that we
+
+363
+00:13:02,339 --> 00:13:03,720
+don't have the answers to all of these
+
+364
+00:13:03,720 --> 00:13:06,000
+questions all right with our context and
+
+365
+00:13:06,000 --> 00:13:08,339
+our themes under our belt let's dive
+
+366
+00:13:08,339 --> 00:13:11,579
+into some concrete cases and responses
+
+367
+00:13:11,579 --> 00:13:13,920
+we'll start by considering ethics in the
+
+368
+00:13:13,920 --> 00:13:16,139
+broader world of technology that machine
+
+369
+00:13:16,139 --> 00:13:18,120
+learning fights itself in so the key
+
+370
+00:13:18,120 --> 00:13:19,800
+thing that I want folks to take away
+
+371
+00:13:19,800 --> 00:13:21,300
+from this section is that the tech
+
+372
+00:13:21,300 --> 00:13:23,940
+industry cannot afford to ignore ethics
+
+373
+00:13:23,940 --> 00:13:26,579
+as public trust in Tech declines we need
+
+374
+00:13:26,579 --> 00:13:28,740
+to learn from other nearby industries
+
+375
+00:13:28,740 --> 00:13:30,480
+that have done a better job on
+
+376
+00:13:30,480 --> 00:13:31,860
+professional ethics and then we'll talk
+
+377
+00:13:31,860 --> 00:13:34,200
+about some contemporary topics some that
+
+378
+00:13:34,200 --> 00:13:35,700
+I find particularly interesting and
+
+379
+00:13:35,700 --> 00:13:37,980
+important throughout the past decade the
+
+380
+00:13:37,980 --> 00:13:39,839
+technology industry has been plagued by
+
+381
+00:13:39,839 --> 00:13:41,399
+Scandal whether that's how technology
+
+382
+00:13:41,399 --> 00:13:43,680
+companies interface with national
+
+383
+00:13:43,680 --> 00:13:46,260
+governments at the largest scale over to
+
+384
+00:13:46,260 --> 00:13:48,300
+how technological systems are being used
+
+385
+00:13:48,300 --> 00:13:50,160
+or manipulated by people creating
+
+386
+00:13:50,160 --> 00:13:52,380
+disinformation or fake social media
+
+387
+00:13:52,380 --> 00:13:54,899
+accounts or targeting children with
+
+388
+00:13:54,899 --> 00:13:57,180
+automatically generated content that
+
+389
+00:13:57,180 --> 00:13:59,279
+hacks the YouTube recommendation system
+
+390
+00:13:59,279 --> 00:14:01,200
+and the impact effect of this has been
+
+391
+00:14:01,200 --> 00:14:04,079
+that distrust in tech companies has
+
+392
+00:14:04,079 --> 00:14:06,720
+risen markedly in the last 10 years so
+
+393
+00:14:06,720 --> 00:14:09,180
+this is from the public affairs pulse
+
+394
+00:14:09,180 --> 00:14:11,639
+survey just last year the tech industry
+
+395
+00:14:11,639 --> 00:14:13,920
+went from being in 2013 one of the
+
+396
+00:14:13,920 --> 00:14:15,480
+industries that the fewest people felt
+
+397
+00:14:15,480 --> 00:14:18,180
+was less trustworthy than average to
+
+398
+00:14:18,180 --> 00:14:20,940
+rubbing elbows with famously much
+
+399
+00:14:20,940 --> 00:14:23,940
+distrusted Industries like energy and
+
+400
+00:14:23,940 --> 00:14:26,399
+pharmaceuticals and the tech industry
+
+401
+00:14:26,399 --> 00:14:29,220
+doesn't have to win elections so we
+
+402
+00:14:29,220 --> 00:14:30,839
+don't have to care about public polling
+
+403
+00:14:30,839 --> 00:14:34,260
+as much as politicians but politicians
+
+404
+00:14:34,260 --> 00:14:35,820
+care quite a bit about those public
+
+405
+00:14:35,820 --> 00:14:38,880
+opinion polls and just in the last few
+
+406
+00:14:38,880 --> 00:14:41,399
+years the fraction of people who believe
+
+407
+00:14:41,399 --> 00:14:43,560
+that the large tech companies should be
+
+408
+00:14:43,560 --> 00:14:46,260
+more regulated has gone up a substantial
+
+409
+00:14:46,260 --> 00:14:48,720
+amount and comparing it to 10 years ago
+
+410
+00:14:48,720 --> 00:14:51,360
+it's astronomically higher so there will
+
+411
+00:14:51,360 --> 00:14:53,399
+be substantial impacts on our industry
+
+412
+00:14:53,399 --> 00:14:55,920
+due to this loss of public trust so as
+
+413
+00:14:55,920 --> 00:14:57,720
+machine learning engineers and
+
+414
+00:14:57,720 --> 00:15:00,540
+researchers we can learn from nearby
+
+415
+00:15:00,540 --> 00:15:02,160
+Fields so I'll talk about two of them
+
+416
+00:15:02,160 --> 00:15:05,160
+one a nice little bit about the culture
+
+417
+00:15:05,160 --> 00:15:07,500
+of professional ethics in Engineering in
+
+418
+00:15:07,500 --> 00:15:08,880
+Canada and then a little bit about
+
+419
+00:15:08,880 --> 00:15:10,680
+ethical standards for human subjects
+
+420
+00:15:10,680 --> 00:15:12,779
+research so one of the worst
+
+421
+00:15:12,779 --> 00:15:16,079
+construction disasters in modern history
+
+422
+00:15:16,079 --> 00:15:18,600
+was the collapse of the Quebec bridge in
+
+423
+00:15:18,600 --> 00:15:21,240
+1907. 75 people who were working on the
+
+424
+00:15:21,240 --> 00:15:23,160
+bridge at the time were killed and a
+
+425
+00:15:23,160 --> 00:15:24,720
+parliamentary inquiry placed the blame
+
+426
+00:15:24,720 --> 00:15:27,660
+pretty much entirely on two engineers in
+
+427
+00:15:27,660 --> 00:15:29,940
+response there was the development of
+
+428
+00:15:29,940 --> 00:15:32,399
+some additional rituals that many
+
+429
+00:15:32,399 --> 00:15:34,019
+Canadian Engineers take part in when
+
+430
+00:15:34,019 --> 00:15:35,699
+they finish their education that are
+
+431
+00:15:35,699 --> 00:15:37,139
+meant to impress upon them the weight of
+
+432
+00:15:37,139 --> 00:15:39,060
+their responsibility so one component of
+
+433
+00:15:39,060 --> 00:15:41,100
+this is a large iron ring which
+
+434
+00:15:41,100 --> 00:15:43,139
+literally impresses that weight upon
+
+435
+00:15:43,139 --> 00:15:46,079
+people and then another is an oath that
+
+436
+00:15:46,079 --> 00:15:48,899
+people take a non-legally binding oath
+
+437
+00:15:48,899 --> 00:15:51,060
+that includes saying that I will not
+
+438
+00:15:51,060 --> 00:15:54,060
+hence forward suffer or pass or be privy
+
+439
+00:15:54,060 --> 00:15:56,100
+to the passing of bad workmanship or
+
+440
+00:15:56,100 --> 00:15:57,899
+faulty material I think the software
+
+441
+00:15:57,899 --> 00:15:59,639
+would look quite a bit different if
+
+442
+00:15:59,639 --> 00:16:01,620
+software Engineers took an oath like
+
+443
+00:16:01,620 --> 00:16:03,300
+this and took it seriously one other
+
+444
+00:16:03,300 --> 00:16:05,040
+piece I wanted to point out is that it
+
+445
+00:16:05,040 --> 00:16:07,079
+includes within it some built-in
+
+446
+00:16:07,079 --> 00:16:10,019
+humility asking pardon ahead of time for
+
+447
+00:16:10,019 --> 00:16:11,880
+the assured failures lots of machine
+
+448
+00:16:11,880 --> 00:16:14,880
+learning is still in the research stage
+
+449
+00:16:14,880 --> 00:16:17,339
+and so some people may say that oh well
+
+450
+00:16:17,339 --> 00:16:18,660
+that's important for the people who are
+
+451
+00:16:18,660 --> 00:16:21,600
+building stuff but I'm working on R D
+
+452
+00:16:21,600 --> 00:16:23,699
+for fundamental technology so I don't
+
+453
+00:16:23,699 --> 00:16:25,260
+have to worry about that but research is
+
+454
+00:16:25,260 --> 00:16:27,060
+also subject to regulation so this is
+
+455
+00:16:27,060 --> 00:16:28,560
+something I was required to learn
+
+456
+00:16:28,560 --> 00:16:31,440
+because I did my PhD in a neuroscience
+
+457
+00:16:31,440 --> 00:16:32,760
+Department that was funded by the
+
+458
+00:16:32,760 --> 00:16:34,500
+National Institutes of Health which
+
+459
+00:16:34,500 --> 00:16:37,800
+mandates training in ethics and in the
+
+460
+00:16:37,800 --> 00:16:39,899
+ethical conduct of research so these
+
+461
+00:16:39,899 --> 00:16:41,940
+regulations for human subjects research
+
+462
+00:16:41,940 --> 00:16:44,339
+date back to the 1940s when there were
+
+463
+00:16:44,339 --> 00:16:45,959
+medical experiments on unwilling human
+
+464
+00:16:45,959 --> 00:16:49,139
+subjects by totalitarian regimes this is
+
+465
+00:16:49,139 --> 00:16:50,880
+still pretty much the Cornerstone for
+
+466
+00:16:50,880 --> 00:16:52,680
+laws on human subjects research around
+
+467
+00:16:52,680 --> 00:16:54,420
+the world through the Helsinki
+
+468
+00:16:54,420 --> 00:16:56,220
+declaration which gets regularly updated
+
+469
+00:16:56,220 --> 00:16:58,740
+in the US the Touchstone bit of
+
+470
+00:16:58,740 --> 00:17:01,019
+regulation on this the 9 1973 research
+
+471
+00:17:01,019 --> 00:17:03,540
+act requires among other things informed
+
+472
+00:17:03,540 --> 00:17:04,500
+consent from people who are
+
+473
+00:17:04,500 --> 00:17:07,260
+participating in research and there were
+
+474
+00:17:07,260 --> 00:17:09,359
+two major revelations in the late 60s
+
+475
+00:17:09,359 --> 00:17:10,740
+and early 70s that led to this
+
+476
+00:17:10,740 --> 00:17:12,959
+legislation not dissimilar to the
+
+477
+00:17:12,959 --> 00:17:14,579
+scandals that have plagued the
+
+478
+00:17:14,579 --> 00:17:16,740
+technology industry recently one was the
+
+479
+00:17:16,740 --> 00:17:18,359
+infliction of hepatitis on mentally
+
+480
+00:17:18,359 --> 00:17:20,040
+disabled children in New York in order
+
+481
+00:17:20,040 --> 00:17:22,079
+to test hepatitis treatments and the
+
+482
+00:17:22,079 --> 00:17:23,939
+other was the non-treatment of syphilis
+
+483
+00:17:23,939 --> 00:17:26,520
+in black men at Tuskegee in order to
+
+484
+00:17:26,520 --> 00:17:28,140
+study the progression of the disease in
+
+485
+00:17:28,140 --> 00:17:30,660
+both cases these subjects did not
+
+486
+00:17:30,660 --> 00:17:33,540
+provide informed consent and seemed to
+
+487
+00:17:33,540 --> 00:17:36,780
+be selected for being unable to advocate
+
+488
+00:17:36,780 --> 00:17:40,620
+for themselves or to get legal redress
+
+489
+00:17:40,620 --> 00:17:42,960
+for the harms they were suffering and so
+
+490
+00:17:42,960 --> 00:17:45,480
+if we are running experiments and those
+
+491
+00:17:45,480 --> 00:17:47,760
+experiments involve humans evolve our
+
+492
+00:17:47,760 --> 00:17:50,160
+users we are expected to adhere to the
+
+493
+00:17:50,160 --> 00:17:52,260
+same principles and one of the famous
+
+494
+00:17:52,260 --> 00:17:54,960
+instances of mismatch between the
+
+495
+00:17:54,960 --> 00:17:58,440
+culture in our industry and the culture
+
+496
+00:17:58,440 --> 00:18:00,720
+of human subjects research was was when
+
+497
+00:18:00,720 --> 00:18:02,760
+some researchers at Facebook studied
+
+498
+00:18:02,760 --> 00:18:04,860
+emotional contagion by altering people's
+
+499
+00:18:04,860 --> 00:18:07,440
+news feeds either adding more negative
+
+500
+00:18:07,440 --> 00:18:09,600
+content or adding more positive content
+
+501
+00:18:09,600 --> 00:18:12,120
+and they found a modest but robust
+
+502
+00:18:12,120 --> 00:18:14,700
+effect that introducing more positive
+
+503
+00:18:14,700 --> 00:18:16,440
+content caused people to post more
+
+504
+00:18:16,440 --> 00:18:18,179
+positively when people found out about
+
+505
+00:18:18,179 --> 00:18:20,760
+this they were very upset the authors
+
+506
+00:18:20,760 --> 00:18:23,520
+noted that Facebook's data use policy
+
+507
+00:18:23,520 --> 00:18:26,340
+includes that the user's data and
+
+508
+00:18:26,340 --> 00:18:28,380
+interactions can be used for this but
+
+509
+00:18:28,380 --> 00:18:32,400
+most people who were Facebook users and
+
+510
+00:18:32,400 --> 00:18:35,220
+the editorial board of pnas where this
+
+511
+00:18:35,220 --> 00:18:37,320
+was published did not see it that way so
+
+512
+00:18:37,320 --> 00:18:39,840
+put together I think we are at the point
+
+513
+00:18:39,840 --> 00:18:41,580
+where we need a professional code of
+
+514
+00:18:41,580 --> 00:18:43,980
+ethics for software hopefully many codes
+
+515
+00:18:43,980 --> 00:18:45,600
+of Ethics developed in different
+
+516
+00:18:45,600 --> 00:18:48,000
+communities that can Bubble Up compete
+
+517
+00:18:48,000 --> 00:18:49,440
+with each other and merge to finally
+
+518
+00:18:49,440 --> 00:18:51,539
+something that most of us or all of us
+
+519
+00:18:51,539 --> 00:18:54,120
+can agree on and that is incorporated
+
+520
+00:18:54,120 --> 00:18:56,520
+into our education and acculturation of
+
+521
+00:18:56,520 --> 00:18:59,100
+new members into our field and into more
+
+522
+00:18:59,100 --> 00:19:01,799
+aspects of how we build to close out
+
+523
+00:19:01,799 --> 00:19:04,380
+this section I wanted to talk about some
+
+524
+00:19:04,380 --> 00:19:07,679
+particular ethical concerns that arise
+
+525
+00:19:07,679 --> 00:19:10,440
+in Tech in general first around carbon
+
+526
+00:19:10,440 --> 00:19:12,900
+emissions and then second around dark
+
+527
+00:19:12,900 --> 00:19:15,240
+patterns and user hostile designs the
+
+528
+00:19:15,240 --> 00:19:17,700
+good news with carbon emissions is that
+
+529
+00:19:17,700 --> 00:19:19,799
+because they scale with cost it's only
+
+530
+00:19:19,799 --> 00:19:21,240
+something that you need to worry about
+
+531
+00:19:21,240 --> 00:19:24,059
+when the costs of what you're building
+
+532
+00:19:24,059 --> 00:19:26,460
+what you're working on are very large at
+
+533
+00:19:26,460 --> 00:19:27,960
+which time you both won't be alone in
+
+534
+00:19:27,960 --> 00:19:30,360
+making these decisions and you can move
+
+535
+00:19:30,360 --> 00:19:32,760
+a bit more deliberately and make these
+
+536
+00:19:32,760 --> 00:19:35,700
+choices more thoughtfully so first what
+
+537
+00:19:35,700 --> 00:19:37,559
+are the ethical concerns with carbon
+
+538
+00:19:37,559 --> 00:19:39,660
+emissions anthropogenic climate change
+
+539
+00:19:39,660 --> 00:19:42,179
+driven by CO2 emissions raises a classic
+
+540
+00:19:42,179 --> 00:19:44,280
+trade-off which was dramatized in this
+
+541
+00:19:44,280 --> 00:19:46,080
+episode of Harvey Birdman Attorney at
+
+542
+00:19:46,080 --> 00:19:48,419
+Law in which George Jetson travels back
+
+543
+00:19:48,419 --> 00:19:50,400
+from the future to sue the present for
+
+544
+00:19:50,400 --> 00:19:52,679
+melting the ice caps and destroying his
+
+545
+00:19:52,679 --> 00:19:54,960
+civilization so unfortunately we don't
+
+546
+00:19:54,960 --> 00:19:58,200
+have future Generations present now to
+
+547
+00:19:58,200 --> 00:20:00,179
+advocate for themselves the other view
+
+548
+00:20:00,179 --> 00:20:03,240
+is that this is an issue that arises
+
+549
+00:20:03,240 --> 00:20:05,220
+from a classic alignment problem which
+
+550
+00:20:05,220 --> 00:20:07,440
+is many organizations are trying to
+
+551
+00:20:07,440 --> 00:20:10,559
+maximize their profit that raw profit is
+
+552
+00:20:10,559 --> 00:20:12,480
+based off of prices for goods that don't
+
+553
+00:20:12,480 --> 00:20:14,760
+include externalities like the
+
+554
+00:20:14,760 --> 00:20:16,740
+environmental damage caused by carbon
+
+555
+00:20:16,740 --> 00:20:19,440
+dioxide emissions leading to increased
+
+556
+00:20:19,440 --> 00:20:21,900
+temperatures and climactic change so the
+
+557
+00:20:21,900 --> 00:20:24,059
+primary Dimension along which we have to
+
+558
+00:20:24,059 --> 00:20:26,580
+worry about carbon emissions is in
+
+559
+00:20:26,580 --> 00:20:29,520
+compute jobs that require power that
+
+560
+00:20:29,520 --> 00:20:31,559
+power has to be generated somehow and
+
+561
+00:20:31,559 --> 00:20:33,120
+that can result in the emission of
+
+562
+00:20:33,120 --> 00:20:35,700
+carbon and so there was a nice paper
+
+563
+00:20:35,700 --> 00:20:37,919
+Linked In This slide that walked through
+
+564
+00:20:37,919 --> 00:20:40,500
+how much carbon dioxide was emitted
+
+565
+00:20:40,500 --> 00:20:43,140
+using typical us-based Cloud
+
+566
+00:20:43,140 --> 00:20:45,840
+infrastructure and the top headline from
+
+567
+00:20:45,840 --> 00:20:48,780
+this paper was that training a large
+
+568
+00:20:48,780 --> 00:20:50,640
+Transformer model with neural
+
+569
+00:20:50,640 --> 00:20:52,860
+architecture search produces as much
+
+570
+00:20:52,860 --> 00:20:55,799
+carbon dioxide as five cars create
+
+571
+00:20:55,799 --> 00:20:57,660
+during their lifetime so that sounds
+
+572
+00:20:57,660 --> 00:21:00,360
+like quite a bit of carbon dioxide and
+
+573
+00:21:00,360 --> 00:21:01,740
+it is in fact but it's important to
+
+574
+00:21:01,740 --> 00:21:05,160
+remember that power is not free and so
+
+575
+00:21:05,160 --> 00:21:06,960
+there is a metric that we're quite used
+
+576
+00:21:06,960 --> 00:21:08,760
+to tracking that is at least correlated
+
+577
+00:21:08,760 --> 00:21:11,400
+with our carbon emissions our compute
+
+578
+00:21:11,400 --> 00:21:13,380
+spend and if you look for the cost runs
+
+579
+00:21:13,380 --> 00:21:15,960
+between one and three million dollars to
+
+580
+00:21:15,960 --> 00:21:18,480
+run the neural architecture search that
+
+581
+00:21:18,480 --> 00:21:22,260
+emitted five cars worth of CO2 and one
+
+582
+00:21:22,260 --> 00:21:23,940
+to three million dollars is actually a
+
+583
+00:21:23,940 --> 00:21:25,620
+bit more than it would cost to buy five
+
+584
+00:21:25,620 --> 00:21:27,660
+cars and provide their fuel so the
+
+585
+00:21:27,660 --> 00:21:30,419
+number that I like to use is that four
+
+586
+00:21:30,419 --> 00:21:33,179
+us-based Cloud infrastructure like the
+
+587
+00:21:33,179 --> 00:21:35,220
+US West one that many of us find
+
+588
+00:21:35,220 --> 00:21:37,260
+ourselves in ten dollars of cloud spend
+
+589
+00:21:37,260 --> 00:21:39,720
+is roughly equal to one dollar worth of
+
+590
+00:21:39,720 --> 00:21:41,520
+air travel costs so that's on the basis
+
+591
+00:21:41,520 --> 00:21:44,159
+of something like the numbers in the
+
+592
+00:21:44,159 --> 00:21:45,960
+chart indicating air travel across the
+
+593
+00:21:45,960 --> 00:21:47,220
+United States from New York to San
+
+594
+00:21:47,220 --> 00:21:49,200
+Francisco I've been taking care to
+
+595
+00:21:49,200 --> 00:21:50,880
+always say us-based cloud infrastructure
+
+596
+00:21:50,880 --> 00:21:53,280
+because just changing Cloud regions can
+
+597
+00:21:53,280 --> 00:21:54,659
+actually reduce your emissions quite a
+
+598
+00:21:54,659 --> 00:21:56,039
+bit there's actually a factor of nearly
+
+599
+00:21:56,039 --> 00:21:58,440
+50x from some of the some of the cloud
+
+600
+00:21:58,440 --> 00:22:00,539
+regions that have have the most carbon
+
+601
+00:22:00,539 --> 00:22:02,700
+intensive power generation like AP
+
+602
+00:22:02,700 --> 00:22:05,460
+Southeast 2 and the regions that have
+
+603
+00:22:05,460 --> 00:22:07,860
+the the least carbon intensive power
+
+604
+00:22:07,860 --> 00:22:10,799
+like ca Central one that chart comes
+
+605
+00:22:10,799 --> 00:22:12,659
+from a nice talk from hugging face that
+
+606
+00:22:12,659 --> 00:22:14,159
+you can find on YouTube part of their
+
+607
+00:22:14,159 --> 00:22:15,720
+course that talks a little bit more
+
+608
+00:22:15,720 --> 00:22:17,880
+about that paper and about managing
+
+609
+00:22:17,880 --> 00:22:19,380
+carbon emissions interest in this
+
+610
+00:22:19,380 --> 00:22:21,299
+problem has led to some nice new tooling
+
+611
+00:22:21,299 --> 00:22:24,299
+one code carbon dot IO allows you to
+
+612
+00:22:24,299 --> 00:22:26,820
+track power consumption and therefore
+
+613
+00:22:26,820 --> 00:22:28,799
+CO2 emissions just like you would any of
+
+614
+00:22:28,799 --> 00:22:30,419
+your other metrics and then there's also
+
+615
+00:22:30,419 --> 00:22:33,360
+this mlco2 impact tool that's oriented a
+
+616
+00:22:33,360 --> 00:22:34,740
+little bit more directly towards machine
+
+617
+00:22:34,740 --> 00:22:37,020
+learning the other ethical concern in
+
+618
+00:22:37,020 --> 00:22:38,820
+Tech that I wanted to bring up is
+
+619
+00:22:38,820 --> 00:22:41,159
+deceptive design and how to recognize it
+
+620
+00:22:41,159 --> 00:22:43,740
+an unfortunate amount of deception is
+
+621
+00:22:43,740 --> 00:22:47,640
+tolerated in some areas of software the
+
+622
+00:22:47,640 --> 00:22:49,679
+example on the left comes from an
+
+623
+00:22:49,679 --> 00:22:52,440
+article by Narayanan at all that shows a
+
+624
+00:22:52,440 --> 00:22:55,559
+fake countdown timer that claims that an
+
+625
+00:22:55,559 --> 00:22:57,539
+offer will only be available for an hour
+
+626
+00:22:57,539 --> 00:23:00,240
+but when it hits zero nothing the offer
+
+627
+00:23:00,240 --> 00:23:01,860
+is still there there's also a possibly
+
+628
+00:23:01,860 --> 00:23:04,440
+apocryphal example on the right here you
+
+629
+00:23:04,440 --> 00:23:07,020
+may have seen these numbers next to
+
+630
+00:23:07,020 --> 00:23:09,120
+products when online shopping saying
+
+631
+00:23:09,120 --> 00:23:10,799
+that some number of people are currently
+
+632
+00:23:10,799 --> 00:23:12,419
+looking at this product this little
+
+633
+00:23:12,419 --> 00:23:14,460
+snippet of JavaScript here produces a
+
+634
+00:23:14,460 --> 00:23:16,500
+random number to put in that spot so
+
+635
+00:23:16,500 --> 00:23:18,059
+that example on the right may not be
+
+636
+00:23:18,059 --> 00:23:20,280
+real but because of real examples like
+
+637
+00:23:20,280 --> 00:23:22,020
+the one on the left it strikes a chord
+
+638
+00:23:22,020 --> 00:23:24,240
+with a lot of developers and Engineers
+
+639
+00:23:24,240 --> 00:23:26,460
+there's a kind of slippery slope here
+
+640
+00:23:26,460 --> 00:23:29,159
+that goes from being unclear or maybe
+
+641
+00:23:29,159 --> 00:23:31,700
+not maximally upfront about something
+
+642
+00:23:31,700 --> 00:23:35,340
+that is a source of friction or a
+
+643
+00:23:35,340 --> 00:23:37,080
+negative user experience in your product
+
+644
+00:23:37,080 --> 00:23:39,539
+and then in trying to remove that
+
+645
+00:23:39,539 --> 00:23:42,240
+friction or sand that edge down you
+
+646
+00:23:42,240 --> 00:23:44,400
+slowly find yourself being effectively
+
+647
+00:23:44,400 --> 00:23:48,240
+deceptive to your users on the left is a
+
+648
+00:23:48,240 --> 00:23:49,980
+nearly complete history of the way
+
+649
+00:23:49,980 --> 00:23:52,919
+Google displays ads in its search engine
+
+650
+00:23:52,919 --> 00:23:54,960
+results it started off very clearly
+
+651
+00:23:54,960 --> 00:23:57,059
+colored and separated out with a bright
+
+652
+00:23:57,059 --> 00:23:59,039
+color from the rest of the results and
+
+653
+00:23:59,039 --> 00:24:02,039
+then a about 10 years ago that colored
+
+654
+00:24:02,039 --> 00:24:03,659
+background was removed and replaced with
+
+655
+00:24:03,659 --> 00:24:05,280
+just a tiny little colored snippet that
+
+656
+00:24:05,280 --> 00:24:08,700
+said add and now as of 2020 that small
+
+657
+00:24:08,700 --> 00:24:11,100
+bit there is no longer even colored it's
+
+658
+00:24:11,100 --> 00:24:12,780
+just bolded and so this makes it
+
+659
+00:24:12,780 --> 00:24:14,580
+difficult for users to know which
+
+660
+00:24:14,580 --> 00:24:16,559
+content is being served to them because
+
+661
+00:24:16,559 --> 00:24:18,780
+somebody paid for them to see it versus
+
+662
+00:24:18,780 --> 00:24:21,840
+being served up organically so a number
+
+663
+00:24:21,840 --> 00:24:24,960
+of patterns of deceptive design also
+
+664
+00:24:24,960 --> 00:24:26,880
+known as dark patterns have emerged over
+
+665
+00:24:26,880 --> 00:24:28,740
+the last 10 years you can read about
+
+666
+00:24:28,740 --> 00:24:30,600
+them on this website deceptive.design
+
+667
+00:24:30,600 --> 00:24:32,400
+there's also a Twitter account at dark
+
+668
+00:24:32,400 --> 00:24:34,559
+patterns where you can share examples
+
+669
+00:24:34,559 --> 00:24:36,360
+that you find in the wild so some
+
+670
+00:24:36,360 --> 00:24:38,039
+examples that you might be familiar with
+
+671
+00:24:38,039 --> 00:24:40,740
+are the roach motel named after a kind
+
+672
+00:24:40,740 --> 00:24:42,600
+of insect trap where you can get into a
+
+673
+00:24:42,600 --> 00:24:44,100
+situation very easily but then it's very
+
+674
+00:24:44,100 --> 00:24:45,299
+hard to get out of it if you've ever
+
+675
+00:24:45,299 --> 00:24:47,640
+attempted to cancel a gym membership or
+
+676
+00:24:47,640 --> 00:24:50,280
+delete your Amazon account then you may
+
+677
+00:24:50,280 --> 00:24:52,260
+have found yourself a roach in a motel
+
+678
+00:24:52,260 --> 00:24:54,480
+another example is trick questions where
+
+679
+00:24:54,480 --> 00:24:57,900
+forms intentionally make it difficult to
+
+680
+00:24:57,900 --> 00:24:59,820
+choose the option that most use users
+
+681
+00:24:59,820 --> 00:25:02,520
+want for example using negation in a
+
+682
+00:25:02,520 --> 00:25:04,860
+non-standard way like check this box to
+
+683
+00:25:04,860 --> 00:25:08,280
+not receive emails from our service one
+
+684
+00:25:08,280 --> 00:25:11,039
+practice in our industry that's on very
+
+685
+00:25:11,039 --> 00:25:13,740
+shaky ethical and legal ground is growth
+
+686
+00:25:13,740 --> 00:25:15,480
+hacking which is a set of techniques for
+
+687
+00:25:15,480 --> 00:25:17,820
+achieving really rapid growth in user
+
+688
+00:25:17,820 --> 00:25:19,980
+base or revenue for a product and has
+
+689
+00:25:19,980 --> 00:25:21,480
+all the connotations you might expect
+
+690
+00:25:21,480 --> 00:25:24,299
+from the name hack LinkedIn was famously
+
+691
+00:25:24,299 --> 00:25:26,400
+very spammy when it first got started
+
+692
+00:25:26,400 --> 00:25:28,260
+I'd like to add you to my Professional
+
+693
+00:25:28,260 --> 00:25:30,360
+Network on LinkedIn became something of
+
+694
+00:25:30,360 --> 00:25:31,980
+a meme and this was in part because
+
+695
+00:25:31,980 --> 00:25:34,220
+LinkedIn made it very easy to
+
+696
+00:25:34,220 --> 00:25:36,480
+unintentionally send LinkedIn
+
+697
+00:25:36,480 --> 00:25:38,760
+invitations to every person you'd ever
+
+698
+00:25:38,760 --> 00:25:40,320
+emailed they ended up actually having to
+
+699
+00:25:40,320 --> 00:25:43,020
+pay out in a class action lawsuit
+
+700
+00:25:43,020 --> 00:25:45,539
+because they were sending multiple
+
+701
+00:25:45,539 --> 00:25:47,940
+follow-up emails when user only clicked
+
+702
+00:25:47,940 --> 00:25:49,620
+to send an invitation once and the
+
+703
+00:25:49,620 --> 00:25:51,120
+structure of their emails made it seem
+
+704
+00:25:51,120 --> 00:25:52,740
+like they were being sent by the user
+
+705
+00:25:52,740 --> 00:25:54,179
+rather than LinkedIn and the use of
+
+706
+00:25:54,179 --> 00:25:55,559
+these growth hacks goes back to the very
+
+707
+00:25:55,559 --> 00:25:58,200
+Inception of email Hotmail Market itself
+
+708
+00:25:58,200 --> 00:26:00,659
+in part by attacking on a signature to
+
+709
+00:26:00,659 --> 00:26:03,059
+the bottom of every email that said PS I
+
+710
+00:26:03,059 --> 00:26:05,279
+love you get your free email at Hotmail
+
+711
+00:26:05,279 --> 00:26:08,760
+so this seemed like it was being sent by
+
+712
+00:26:08,760 --> 00:26:11,400
+the actual user I grabbed a snippet from
+
+713
+00:26:11,400 --> 00:26:14,340
+a top 10 growth hacks article that said
+
+714
+00:26:14,340 --> 00:26:15,960
+that the personal sounding nature of the
+
+715
+00:26:15,960 --> 00:26:17,700
+message and the fact that it came from a
+
+716
+00:26:17,700 --> 00:26:20,220
+friend made this a very effective growth
+
+717
+00:26:20,220 --> 00:26:22,559
+hack but it's fundamentally deceptive to
+
+718
+00:26:22,559 --> 00:26:24,179
+add this to messages in such a way that
+
+719
+00:26:24,179 --> 00:26:27,120
+it seems personal and to not tell users
+
+720
+00:26:27,120 --> 00:26:29,039
+that this change is being made to the
+
+721
+00:26:29,039 --> 00:26:30,539
+emails that they're sending so machine
+
+722
+00:26:30,539 --> 00:26:32,820
+learning can actually make this problem
+
+723
+00:26:32,820 --> 00:26:36,480
+worse if we are optimizing short-term
+
+724
+00:26:36,480 --> 00:26:39,179
+metrics these growth acts and deceptive
+
+725
+00:26:39,179 --> 00:26:41,460
+designs can often Drive user and revenue
+
+726
+00:26:41,460 --> 00:26:43,860
+growth in the short term but they do
+
+727
+00:26:43,860 --> 00:26:46,740
+that by worsening user experience and
+
+728
+00:26:46,740 --> 00:26:49,320
+drawing down on Goodwill towards the
+
+729
+00:26:49,320 --> 00:26:50,760
+brand in a way that can erode the
+
+730
+00:26:50,760 --> 00:26:53,580
+long-term value of customers when we
+
+731
+00:26:53,580 --> 00:26:55,260
+incorporate machine learning into the
+
+732
+00:26:55,260 --> 00:26:57,059
+design of our products with a B testing
+
+733
+00:26:57,059 --> 00:26:59,039
+we have to watch out to make sure that
+
+734
+00:26:59,039 --> 00:27:01,200
+the the metrics that we're optimizing
+
+735
+00:27:01,200 --> 00:27:03,240
+don't encourage this kind of deception
+
+736
+00:27:03,240 --> 00:27:06,120
+so consider these two examples on the
+
+737
+00:27:06,120 --> 00:27:08,400
+right the top example is a very
+
+738
+00:27:08,400 --> 00:27:10,559
+straightforwardly implemented and direct
+
+739
+00:27:10,559 --> 00:27:13,559
+and easy to understand form for users to
+
+740
+00:27:13,559 --> 00:27:15,240
+indicate whether they want to receive
+
+741
+00:27:15,240 --> 00:27:17,400
+emails from the company and from its
+
+742
+00:27:17,400 --> 00:27:20,340
+Affiliates in example B the wording of
+
+743
+00:27:20,340 --> 00:27:21,900
+the first message has been changed so
+
+744
+00:27:21,900 --> 00:27:23,520
+that it indicates that the first hitbox
+
+745
+00:27:23,520 --> 00:27:25,679
+should be checked to not receive emails
+
+746
+00:27:25,679 --> 00:27:27,480
+while the second one should not be
+
+747
+00:27:27,480 --> 00:27:29,520
+ticked in order to not receive emails
+
+748
+00:27:29,520 --> 00:27:31,500
+and if you're a b testing these two
+
+749
+00:27:31,500 --> 00:27:33,419
+designs against each other and your
+
+750
+00:27:33,419 --> 00:27:36,539
+metric is the number of people who sign
+
+751
+00:27:36,539 --> 00:27:38,880
+up to receive emails then it's highly
+
+752
+00:27:38,880 --> 00:27:40,200
+likely that the system is going to
+
+753
+00:27:40,200 --> 00:27:42,600
+select example B so taking care and
+
+754
+00:27:42,600 --> 00:27:44,820
+setting up a b tests such that either
+
+755
+00:27:44,820 --> 00:27:47,340
+they're tracking longer term metrics or
+
+756
+00:27:47,340 --> 00:27:49,740
+things that correlate with them and that
+
+757
+00:27:49,740 --> 00:27:52,200
+the variant generation system that
+
+758
+00:27:52,200 --> 00:27:53,520
+generates all the different possible
+
+759
+00:27:53,520 --> 00:27:56,279
+designs can't generate any designs that
+
+760
+00:27:56,279 --> 00:27:58,260
+we would be unhappy with as we would
+
+761
+00:27:58,260 --> 00:28:00,299
+hopefully be unhappy with the deceptive
+
+762
+00:28:00,299 --> 00:28:02,100
+design in example B and I think it's
+
+763
+00:28:02,100 --> 00:28:03,840
+also important to call out that this
+
+764
+00:28:03,840 --> 00:28:05,760
+problem arises inside of another
+
+765
+00:28:05,760 --> 00:28:07,620
+alignment problem we were considering
+
+766
+00:28:07,620 --> 00:28:10,500
+the case where the long-term value of
+
+767
+00:28:10,500 --> 00:28:12,600
+customers and the company's interests
+
+768
+00:28:12,600 --> 00:28:14,520
+were being harmed by these deceptive
+
+769
+00:28:14,520 --> 00:28:16,320
+designs but unfortunately that's not
+
+770
+00:28:16,320 --> 00:28:18,419
+always going to be the case the private
+
+771
+00:28:18,419 --> 00:28:20,279
+Enterprises that build most technology
+
+772
+00:28:20,279 --> 00:28:22,919
+these days are able to deliver Broad
+
+773
+00:28:22,919 --> 00:28:25,320
+Social value to make the world a better
+
+774
+00:28:25,320 --> 00:28:27,419
+place as they say but the way that they
+
+775
+00:28:27,419 --> 00:28:28,919
+do that is generally by optimizing
+
+776
+00:28:28,919 --> 00:28:30,659
+metrics that are at best a very weak
+
+777
+00:28:30,659 --> 00:28:32,520
+proxy for that value that they're
+
+778
+00:28:32,520 --> 00:28:33,840
+delivering like their market
+
+779
+00:28:33,840 --> 00:28:35,880
+capitalization and so there's the
+
+780
+00:28:35,880 --> 00:28:37,080
+possibility of an alignment problem
+
+781
+00:28:37,080 --> 00:28:40,020
+where companies pursuing and maximizing
+
+782
+00:28:40,020 --> 00:28:42,480
+their own profit and success can lead to
+
+783
+00:28:42,480 --> 00:28:44,880
+net negative production of value and
+
+784
+00:28:44,880 --> 00:28:46,679
+this misalignment is something that if
+
+785
+00:28:46,679 --> 00:28:48,779
+you spend time at the intersection of
+
+786
+00:28:48,779 --> 00:28:51,539
+capital and funding leadership and
+
+787
+00:28:51,539 --> 00:28:53,400
+Technology development you will
+
+788
+00:28:53,400 --> 00:28:55,200
+encounter it so it's important to
+
+789
+00:28:55,200 --> 00:28:56,880
+consider these questions ahead of time
+
+790
+00:28:56,880 --> 00:28:58,559
+and come to your own position whether
+
+791
+00:28:58,559 --> 00:29:00,600
+that's trade reading this as the price
+
+792
+00:29:00,600 --> 00:29:02,159
+of doing business or the way the world
+
+793
+00:29:02,159 --> 00:29:03,779
+Works seeking ways to improve this
+
+794
+00:29:03,779 --> 00:29:06,240
+alignment or considering different ways
+
+795
+00:29:06,240 --> 00:29:07,919
+to build technology but on the shorter
+
+796
+00:29:07,919 --> 00:29:09,900
+term you can push for longer term
+
+797
+00:29:09,900 --> 00:29:11,580
+thinking within your organization to
+
+798
+00:29:11,580 --> 00:29:13,200
+allow for better alignment between the
+
+799
+00:29:13,200 --> 00:29:15,240
+metrics that you're measuring and the
+
+800
+00:29:15,240 --> 00:29:16,980
+goals that you're setting and between
+
+801
+00:29:16,980 --> 00:29:19,320
+the goals that you're setting and what
+
+802
+00:29:19,320 --> 00:29:21,960
+is overall good for our industry and for
+
+803
+00:29:21,960 --> 00:29:23,700
+the broader world and you can also learn
+
+804
+00:29:23,700 --> 00:29:25,860
+to recognize these user hostile design
+
+805
+00:29:25,860 --> 00:29:27,960
+patterns call them out when you see them
+
+806
+00:29:27,960 --> 00:29:30,240
+and you can advocate for a More
+
+807
+00:29:30,240 --> 00:29:32,580
+user-centered Design instead so to wrap
+
+808
+00:29:32,580 --> 00:29:35,340
+up our section on ethics for Building
+
+809
+00:29:35,340 --> 00:29:37,440
+Technology broadly we as an industry
+
+810
+00:29:37,440 --> 00:29:39,120
+should learn from other disciplines if
+
+811
+00:29:39,120 --> 00:29:42,299
+we want to avoid a trust crisis or if we
+
+812
+00:29:42,299 --> 00:29:44,039
+want to avoid the crisis getting any
+
+813
+00:29:44,039 --> 00:29:46,320
+worse and we can start by educating
+
+814
+00:29:46,320 --> 00:29:48,899
+ourselves about the common user hostile
+
+815
+00:29:48,899 --> 00:29:50,700
+practices in our industry and how to
+
+816
+00:29:50,700 --> 00:29:53,279
+avoid them now that we've covered the
+
+817
+00:29:53,279 --> 00:29:55,799
+kinds of ethical concerns and conflicts
+
+818
+00:29:55,799 --> 00:29:57,539
+that come up when Building Technology in
+
+819
+00:29:57,539 --> 00:30:00,240
+general let's talk about concerns that
+
+820
+00:30:00,240 --> 00:30:02,399
+are specific to machine learning just in
+
+821
+00:30:02,399 --> 00:30:04,200
+the past couple of years there have been
+
+822
+00:30:04,200 --> 00:30:06,480
+more and more ethical concerns raised
+
+823
+00:30:06,480 --> 00:30:08,520
+about the uses of machine learning and
+
+824
+00:30:08,520 --> 00:30:10,500
+this has gone beyond just the ethical
+
+825
+00:30:10,500 --> 00:30:12,120
+questions that can get raised about
+
+826
+00:30:12,120 --> 00:30:13,919
+other kinds of technology so we'll talk
+
+827
+00:30:13,919 --> 00:30:15,059
+about some of the common ethical
+
+828
+00:30:15,059 --> 00:30:17,159
+questions that have been raised
+
+829
+00:30:17,159 --> 00:30:18,720
+repeatedly over the last couple of years
+
+830
+00:30:18,720 --> 00:30:20,580
+and then we'll close out by talking
+
+831
+00:30:20,580 --> 00:30:22,380
+about what we can learn from a
+
+832
+00:30:22,380 --> 00:30:23,940
+particular sub-discipline of machine
+
+833
+00:30:23,940 --> 00:30:25,919
+learning medical machine learning so the
+
+834
+00:30:25,919 --> 00:30:27,960
+fundamental reason I think that ethics
+
+835
+00:30:27,960 --> 00:30:30,240
+is different for machine learning and
+
+836
+00:30:30,240 --> 00:30:31,620
+maybe more Salient is that machine
+
+837
+00:30:31,620 --> 00:30:33,240
+learning touches human lives more
+
+838
+00:30:33,240 --> 00:30:34,799
+intimately than a lot of other kinds of
+
+839
+00:30:34,799 --> 00:30:36,600
+technology so many machine learning
+
+840
+00:30:36,600 --> 00:30:38,220
+methods especially deep learning methods
+
+841
+00:30:38,220 --> 00:30:40,320
+make human legible data into computer
+
+842
+00:30:40,320 --> 00:30:42,480
+legible data so we're working on things
+
+843
+00:30:42,480 --> 00:30:44,460
+like computer vision on processing
+
+844
+00:30:44,460 --> 00:30:46,799
+natural language and humans are more
+
+845
+00:30:46,799 --> 00:30:48,659
+sensitive to errors in and have more
+
+846
+00:30:48,659 --> 00:30:50,640
+opinions about this kind of data about
+
+847
+00:30:50,640 --> 00:30:52,919
+images like this puppy than they do
+
+848
+00:30:52,919 --> 00:30:55,620
+about the other kinds of data
+
+849
+00:30:55,620 --> 00:30:57,539
+manipulated by computers like abstract
+
+850
+00:30:57,539 --> 00:31:00,299
+syntax trees so because of of this there
+
+851
+00:31:00,299 --> 00:31:02,940
+are more stakeholders with more concerns
+
+852
+00:31:02,940 --> 00:31:05,580
+that need to be traded off in machine
+
+853
+00:31:05,580 --> 00:31:07,140
+learning applications and then more
+
+854
+00:31:07,140 --> 00:31:08,640
+broadly machine learning involves being
+
+855
+00:31:08,640 --> 00:31:10,320
+wrong pretty much all the time there's
+
+856
+00:31:10,320 --> 00:31:12,480
+the famous statement that all models are
+
+857
+00:31:12,480 --> 00:31:14,460
+wrong though some are useful and I think
+
+858
+00:31:14,460 --> 00:31:16,320
+the first part applies at least
+
+859
+00:31:16,320 --> 00:31:18,360
+particularly strongly to machine
+
+860
+00:31:18,360 --> 00:31:20,760
+learning our models are statistical and
+
+861
+00:31:20,760 --> 00:31:22,860
+include in them Randomness the way that
+
+862
+00:31:22,860 --> 00:31:24,960
+we frame our problems the way that we
+
+863
+00:31:24,960 --> 00:31:26,880
+frame our optimization in terms of cross
+
+864
+00:31:26,880 --> 00:31:29,640
+entropies or divergences and Randomness
+
+865
+00:31:29,640 --> 00:31:31,440
+is almost always an admission of
+
+866
+00:31:31,440 --> 00:31:33,779
+ignorance even the quintessential
+
+867
+00:31:33,779 --> 00:31:35,520
+examples of Randomness like random
+
+868
+00:31:35,520 --> 00:31:37,440
+number generation in computers and the
+
+869
+00:31:37,440 --> 00:31:39,120
+flipping of a coin are things that we
+
+870
+00:31:39,120 --> 00:31:42,179
+know in fact are not random truly they
+
+871
+00:31:42,179 --> 00:31:44,100
+are in fact predictable and if we knew
+
+872
+00:31:44,100 --> 00:31:47,159
+the right things and had the right laws
+
+873
+00:31:47,159 --> 00:31:48,539
+of physics and the right computational
+
+874
+00:31:48,539 --> 00:31:51,059
+power then we could predict how a coin
+
+875
+00:31:51,059 --> 00:31:53,100
+would land we could control it we could
+
+876
+00:31:53,100 --> 00:31:54,720
+predict what the next number to come out
+
+877
+00:31:54,720 --> 00:31:56,220
+of a random number generator would be
+
+878
+00:31:56,220 --> 00:31:58,080
+whether it's pseudorandom or based on
+
+879
+00:31:58,080 --> 00:31:59,760
+some kind of Hardware Randomness and so
+
+880
+00:31:59,760 --> 00:32:01,320
+we're admitting a certain degree of
+
+881
+00:32:01,320 --> 00:32:03,360
+ignorance in our models and that means
+
+882
+00:32:03,360 --> 00:32:04,500
+our models are going to be wrong and
+
+883
+00:32:04,500 --> 00:32:06,000
+they're going to misunderstand
+
+884
+00:32:06,000 --> 00:32:09,059
+situations that they are put into and it
+
+885
+00:32:09,059 --> 00:32:10,620
+can be very upsetting and even harmful
+
+886
+00:32:10,620 --> 00:32:12,600
+to be misunderstood by a machine
+
+887
+00:32:12,600 --> 00:32:14,940
+learning model so against this backdrop
+
+888
+00:32:14,940 --> 00:32:18,120
+of Greater interest or higher Stakes a
+
+889
+00:32:18,120 --> 00:32:20,399
+number of common types of ethical
+
+890
+00:32:20,399 --> 00:32:22,980
+concern have coalesced in the last
+
+891
+00:32:22,980 --> 00:32:25,440
+couple of years and there are somewhat
+
+892
+00:32:25,440 --> 00:32:27,360
+established camps of answers to these
+
+893
+00:32:27,360 --> 00:32:29,159
+questions and you should at least know
+
+894
+00:32:29,159 --> 00:32:31,320
+where it is you stand on these core
+
+895
+00:32:31,320 --> 00:32:33,179
+questions so for four really important
+
+896
+00:32:33,179 --> 00:32:34,380
+questions that you should be able to
+
+897
+00:32:34,380 --> 00:32:36,360
+answer about about anything that you
+
+898
+00:32:36,360 --> 00:32:38,220
+build with machine learning are is the
+
+899
+00:32:38,220 --> 00:32:39,840
+model fair and what does that mean in
+
+900
+00:32:39,840 --> 00:32:41,520
+this situation is the system that you're
+
+901
+00:32:41,520 --> 00:32:43,559
+building accountable who owns the data
+
+902
+00:32:43,559 --> 00:32:45,720
+involved in this system and finally and
+
+903
+00:32:45,720 --> 00:32:47,399
+perhaps most importantly an undergirding
+
+904
+00:32:47,399 --> 00:32:49,260
+all of these questions is should this
+
+905
+00:32:49,260 --> 00:32:51,659
+system be built at all so first is the
+
+906
+00:32:51,659 --> 00:32:53,159
+model we're building Fair the classic
+
+907
+00:32:53,159 --> 00:32:55,200
+case on this comes from Criminal Justice
+
+908
+00:32:55,200 --> 00:32:57,720
+from the compass system for predicting
+
+909
+00:32:57,720 --> 00:32:59,880
+before trial whether a defendant will be
+
+910
+00:32:59,880 --> 00:33:01,740
+arrested again so if they're arrested
+
+911
+00:33:01,740 --> 00:33:03,240
+again that's just they committed a crime
+
+912
+00:33:03,240 --> 00:33:04,799
+during that time and so this is
+
+913
+00:33:04,799 --> 00:33:07,080
+assessing a certain degree of risk for
+
+914
+00:33:07,080 --> 00:33:09,000
+additional harm while the justice system
+
+915
+00:33:09,000 --> 00:33:10,679
+is deciding what to do about a previous
+
+916
+00:33:10,679 --> 00:33:13,019
+arrest and potential crime so the
+
+917
+00:33:13,019 --> 00:33:15,480
+operationalization here was a 10-point
+
+918
+00:33:15,480 --> 00:33:17,640
+rearrest probability based off of past
+
+919
+00:33:17,640 --> 00:33:20,039
+data about this person and they set a
+
+920
+00:33:20,039 --> 00:33:21,659
+goal from the very beginning to be less
+
+921
+00:33:21,659 --> 00:33:23,760
+biased than human judges so they
+
+922
+00:33:23,760 --> 00:33:26,220
+operationalize that by calibrating these
+
+923
+00:33:26,220 --> 00:33:28,080
+arrest probabilities and making sure
+
+924
+00:33:28,080 --> 00:33:32,880
+that if say a person received a 2 2 on
+
+925
+00:33:32,880 --> 00:33:35,519
+this scale they had a 20 chance of being
+
+926
+00:33:35,519 --> 00:33:37,860
+arrested again and then critically that
+
+927
+00:33:37,860 --> 00:33:39,299
+those probabilities were calibrated
+
+928
+00:33:39,299 --> 00:33:42,480
+across subgroups so racial bias is one
+
+929
+00:33:42,480 --> 00:33:45,120
+of the primary concerns around bias in
+
+930
+00:33:45,120 --> 00:33:46,500
+criminal justice in the United States
+
+931
+00:33:46,500 --> 00:33:48,720
+and so they took care to make sure that
+
+932
+00:33:48,720 --> 00:33:50,700
+these probabilities of rearrest were
+
+933
+00:33:50,700 --> 00:33:54,299
+calibrated for all racial groups the
+
+934
+00:33:54,299 --> 00:33:56,760
+system was deployed in it is actually
+
+935
+00:33:56,760 --> 00:33:58,919
+used all around the United States it's
+
+936
+00:33:58,919 --> 00:34:02,519
+proprietary so it's difficult to analyze
+
+937
+00:34:02,519 --> 00:34:05,519
+but using the Freedom of Information Act
+
+938
+00:34:05,519 --> 00:34:07,799
+and by colliding together a bunch of
+
+939
+00:34:07,799 --> 00:34:10,320
+Records some people at propublica were
+
+940
+00:34:10,320 --> 00:34:12,480
+able to run their own analysis of this
+
+941
+00:34:12,480 --> 00:34:15,359
+algorithm and they determined that
+
+942
+00:34:15,359 --> 00:34:17,940
+though this calibration that Compass
+
+943
+00:34:17,940 --> 00:34:20,580
+claimed for arrest probabilities was
+
+944
+00:34:20,580 --> 00:34:22,379
+there so the model was not more or less
+
+945
+00:34:22,379 --> 00:34:24,960
+wrong for one racial group or another
+
+946
+00:34:24,960 --> 00:34:26,879
+the way that the model tended to fail
+
+947
+00:34:26,879 --> 00:34:29,699
+was different across racial groups so
+
+948
+00:34:29,699 --> 00:34:33,000
+the model had more false positives for
+
+949
+00:34:33,000 --> 00:34:35,580
+black defendants so saying that somebody
+
+950
+00:34:35,580 --> 00:34:37,800
+was higher risk but then them not going
+
+951
+00:34:37,800 --> 00:34:40,320
+on to reoffend and had more false
+
+952
+00:34:40,320 --> 00:34:42,719
+negatives for white defendants so
+
+953
+00:34:42,719 --> 00:34:44,760
+labeling them as low risk and then them
+
+954
+00:34:44,760 --> 00:34:47,580
+going on to reoffend so despite North
+
+955
+00:34:47,580 --> 00:34:49,739
+Point the creators of compass taking
+
+956
+00:34:49,739 --> 00:34:51,599
+into account bias from the beginning
+
+957
+00:34:51,599 --> 00:34:53,820
+they ended up with an algorithm with
+
+958
+00:34:53,820 --> 00:34:56,399
+this undesirable property of being more
+
+959
+00:34:56,399 --> 00:34:58,320
+likely to effectively falsely accuse
+
+960
+00:34:58,320 --> 00:34:59,820
+defendants who were black than
+
+961
+00:34:59,820 --> 00:35:01,500
+defendants who were white this report
+
+962
+00:35:01,500 --> 00:35:03,599
+touched off a ton of controversy and
+
+963
+00:35:03,599 --> 00:35:05,520
+back and forth between propublica the
+
+964
+00:35:05,520 --> 00:35:06,720
+creator of the article and North Point
+
+965
+00:35:06,720 --> 00:35:09,119
+Craters of compass and also a bunch of
+
+966
+00:35:09,119 --> 00:35:11,520
+research and it turned out that some
+
+967
+00:35:11,520 --> 00:35:14,300
+quick algebra revealed that some form of
+
+968
+00:35:14,300 --> 00:35:16,980
+race-based bias is inevitable in this
+
+969
+00:35:16,980 --> 00:35:18,420
+setting so the things that we care about
+
+970
+00:35:18,420 --> 00:35:20,220
+when we're building a binary classifier
+
+971
+00:35:20,220 --> 00:35:22,380
+are relatively simple you can write down
+
+972
+00:35:22,380 --> 00:35:24,839
+all of these metrics directly so we care
+
+973
+00:35:24,839 --> 00:35:26,220
+about things like the false positive
+
+974
+00:35:26,220 --> 00:35:27,660
+rate which means we've imprisoned
+
+975
+00:35:27,660 --> 00:35:29,760
+somebody with no need the false negative
+
+976
+00:35:29,760 --> 00:35:31,260
+rate which means we missed an
+
+977
+00:35:31,260 --> 00:35:33,240
+opportunity to event a situation that
+
+978
+00:35:33,240 --> 00:35:35,040
+led to an arrest and then we also care
+
+979
+00:35:35,040 --> 00:35:36,839
+about the positive predictive value
+
+980
+00:35:36,839 --> 00:35:39,599
+which is this rearrest probability that
+
+981
+00:35:39,599 --> 00:35:42,180
+Compass was calibrated on so because all
+
+982
+00:35:42,180 --> 00:35:43,859
+of these metrics are related to each
+
+983
+00:35:43,859 --> 00:35:46,200
+other and related to The Joint
+
+984
+00:35:46,200 --> 00:35:49,380
+probability distribution of our model's
+
+985
+00:35:49,380 --> 00:35:52,680
+labels and the actual ground truth if
+
+986
+00:35:52,680 --> 00:35:54,780
+the probability of rearrest differs
+
+987
+00:35:54,780 --> 00:35:57,720
+across groups then we have to have that
+
+988
+00:35:57,720 --> 00:35:59,040
+some of these numbers are different
+
+989
+00:35:59,040 --> 00:36:01,500
+across groups and that is a form of
+
+990
+00:36:01,500 --> 00:36:03,900
+racial bias so the basic way that this
+
+991
+00:36:03,900 --> 00:36:06,060
+argument works just involves rearranging
+
+992
+00:36:06,060 --> 00:36:08,640
+these numbers and saying that if the
+
+993
+00:36:08,640 --> 00:36:10,380
+numbers on the left side of this
+
+994
+00:36:10,380 --> 00:36:12,240
+equation are different for Group 1 and
+
+995
+00:36:12,240 --> 00:36:14,280
+group two then it can't possibly be the
+
+996
+00:36:14,280 --> 00:36:16,380
+case that all three of the numbers on
+
+997
+00:36:16,380 --> 00:36:18,000
+the right hand side are the same for
+
+998
+00:36:18,000 --> 00:36:20,400
+Group 1 and group two and I'm presenting
+
+999
+00:36:20,400 --> 00:36:22,140
+this here as though it only impacts
+
+1000
+00:36:22,140 --> 00:36:23,880
+these specific binary classification
+
+1001
+00:36:23,880 --> 00:36:26,040
+metrics but there are are in fact a very
+
+1002
+00:36:26,040 --> 00:36:27,420
+large number of definitions of fairness
+
+1003
+00:36:27,420 --> 00:36:29,460
+which are mutually incompatible so
+
+1004
+00:36:29,460 --> 00:36:30,900
+there's a nice a really incredible
+
+1005
+00:36:30,900 --> 00:36:34,020
+tutorial by Arvin Narayanan who was also
+
+1006
+00:36:34,020 --> 00:36:37,260
+the first author on the dark patterns
+
+1007
+00:36:37,260 --> 00:36:39,540
+work on a bunch of these fairness
+
+1008
+00:36:39,540 --> 00:36:41,220
+definitions what they mean and why
+
+1009
+00:36:41,220 --> 00:36:42,660
+they're in commensurate so I can highly
+
+1010
+00:36:42,660 --> 00:36:44,400
+recommend that lecture so returning to
+
+1011
+00:36:44,400 --> 00:36:46,800
+our concrete case if the prevalence is
+
+1012
+00:36:46,800 --> 00:36:50,160
+differ across groups then one of our
+
+1013
+00:36:50,160 --> 00:36:51,540
+things that we're concerned with the
+
+1014
+00:36:51,540 --> 00:36:53,160
+false positive rate the false negative
+
+1015
+00:36:53,160 --> 00:36:54,900
+rate or the positive predictive value
+
+1016
+00:36:54,900 --> 00:36:56,760
+will not be equal and that's something
+
+1017
+00:36:56,760 --> 00:36:58,440
+that people can point to and say that's
+
+1018
+00:36:58,440 --> 00:37:00,660
+unfair in the middle that positive
+
+1019
+00:37:00,660 --> 00:37:02,579
+predictive value was equalized across
+
+1020
+00:37:02,579 --> 00:37:04,619
+groups in compass that was what they
+
+1021
+00:37:04,619 --> 00:37:06,180
+really wanted to make sure was equal
+
+1022
+00:37:06,180 --> 00:37:08,940
+cross groups and because the probability
+
+1023
+00:37:08,940 --> 00:37:11,760
+of rearrest was larger for black
+
+1024
+00:37:11,760 --> 00:37:14,640
+defendants then either the false
+
+1025
+00:37:14,640 --> 00:37:16,560
+positive rate had to be bigger or the
+
+1026
+00:37:16,560 --> 00:37:18,480
+false negative rate had to be bigger for
+
+1027
+00:37:18,480 --> 00:37:20,820
+that group and there's an analysis in
+
+1028
+00:37:20,820 --> 00:37:23,820
+this cholachova 2017 paper that suggests
+
+1029
+00:37:23,820 --> 00:37:25,500
+that the usual way that this will work
+
+1030
+00:37:25,500 --> 00:37:26,820
+is that there will be a higher false
+
+1031
+00:37:26,820 --> 00:37:29,280
+positive rate for the group with a
+
+1032
+00:37:29,280 --> 00:37:31,440
+larger prevalence so the fact that there
+
+1033
+00:37:31,440 --> 00:37:33,420
+will be some form of unfairness that we
+
+1034
+00:37:33,420 --> 00:37:35,339
+can't just say oh well all these metrics
+
+1035
+00:37:35,339 --> 00:37:37,200
+are the same across all groups and so
+
+1036
+00:37:37,200 --> 00:37:39,660
+everything has to be fair that fact is
+
+1037
+00:37:39,660 --> 00:37:42,780
+fixed but the impact of the unfairness
+
+1038
+00:37:42,780 --> 00:37:45,180
+of models is not fixed the story is
+
+1039
+00:37:45,180 --> 00:37:47,640
+often presented as oh well no matter
+
+1040
+00:37:47,640 --> 00:37:49,859
+what the journalists would have found
+
+1041
+00:37:49,859 --> 00:37:51,119
+something to complain about there's
+
+1042
+00:37:51,119 --> 00:37:53,220
+always critics and so you know you don't
+
+1043
+00:37:53,220 --> 00:37:54,540
+need to worry about fairness that much
+
+1044
+00:37:54,540 --> 00:37:56,460
+but I think it's important to note that
+
+1045
+00:37:56,460 --> 00:37:58,140
+the particular kind of unfairness that
+
+1046
+00:37:58,140 --> 00:38:00,060
+came about from this model from focusing
+
+1047
+00:38:00,060 --> 00:38:02,760
+on this positive predictive value led to
+
+1048
+00:38:02,760 --> 00:38:05,099
+a higher false positive rate more
+
+1049
+00:38:05,099 --> 00:38:07,320
+unnecessary imprisonment for black
+
+1050
+00:38:07,320 --> 00:38:09,540
+defendants the false positive rate and
+
+1051
+00:38:09,540 --> 00:38:10,800
+the positive predictive value were
+
+1052
+00:38:10,800 --> 00:38:12,420
+equalized across groups that would have
+
+1053
+00:38:12,420 --> 00:38:14,280
+led to a higher false negative rate for
+
+1054
+00:38:14,280 --> 00:38:15,720
+black defendants relative to White
+
+1055
+00:38:15,720 --> 00:38:17,579
+defendants and in the context of
+
+1056
+00:38:17,579 --> 00:38:19,740
+American politics and concerns about
+
+1057
+00:38:19,740 --> 00:38:22,020
+racial inequity in the criminal justice
+
+1058
+00:38:22,020 --> 00:38:24,119
+system bias against white defendants is
+
+1059
+00:38:24,119 --> 00:38:26,040
+not going to lead to complaints from the
+
+1060
+00:38:26,040 --> 00:38:27,720
+same people and has a different
+
+1061
+00:38:27,720 --> 00:38:30,000
+relationship to the historical operation
+
+1062
+00:38:30,000 --> 00:38:32,099
+of the American justice system and so
+
+1063
+00:38:32,099 --> 00:38:34,380
+far from this being a story about the
+
+1064
+00:38:34,380 --> 00:38:36,960
+hopelessness of thinking about or caring
+
+1065
+00:38:36,960 --> 00:38:39,180
+about fairness this is a story about the
+
+1066
+00:38:39,180 --> 00:38:41,220
+necessity of confronting the trade-offs
+
+1067
+00:38:41,220 --> 00:38:43,680
+that are inevitably going to come up so
+
+1068
+00:38:43,680 --> 00:38:45,300
+some researchers that Google made a nice
+
+1069
+00:38:45,300 --> 00:38:47,760
+little tool where you can try thinking
+
+1070
+00:38:47,760 --> 00:38:49,440
+through and making these trade-offs for
+
+1071
+00:38:49,440 --> 00:38:51,900
+yourself it's a loan decision rather
+
+1072
+00:38:51,900 --> 00:38:54,119
+than a criminal justice decision but it
+
+1073
+00:38:54,119 --> 00:38:55,500
+has a lot of the same properties you
+
+1074
+00:38:55,500 --> 00:38:57,420
+have a binary classifier you have
+
+1075
+00:38:57,420 --> 00:38:59,280
+different possible goals that you might
+
+1076
+00:38:59,280 --> 00:39:02,940
+set either maximizing the profit of the
+
+1077
+00:39:02,940 --> 00:39:04,800
+loaning entity or providing equal
+
+1078
+00:39:04,800 --> 00:39:07,260
+opportunity to the two groups and it's
+
+1079
+00:39:07,260 --> 00:39:09,720
+very helpful for building intuition on
+
+1080
+00:39:09,720 --> 00:39:12,300
+these fairness metrics and what it means
+
+1081
+00:39:12,300 --> 00:39:14,880
+to pay pick one over the other and these
+
+1082
+00:39:14,880 --> 00:39:17,280
+events in this controversy kicked off a
+
+1083
+00:39:17,280 --> 00:39:20,339
+real flurry of research on fairness and
+
+1084
+00:39:20,339 --> 00:39:21,900
+there's now been several years of this
+
+1085
+00:39:21,900 --> 00:39:23,520
+fairness accountability and transparity
+
+1086
+00:39:23,520 --> 00:39:26,280
+Conference fact there's tons of work on
+
+1087
+00:39:26,280 --> 00:39:29,400
+both algorithmic level approaches to try
+
+1088
+00:39:29,400 --> 00:39:31,500
+and measure these fairness metrics
+
+1089
+00:39:31,500 --> 00:39:33,660
+incorporate them into training and also
+
+1090
+00:39:33,660 --> 00:39:36,180
+more qualitative work on designing
+
+1091
+00:39:36,180 --> 00:39:37,740
+systems that are more transparent and
+
+1092
+00:39:37,740 --> 00:39:40,260
+accountable so the compass example is
+
+1093
+00:39:40,260 --> 00:39:43,320
+really important for dramatizing these
+
+1094
+00:39:43,320 --> 00:39:45,780
+issues of fairness but I think it's very
+
+1095
+00:39:45,780 --> 00:39:48,119
+critical for this case and for many
+
+1096
+00:39:48,119 --> 00:39:50,280
+others to step back and ask whether this
+
+1097
+00:39:50,280 --> 00:39:51,599
+model should be built at all so this
+
+1098
+00:39:51,599 --> 00:39:53,520
+algorithm for scoring risk is
+
+1099
+00:39:53,520 --> 00:39:56,220
+proprietary and uninterpretable it
+
+1100
+00:39:56,220 --> 00:39:58,740
+doesn't give answers for why a person is
+
+1101
+00:39:58,740 --> 00:40:00,960
+higher risk or not and because it is
+
+1102
+00:40:00,960 --> 00:40:03,300
+closed Source there's no way to examine
+
+1103
+00:40:03,300 --> 00:40:05,400
+it it achieves an accuracy of about 65
+
+1104
+00:40:05,400 --> 00:40:07,980
+which is quite High given that the
+
+1105
+00:40:07,980 --> 00:40:09,540
+marginal probability of reoffence is
+
+1106
+00:40:09,540 --> 00:40:11,339
+much lower than 50 but it's important to
+
+1107
+00:40:11,339 --> 00:40:13,140
+compare the baselines here pulling
+
+1108
+00:40:13,140 --> 00:40:15,240
+together a bunch of non-experts like you
+
+1109
+00:40:15,240 --> 00:40:17,640
+would on a jury has an accuracy of about
+
+1110
+00:40:17,640 --> 00:40:20,940
+65 percent and creating a simple scoring
+
+1111
+00:40:20,940 --> 00:40:22,980
+system on the basis of how old the
+
+1112
+00:40:22,980 --> 00:40:24,720
+person is and how many prior arrests
+
+1113
+00:40:24,720 --> 00:40:26,579
+they have also has an accuracy of around
+
+1114
+00:40:26,579 --> 00:40:29,579
+65 and it's much easier to feel
+
+1115
+00:40:29,579 --> 00:40:31,500
+comfortable with the system that says if
+
+1116
+00:40:31,500 --> 00:40:33,900
+you've been arrested twice then you have
+
+1117
+00:40:33,900 --> 00:40:36,000
+a higher risk of being arrested again
+
+1118
+00:40:36,000 --> 00:40:38,820
+and so you'll be imprisoned before trial
+
+1119
+00:40:38,820 --> 00:40:41,400
+then a system that just says oh well we
+
+1120
+00:40:41,400 --> 00:40:42,839
+ran the numbers and it looks like you
+
+1121
+00:40:42,839 --> 00:40:44,280
+have a high chance of committing a crime
+
+1122
+00:40:44,280 --> 00:40:46,500
+but even framing this problem in terms
+
+1123
+00:40:46,500 --> 00:40:49,440
+of who is likely to be rearrested is
+
+1124
+00:40:49,440 --> 00:40:51,540
+already potentially a mistake so a
+
+1125
+00:40:51,540 --> 00:40:53,400
+slightly different example of predicting
+
+1126
+00:40:53,400 --> 00:40:55,680
+failure to appear in court was tweeted
+
+1127
+00:40:55,680 --> 00:40:57,180
+out by Moritz heart who's one of the
+
+1128
+00:40:57,180 --> 00:40:59,520
+main researchers in this area choosing
+
+1129
+00:40:59,520 --> 00:41:01,140
+to try to predict who will fail to
+
+1130
+00:41:01,140 --> 00:41:02,640
+appear in court treating this as
+
+1131
+00:41:02,640 --> 00:41:04,560
+something that is then a fact of the
+
+1132
+00:41:04,560 --> 00:41:06,359
+universe that this person is likely to
+
+1133
+00:41:06,359 --> 00:41:07,859
+fail to appear in court and then
+
+1134
+00:41:07,859 --> 00:41:09,720
+intervening on this and punishing them
+
+1135
+00:41:09,720 --> 00:41:11,640
+for that for that fact it's important to
+
+1136
+00:41:11,640 --> 00:41:13,800
+recognize why people fail to appear in
+
+1137
+00:41:13,800 --> 00:41:16,200
+court in general often it's because they
+
+1138
+00:41:16,200 --> 00:41:18,720
+don't have child care to cover for the
+
+1139
+00:41:18,720 --> 00:41:19,800
+care of their dependence while they're
+
+1140
+00:41:19,800 --> 00:41:21,380
+in court they don't have transportation
+
+1141
+00:41:21,380 --> 00:41:24,480
+their work schedule is inflexible or the
+
+1142
+00:41:24,480 --> 00:41:26,820
+core deployment schedule is inflexible
+
+1143
+00:41:26,820 --> 00:41:28,440
+or unreasonable it'd be better to
+
+1144
+00:41:28,440 --> 00:41:30,180
+implement steps to mitigate these issues
+
+1145
+00:41:30,180 --> 00:41:31,619
+and reduce the number of people who are
+
+1146
+00:41:31,619 --> 00:41:33,420
+likely to fail to appear in court for
+
+1147
+00:41:33,420 --> 00:41:35,579
+example by making it possible to join
+
+1148
+00:41:35,579 --> 00:41:37,320
+Court remotely that's a far better
+
+1149
+00:41:37,320 --> 00:41:39,780
+approach for all involved than simply
+
+1150
+00:41:39,780 --> 00:41:41,880
+getting really really good at predicting
+
+1151
+00:41:41,880 --> 00:41:43,560
+Who currently fails to appear in court
+
+1152
+00:41:43,560 --> 00:41:45,240
+so it's important to remember that the
+
+1153
+00:41:45,240 --> 00:41:46,320
+things that we're measuring the things
+
+1154
+00:41:46,320 --> 00:41:48,420
+that we're predicting are not the be-all
+
+1155
+00:41:48,420 --> 00:41:50,640
+end-all in themselves the things that we
+
+1156
+00:41:50,640 --> 00:41:53,040
+care about are things like an effective
+
+1157
+00:41:53,040 --> 00:41:56,220
+and fair justice system and this comes
+
+1158
+00:41:56,220 --> 00:41:58,920
+up perhaps most acutely in the case of
+
+1159
+00:41:58,920 --> 00:42:01,020
+compass when we recognize that rearrest
+
+1160
+00:42:01,020 --> 00:42:03,720
+is not the same as recidivism it's not
+
+1161
+00:42:03,720 --> 00:42:06,060
+the same thing as committing more crimes
+
+1162
+00:42:06,060 --> 00:42:08,760
+being rearrested requires that a police
+
+1163
+00:42:08,760 --> 00:42:10,800
+officer believes that you committed a
+
+1164
+00:42:10,800 --> 00:42:12,839
+crime police officers are subject effect
+
+1165
+00:42:12,839 --> 00:42:15,780
+to their own biases and patterns of
+
+1166
+00:42:15,780 --> 00:42:18,480
+policing result in a far higher fraction
+
+1167
+00:42:18,480 --> 00:42:20,940
+of crimes being caught for some groups
+
+1168
+00:42:20,940 --> 00:42:23,460
+than for others and so our real goal in
+
+1169
+00:42:23,460 --> 00:42:25,560
+terms of fairness and criminal justice
+
+1170
+00:42:25,560 --> 00:42:28,380
+might be around reducing those kinds of
+
+1171
+00:42:28,380 --> 00:42:31,500
+unfair impacts and using past rearrest
+
+1172
+00:42:31,500 --> 00:42:34,079
+data that we know has these issues to
+
+1173
+00:42:34,079 --> 00:42:36,359
+determine who is treated more harshly by
+
+1174
+00:42:36,359 --> 00:42:38,220
+the criminal justice system is likely to
+
+1175
+00:42:38,220 --> 00:42:40,560
+exacerbate these issues there's also a
+
+1176
+00:42:40,560 --> 00:42:43,380
+notion of model fairness that is broader
+
+1177
+00:42:43,380 --> 00:42:45,119
+than just models that make decisions
+
+1178
+00:42:45,119 --> 00:42:47,040
+about human beings so even if you're
+
+1179
+00:42:47,040 --> 00:42:49,859
+deciding a model that works on text or
+
+1180
+00:42:49,859 --> 00:42:51,780
+works on images you should consider
+
+1181
+00:42:51,780 --> 00:42:54,660
+which kinds of people your model works
+
+1182
+00:42:54,660 --> 00:42:56,460
+well for and in general representation
+
+1183
+00:42:56,460 --> 00:42:59,099
+both on engineering and management teams
+
+1184
+00:42:59,099 --> 00:43:01,079
+and in data sets really matters for this
+
+1185
+00:43:01,079 --> 00:43:02,640
+kind of model fairness so it's
+
+1186
+00:43:02,640 --> 00:43:04,440
+unfortunately still very easy to make
+
+1187
+00:43:04,440 --> 00:43:06,359
+machine learning powered technology that
+
+1188
+00:43:06,359 --> 00:43:08,760
+fails for minoritized groups so for
+
+1189
+00:43:08,760 --> 00:43:10,500
+example off-the-shelf computer vision
+
+1190
+00:43:10,500 --> 00:43:13,800
+tools will often fail on darker skin so
+
+1191
+00:43:13,800 --> 00:43:15,839
+this is an example by Joy bull and
+
+1192
+00:43:15,839 --> 00:43:18,540
+weenie from MIT on how a computer vision
+
+1193
+00:43:18,540 --> 00:43:20,400
+based project that she was working on
+
+1194
+00:43:20,400 --> 00:43:22,920
+ran into difficulties because the face
+
+1195
+00:43:22,920 --> 00:43:24,599
+detection algorithm could not detect her
+
+1196
+00:43:24,599 --> 00:43:26,220
+face even though it could detect the
+
+1197
+00:43:26,220 --> 00:43:27,900
+faces of some of her friends with
+
+1198
+00:43:27,900 --> 00:43:30,060
+lighter skin and in fact she found that
+
+1199
+00:43:30,060 --> 00:43:32,099
+just putting on a white mask was enough
+
+1200
+00:43:32,099 --> 00:43:33,660
+to get the computer vision model to
+
+1201
+00:43:33,660 --> 00:43:35,880
+detect her face so this is unfortunately
+
+1202
+00:43:35,880 --> 00:43:39,359
+not a new issue in technology it's just
+
+1203
+00:43:39,359 --> 00:43:41,640
+a more Salient one with machine learning
+
+1204
+00:43:41,640 --> 00:43:43,920
+so one example is that hand soap
+
+1205
+00:43:43,920 --> 00:43:46,680
+dispensers that use infrared to
+
+1206
+00:43:46,680 --> 00:43:48,300
+determine when to dispense soap will
+
+1207
+00:43:48,300 --> 00:43:50,339
+often work better for lighter skin than
+
+1208
+00:43:50,339 --> 00:43:53,339
+darker skin and issues around lighting
+
+1209
+00:43:53,339 --> 00:43:57,119
+and vision and skin tone go back to the
+
+1210
+00:43:57,119 --> 00:43:59,760
+foundation of Photography let alone
+
+1211
+00:43:59,760 --> 00:44:02,640
+computer vision the design of film of
+
+1212
+00:44:02,640 --> 00:44:05,040
+cameras and printing processes was
+
+1213
+00:44:05,040 --> 00:44:07,680
+oriented around primarily making lighter
+
+1214
+00:44:07,680 --> 00:44:10,079
+skin photograph well as in these
+
+1215
+00:44:10,079 --> 00:44:12,060
+so-called Shirley cards that were used
+
+1216
+00:44:12,060 --> 00:44:14,220
+by code DAC for calibration these
+
+1217
+00:44:14,220 --> 00:44:18,180
+resulted in much worse experiences for
+
+1218
+00:44:18,180 --> 00:44:20,099
+people with darker skin using these
+
+1219
+00:44:20,099 --> 00:44:22,020
+cameras there has been a good amount of
+
+1220
+00:44:22,020 --> 00:44:24,540
+work on this and progress since four or
+
+1221
+00:44:24,540 --> 00:44:26,339
+five years ago one example of the kind
+
+1222
+00:44:26,339 --> 00:44:27,599
+of tool that can help with this are
+
+1223
+00:44:27,599 --> 00:44:30,660
+these model cards this particular format
+
+1224
+00:44:30,660 --> 00:44:32,640
+for talking about what a model can and
+
+1225
+00:44:32,640 --> 00:44:35,520
+cannot do that was published by a number
+
+1226
+00:44:35,520 --> 00:44:37,500
+of researchers including Margaret
+
+1227
+00:44:37,500 --> 00:44:39,300
+Mitchell and Timmy Gabriel it includes
+
+1228
+00:44:39,300 --> 00:44:41,700
+explicitly considering things like on
+
+1229
+00:44:41,700 --> 00:44:44,640
+which human subgroups of Interest many
+
+1230
+00:44:44,640 --> 00:44:46,619
+of them minoritized identities how well
+
+1231
+00:44:46,619 --> 00:44:48,660
+does the model perform hugging face has
+
+1232
+00:44:48,660 --> 00:44:50,220
+good Integrations for creating these
+
+1233
+00:44:50,220 --> 00:44:52,020
+kinds of model cards I think it's
+
+1234
+00:44:52,020 --> 00:44:53,700
+important to note that just solving
+
+1235
+00:44:53,700 --> 00:44:55,859
+these things by changing the data around
+
+1236
+00:44:55,859 --> 00:44:57,900
+or by calculating demographic
+
+1237
+00:44:57,900 --> 00:45:00,300
+information is not really an adequate
+
+1238
+00:45:00,300 --> 00:45:03,240
+response if the CEO of Kodak or their
+
+1239
+00:45:03,240 --> 00:45:05,520
+partner had been photographed poorly by
+
+1240
+00:45:05,520 --> 00:45:07,500
+those cameras then there's no chance
+
+1241
+00:45:07,500 --> 00:45:09,660
+that that issue would have been allowed
+
+1242
+00:45:09,660 --> 00:45:12,359
+to stay for decades so when you're
+
+1243
+00:45:12,359 --> 00:45:14,760
+looking at inviting people for talks
+
+1244
+00:45:14,760 --> 00:45:18,060
+hiring people or joining organizations
+
+1245
+00:45:18,060 --> 00:45:20,099
+you should try to make sure that you
+
+1246
+00:45:20,099 --> 00:45:22,800
+have worked to reduce the bias of that
+
+1247
+00:45:22,800 --> 00:45:25,200
+Discovery process by diversifying your
+
+1248
+00:45:25,200 --> 00:45:26,640
+network and your input sources the
+
+1249
+00:45:26,640 --> 00:45:29,400
+diversify Tech job board is a really
+
+1250
+00:45:29,400 --> 00:45:31,380
+wonderful source for candidates and then
+
+1251
+00:45:31,380 --> 00:45:32,400
+there are also professional
+
+1252
+00:45:32,400 --> 00:45:34,800
+organizations inside of the ml World
+
+1253
+00:45:34,800 --> 00:45:36,540
+black and Ai and women in data science
+
+1254
+00:45:36,540 --> 00:45:38,700
+being two of the larger and more
+
+1255
+00:45:38,700 --> 00:45:40,140
+successful ones these are great places
+
+1256
+00:45:40,140 --> 00:45:41,700
+to get started to make the kinds of
+
+1257
+00:45:41,700 --> 00:45:44,339
+professional connections that can
+
+1258
+00:45:44,339 --> 00:45:47,160
+improve the representations of these
+
+1259
+00:45:47,160 --> 00:45:49,500
+minoritized groups in the engineering
+
+1260
+00:45:49,500 --> 00:45:51,839
+and design and product management
+
+1261
+00:45:51,839 --> 00:45:53,819
+process where these kinds of issues
+
+1262
+00:45:53,819 --> 00:45:55,680
+should be solved a lot of progress has
+
+1263
+00:45:55,680 --> 00:45:57,839
+been made but these problems are still
+
+1264
+00:45:57,839 --> 00:46:00,060
+pretty difficult to solve an unbiased
+
+1265
+00:46:00,060 --> 00:46:01,920
+face detector might not be so
+
+1266
+00:46:01,920 --> 00:46:03,540
+challenging but unbiased image
+
+1267
+00:46:03,540 --> 00:46:05,640
+generation is still really difficult for
+
+1268
+00:46:05,640 --> 00:46:07,200
+example if you make an image generation
+
+1269
+00:46:07,200 --> 00:46:09,540
+model from internet scraped data without
+
+1270
+00:46:09,540 --> 00:46:11,400
+any safeguards in place then if you ask
+
+1271
+00:46:11,400 --> 00:46:13,319
+it to generate a picture of a CEO it
+
+1272
+00:46:13,319 --> 00:46:15,839
+will generate the stereotypical CEO a
+
+1273
+00:46:15,839 --> 00:46:17,700
+six foot or taller white man and this
+
+1274
+00:46:17,700 --> 00:46:21,900
+applies across a wide set of jobs and
+
+1275
+00:46:21,900 --> 00:46:23,940
+situations people can find themselves in
+
+1276
+00:46:23,940 --> 00:46:27,000
+and this led to a lot of criticism of
+
+1277
+00:46:27,000 --> 00:46:29,339
+early text damage generation models like
+
+1278
+00:46:29,339 --> 00:46:32,579
+Dolly and the solution that openai opted
+
+1279
+00:46:32,579 --> 00:46:35,940
+to this was to edit prompts that people
+
+1280
+00:46:35,940 --> 00:46:39,300
+put in if you did not fully specify what
+
+1281
+00:46:39,300 --> 00:46:41,579
+kind of person should be generated then
+
+1282
+00:46:41,579 --> 00:46:44,040
+race and gender words would be added to
+
+1283
+00:46:44,040 --> 00:46:45,540
+the prompt with weights based on the
+
+1284
+00:46:45,540 --> 00:46:47,579
+world's population so people discovered
+
+1285
+00:46:47,579 --> 00:46:50,099
+this somewhat embarrassingly by writing
+
+1286
+00:46:50,099 --> 00:46:51,599
+prompts like a person holding a sign
+
+1287
+00:46:51,599 --> 00:46:53,460
+that says or pixel art of a person
+
+1288
+00:46:53,460 --> 00:46:55,260
+holding a text sign that says and then
+
+1289
+00:46:55,260 --> 00:46:58,500
+seeing that the appended words were then
+
+1290
+00:46:58,500 --> 00:47:00,119
+printed out by the model suffice it to
+
+1291
+00:47:00,119 --> 00:47:02,099
+say that this change did not make very
+
+1292
+00:47:02,099 --> 00:47:04,200
+many people very happy and indicates
+
+1293
+00:47:04,200 --> 00:47:06,420
+that more work needs to be done to
+
+1294
+00:47:06,420 --> 00:47:09,000
+de-bias image generation models at a
+
+1295
+00:47:09,000 --> 00:47:10,560
+broader level than just fairness we can
+
+1296
+00:47:10,560 --> 00:47:11,880
+also ask whether the system we're
+
+1297
+00:47:11,880 --> 00:47:14,400
+building is accountable to the people
+
+1298
+00:47:14,400 --> 00:47:16,440
+it's serving or acting upon and this is
+
+1299
+00:47:16,440 --> 00:47:17,940
+important because some people can
+
+1300
+00:47:17,940 --> 00:47:19,560
+consider explanation and accountability
+
+1301
+00:47:19,560 --> 00:47:21,300
+in the face of important judgments to be
+
+1302
+00:47:21,300 --> 00:47:23,339
+human rights this is the right to an
+
+1303
+00:47:23,339 --> 00:47:26,220
+explanation in the European Union's
+
+1304
+00:47:26,220 --> 00:47:28,560
+general data protection regulation gdpr
+
+1305
+00:47:28,560 --> 00:47:30,480
+there is a subsection that mentions the
+
+1306
+00:47:30,480 --> 00:47:32,220
+right to obtain an explanation of a
+
+1307
+00:47:32,220 --> 00:47:33,960
+decision reached after automated
+
+1308
+00:47:33,960 --> 00:47:35,579
+assessment and the right to challenge
+
+1309
+00:47:35,579 --> 00:47:37,619
+that decision the legal status here is a
+
+1310
+00:47:37,619 --> 00:47:38,700
+little bit unclear there's a nice
+
+1311
+00:47:38,700 --> 00:47:40,440
+archive paper that talks about this a
+
+1312
+00:47:40,440 --> 00:47:41,880
+bit about what the right to an
+
+1313
+00:47:41,880 --> 00:47:43,680
+explanation might mean but what's more
+
+1314
+00:47:43,680 --> 00:47:45,660
+important for our purposes is just to
+
+1315
+00:47:45,660 --> 00:47:48,180
+know that there is an increasing chorus
+
+1316
+00:47:48,180 --> 00:47:51,060
+of people claiming that this is indeed a
+
+1317
+00:47:51,060 --> 00:47:53,579
+human right and it's not an entirely New
+
+1318
+00:47:53,579 --> 00:47:54,900
+Concept and it's not even really
+
+1319
+00:47:54,900 --> 00:47:57,420
+technology or automation specific as far
+
+1320
+00:47:57,420 --> 00:48:00,060
+back as 1974 has been the law in the
+
+1321
+00:48:00,060 --> 00:48:02,460
+United States that If you deny credit to
+
+1322
+00:48:02,460 --> 00:48:04,920
+a person you must disclose the principal
+
+1323
+00:48:04,920 --> 00:48:06,780
+reasons for denying that credit
+
+1324
+00:48:06,780 --> 00:48:09,599
+application and in fact I found this
+
+1325
+00:48:09,599 --> 00:48:11,640
+interesting it's expected that you
+
+1326
+00:48:11,640 --> 00:48:14,400
+provide no more than four reasons why
+
+1327
+00:48:14,400 --> 00:48:16,079
+you denied them credit but the general
+
+1328
+00:48:16,079 --> 00:48:19,380
+idea that somebody as a right to know
+
+1329
+00:48:19,380 --> 00:48:21,000
+why something happened to them in
+
+1330
+00:48:21,000 --> 00:48:23,339
+certain cases is enshrined in some laws
+
+1331
+00:48:23,339 --> 00:48:25,079
+so what are we supposed to do if we use
+
+1332
+00:48:25,079 --> 00:48:26,940
+a deep neural network to decide whether
+
+1333
+00:48:26,940 --> 00:48:28,980
+somebody should be Advanced Credit or
+
+1334
+00:48:28,980 --> 00:48:30,359
+not so there are some off-the-shelf
+
+1335
+00:48:30,359 --> 00:48:32,220
+methods for introspecting deep neural
+
+1336
+00:48:32,220 --> 00:48:33,900
+networks that are all based off of input
+
+1337
+00:48:33,900 --> 00:48:36,359
+output gradients how would changing the
+
+1338
+00:48:36,359 --> 00:48:38,579
+pixels of this input image change the
+
+1339
+00:48:38,579 --> 00:48:40,800
+class probabilities and the output so
+
+1340
+00:48:40,800 --> 00:48:42,000
+this captures a kind of local
+
+1341
+00:48:42,000 --> 00:48:44,880
+contribution but as you can see from the
+
+1342
+00:48:44,880 --> 00:48:46,980
+small image there it doesn't produce a
+
+1343
+00:48:46,980 --> 00:48:48,420
+very compelling map and there's no
+
+1344
+00:48:48,420 --> 00:48:49,859
+reason to think that just changing one
+
+1345
+00:48:49,859 --> 00:48:51,599
+pixel a tiny bit should really change
+
+1346
+00:48:51,599 --> 00:48:54,359
+the model's output that much one
+
+1347
+00:48:54,359 --> 00:48:56,220
+Improvement to that called Smooth grad
+
+1348
+00:48:56,220 --> 00:48:57,839
+is to add noise to the input and then
+
+1349
+00:48:57,839 --> 00:48:59,640
+average results kind of getting a sense
+
+1350
+00:48:59,640 --> 00:49:01,319
+for what the gradients look like in a
+
+1351
+00:49:01,319 --> 00:49:03,540
+general area around the input there
+
+1352
+00:49:03,540 --> 00:49:05,520
+isn't great theory on why that should
+
+1353
+00:49:05,520 --> 00:49:08,040
+give better explanations but people tend
+
+1354
+00:49:08,040 --> 00:49:09,900
+to find these explanations better and
+
+1355
+00:49:09,900 --> 00:49:12,180
+you can see in the smooth grad image on
+
+1356
+00:49:12,180 --> 00:49:14,220
+the left there that you can pick out the
+
+1357
+00:49:14,220 --> 00:49:16,440
+picture of a bird it seems like that is
+
+1358
+00:49:16,440 --> 00:49:18,359
+giving a better explanation or an
+
+1359
+00:49:18,359 --> 00:49:20,099
+explanation that we like better for why
+
+1360
+00:49:20,099 --> 00:49:22,440
+this network is identifying that as a
+
+1361
+00:49:22,440 --> 00:49:24,420
+picture of a bird there's a bunch of
+
+1362
+00:49:24,420 --> 00:49:26,720
+kind of hacking methods like specific
+
+1363
+00:49:26,720 --> 00:49:29,280
+tricks you need when you're when you're
+
+1364
+00:49:29,280 --> 00:49:31,140
+using the relu activation there's some
+
+1365
+00:49:31,140 --> 00:49:31,980
+methods that are better for
+
+1366
+00:49:31,980 --> 00:49:36,900
+classification like grad cam one that is
+
+1367
+00:49:36,900 --> 00:49:39,780
+more popular integrated gradients takes
+
+1368
+00:49:39,780 --> 00:49:42,839
+the integral of the gradient along a
+
+1369
+00:49:42,839 --> 00:49:44,520
+path from some baseline to the final
+
+1370
+00:49:44,520 --> 00:49:47,160
+image and this method has a nice
+
+1371
+00:49:47,160 --> 00:49:49,440
+interpretation in terms of Cooperative
+
+1372
+00:49:49,440 --> 00:49:51,359
+Game Theory something called a shapley
+
+1373
+00:49:51,359 --> 00:49:54,660
+value that quantifies how much a
+
+1374
+00:49:54,660 --> 00:49:56,339
+particular collection of players in a
+
+1375
+00:49:56,339 --> 00:49:58,440
+game contributed to the final reward and
+
+1376
+00:49:58,440 --> 00:50:00,300
+adding noise to integrated gradients
+
+1377
+00:50:00,300 --> 00:50:02,460
+tends to produce really clean
+
+1378
+00:50:02,460 --> 00:50:04,560
+explanations that people like but
+
+1379
+00:50:04,560 --> 00:50:06,420
+unfortunately these methods are
+
+1380
+00:50:06,420 --> 00:50:08,640
+generally not very robust their outputs
+
+1381
+00:50:08,640 --> 00:50:10,619
+tend to correlate pretty strongly in the
+
+1382
+00:50:10,619 --> 00:50:12,780
+case of images with just an edge
+
+1383
+00:50:12,780 --> 00:50:15,000
+detector there's built-in biases to
+
+1384
+00:50:15,000 --> 00:50:16,260
+convolutional networks and the
+
+1385
+00:50:16,260 --> 00:50:18,300
+architectures that we use that 10 and to
+
+1386
+00:50:18,300 --> 00:50:19,800
+emphasize certain features of images
+
+1387
+00:50:19,800 --> 00:50:22,079
+what this particular chart shows from
+
+1388
+00:50:22,079 --> 00:50:25,319
+this archive paper by Julius adebayo
+
+1389
+00:50:25,319 --> 00:50:27,960
+Moritz heart and others is that even as
+
+1390
+00:50:27,960 --> 00:50:29,700
+we randomize layers in the network going
+
+1391
+00:50:29,700 --> 00:50:31,680
+from left to right we are randomizing
+
+1392
+00:50:31,680 --> 00:50:33,480
+starting at the top of the network and
+
+1393
+00:50:33,480 --> 00:50:35,339
+then randomizing more layers going down
+
+1394
+00:50:35,339 --> 00:50:37,920
+even for popular methods like integrated
+
+1395
+00:50:37,920 --> 00:50:41,460
+gradients with smoothing or guided back
+
+1396
+00:50:41,460 --> 00:50:43,800
+propagation we can effectively randomize
+
+1397
+00:50:43,800 --> 00:50:45,480
+a really large fraction of the network
+
+1398
+00:50:45,480 --> 00:50:48,720
+without changing the gross features of
+
+1399
+00:50:48,720 --> 00:50:50,400
+the explanation and resulting in an
+
+1400
+00:50:50,400 --> 00:50:52,680
+explanation that people would still
+
+1401
+00:50:52,680 --> 00:50:55,319
+accept and believe even though this
+
+1402
+00:50:55,319 --> 00:50:57,420
+network is now producing random output
+
+1403
+00:50:57,420 --> 00:50:59,460
+so in general introspecting deep neural
+
+1404
+00:50:59,460 --> 00:51:00,480
+networks and figuring out what's going
+
+1405
+00:51:00,480 --> 00:51:01,740
+inside them requires something that
+
+1406
+00:51:01,740 --> 00:51:03,180
+looks a lot more like a reverse
+
+1407
+00:51:03,180 --> 00:51:05,460
+engineering process that's still very
+
+1408
+00:51:05,460 --> 00:51:06,960
+much a research problem there's some
+
+1409
+00:51:06,960 --> 00:51:10,319
+great work on distill on reverse
+
+1410
+00:51:10,319 --> 00:51:12,180
+engineering primarily Vision networks
+
+1411
+00:51:12,180 --> 00:51:14,099
+and then some great work from anthropic
+
+1412
+00:51:14,099 --> 00:51:16,319
+AI recently on Transformer circuits
+
+1413
+00:51:16,319 --> 00:51:17,700
+that's reverse engineering large Lang
+
+1414
+00:51:17,700 --> 00:51:20,040
+language models and Chris Ola is the
+
+1415
+00:51:20,040 --> 00:51:21,359
+researcher who's done the most work here
+
+1416
+00:51:21,359 --> 00:51:24,300
+but it still is the sort of thing that
+
+1417
+00:51:24,300 --> 00:51:27,140
+even getting a loose qualitative sense
+
+1418
+00:51:27,140 --> 00:51:29,760
+for how neural networks work and what
+
+1419
+00:51:29,760 --> 00:51:31,740
+they are doing in response to inputs is
+
+1420
+00:51:31,740 --> 00:51:33,359
+still the type of thing that takes a
+
+1421
+00:51:33,359 --> 00:51:35,160
+research team several years so Building
+
+1422
+00:51:35,160 --> 00:51:37,619
+A system that can explain why it took a
+
+1423
+00:51:37,619 --> 00:51:40,380
+particular decision is maybe not
+
+1424
+00:51:40,380 --> 00:51:41,819
+currently possible with deep neural
+
+1425
+00:51:41,819 --> 00:51:44,339
+networks but that doesn't mean that the
+
+1426
+00:51:44,339 --> 00:51:45,720
+systems that we build with them have to
+
+1427
+00:51:45,720 --> 00:51:47,700
+be unaccountable if somebody dislikes
+
+1428
+00:51:47,700 --> 00:51:49,619
+the decision that they get and the
+
+1429
+00:51:49,619 --> 00:51:51,599
+explanation that we give is well the
+
+1430
+00:51:51,599 --> 00:51:53,400
+neural network said you shouldn't get a
+
+1431
+00:51:53,400 --> 00:51:55,020
+loan and they challenge that it might be
+
+1432
+00:51:55,020 --> 00:51:57,119
+time to bring in a human in the loop to
+
+1433
+00:51:57,119 --> 00:51:58,800
+make that decision and building that in
+
+1434
+00:51:58,800 --> 00:52:01,380
+to the system so that it's an expected
+
+1435
+00:52:01,380 --> 00:52:03,900
+mode of operation and is considered an
+
+1436
+00:52:03,900 --> 00:52:06,839
+important part of the feedback and the
+
+1437
+00:52:06,839 --> 00:52:09,000
+operation of the system is key to
+
+1438
+00:52:09,000 --> 00:52:11,640
+building an accountable system so this
+
+1439
+00:52:11,640 --> 00:52:13,319
+book automating inequality by Virginia
+
+1440
+00:52:13,319 --> 00:52:15,300
+Eubanks talks a little bit about the
+
+1441
+00:52:15,300 --> 00:52:17,460
+ways in which Technical Systems as their
+
+1442
+00:52:17,460 --> 00:52:19,859
+build today are very prone to this
+
+1443
+00:52:19,859 --> 00:52:21,900
+unaccountability where the people who
+
+1444
+00:52:21,900 --> 00:52:25,260
+are Indian most impacted by these
+
+1445
+00:52:25,260 --> 00:52:27,000
+systems some of the most critical
+
+1446
+00:52:27,000 --> 00:52:28,980
+stakeholders for these systems for
+
+1447
+00:52:28,980 --> 00:52:31,380
+example recipients of government
+
+1448
+00:52:31,380 --> 00:52:34,559
+assistance are unable to have their
+
+1449
+00:52:34,559 --> 00:52:36,839
+voices and their needs heard and taken
+
+1450
+00:52:36,839 --> 00:52:38,520
+into account in the operation of a
+
+1451
+00:52:38,520 --> 00:52:40,559
+system so this is perhaps the point at
+
+1452
+00:52:40,559 --> 00:52:42,540
+which you should ask when building a
+
+1453
+00:52:42,540 --> 00:52:44,280
+system with machine learning whether
+
+1454
+00:52:44,280 --> 00:52:45,599
+this should be built at all and
+
+1455
+00:52:45,599 --> 00:52:47,579
+particular to ask who benefits and who
+
+1456
+00:52:47,579 --> 00:52:50,099
+is harmed by automating this task in
+
+1457
+00:52:50,099 --> 00:52:51,839
+addition to concerns around the behavior
+
+1458
+00:52:51,839 --> 00:52:53,700
+of models increasing concern has been
+
+1459
+00:52:53,700 --> 00:52:55,440
+pointed towards data and in particular
+
+1460
+00:52:55,440 --> 00:52:58,740
+who owns and who has rights to the data
+
+1461
+00:52:58,740 --> 00:53:00,540
+involved in the creation of machine
+
+1462
+00:53:00,540 --> 00:53:01,859
+Learning Systems it's important to
+
+1463
+00:53:01,859 --> 00:53:03,300
+remember that the training data that we
+
+1464
+00:53:03,300 --> 00:53:04,800
+use for our machine learning algorithms
+
+1465
+00:53:04,800 --> 00:53:07,859
+is almost always generated by humans and
+
+1466
+00:53:07,859 --> 00:53:09,599
+they generally feel some ownership over
+
+1467
+00:53:09,599 --> 00:53:11,700
+that data and we end up behaving a
+
+1468
+00:53:11,700 --> 00:53:13,140
+little bit like this comic on the right
+
+1469
+00:53:13,140 --> 00:53:14,760
+where they hand us some data that they
+
+1470
+00:53:14,760 --> 00:53:17,040
+made and then we say oh this is ours now
+
+1471
+00:53:17,040 --> 00:53:19,800
+I made this and in particular the large
+
+1472
+00:53:19,800 --> 00:53:21,839
+data sets you train the really large
+
+1473
+00:53:21,839 --> 00:53:24,420
+models that are pushing the frontiers of
+
+1474
+00:53:24,420 --> 00:53:26,220
+what is possible with machine learning
+
+1475
+00:53:26,220 --> 00:53:28,500
+are produced by crawling the Internet by
+
+1476
+00:53:28,500 --> 00:53:31,020
+searching over all the images all the
+
+1477
+00:53:31,020 --> 00:53:32,520
+text posted on the internet and pulling
+
+1478
+00:53:32,520 --> 00:53:34,140
+large fractions of it down and many
+
+1479
+00:53:34,140 --> 00:53:36,599
+people are not aware that this is
+
+1480
+00:53:36,599 --> 00:53:39,180
+possible let alone legal and so to some
+
+1481
+00:53:39,180 --> 00:53:41,040
+extent any consent that they gave to
+
+1482
+00:53:41,040 --> 00:53:43,020
+their data being used was not informed
+
+1483
+00:53:43,020 --> 00:53:45,180
+and then additionally as technology has
+
+1484
+00:53:45,180 --> 00:53:46,680
+changed in the last decade and machine
+
+1485
+00:53:46,680 --> 00:53:48,300
+learning has gotten better what can be
+
+1486
+00:53:48,300 --> 00:53:50,040
+done with data has changed somebody
+
+1487
+00:53:50,040 --> 00:53:51,960
+uploading their art a decade ago
+
+1488
+00:53:51,960 --> 00:53:54,180
+certainly did not have on their radar
+
+1489
+00:53:54,180 --> 00:53:56,579
+the idea that they were giving consent
+
+1490
+00:53:56,579 --> 00:53:58,800
+to that art being used to create an
+
+1491
+00:53:58,800 --> 00:54:01,680
+algorithm that can mimic its style and
+
+1492
+00:54:01,680 --> 00:54:04,500
+you can in fact check whether an image
+
+1493
+00:54:04,500 --> 00:54:06,240
+of interest to you has been used to
+
+1494
+00:54:06,240 --> 00:54:09,359
+train one of the large text image models
+
+1495
+00:54:09,359 --> 00:54:10,859
+specifically this have I been
+
+1496
+00:54:10,859 --> 00:54:12,900
+trained.com website will search through
+
+1497
+00:54:12,900 --> 00:54:16,079
+the Leon data set that is used to train
+
+1498
+00:54:16,079 --> 00:54:18,839
+the stable diffusion model for images
+
+1499
+00:54:18,839 --> 00:54:20,640
+that you upload so you can look to see
+
+1500
+00:54:20,640 --> 00:54:22,619
+if any pictures of you were incorporated
+
+1501
+00:54:22,619 --> 00:54:25,200
+into the data set and this goes further
+
+1502
+00:54:25,200 --> 00:54:27,059
+than just pictures that people might
+
+1503
+00:54:27,059 --> 00:54:29,819
+rather not have used in this way to
+
+1504
+00:54:29,819 --> 00:54:32,220
+actual data that has somehow been
+
+1505
+00:54:32,220 --> 00:54:33,960
+obtained illegally there's an Arts
+
+1506
+00:54:33,960 --> 00:54:36,059
+technical article a particular artist
+
+1507
+00:54:36,059 --> 00:54:38,400
+who was interested in this found that
+
+1508
+00:54:38,400 --> 00:54:41,099
+some of their medical photos which they
+
+1509
+00:54:41,099 --> 00:54:43,500
+did not consent to have uploaded to the
+
+1510
+00:54:43,500 --> 00:54:45,300
+internet somehow found their way into
+
+1511
+00:54:45,300 --> 00:54:47,819
+the lay on data set and so cleaning
+
+1512
+00:54:47,819 --> 00:54:51,540
+large web scraped data sets from this
+
+1513
+00:54:51,540 --> 00:54:53,520
+kind of illegally obtained data is
+
+1514
+00:54:53,520 --> 00:54:54,960
+definitely going to be important as more
+
+1515
+00:54:54,960 --> 00:54:56,579
+attention is paid to these models as
+
+1516
+00:54:56,579 --> 00:54:59,880
+they are product eyes and monetized and
+
+1517
+00:54:59,880 --> 00:55:02,880
+more on people's radar even for data
+
+1518
+00:55:02,880 --> 00:55:05,339
+that is obtained legally saying well
+
+1519
+00:55:05,339 --> 00:55:07,200
+technically you did agree to this does
+
+1520
+00:55:07,200 --> 00:55:08,940
+not generally satisfy people remember
+
+1521
+00:55:08,940 --> 00:55:10,740
+the Facebook emotion research study
+
+1522
+00:55:10,740 --> 00:55:13,140
+technically some reading of the Facebook
+
+1523
+00:55:13,140 --> 00:55:15,839
+user data policy did support the way
+
+1524
+00:55:15,839 --> 00:55:17,640
+that they were running their experiment
+
+1525
+00:55:17,640 --> 00:55:20,160
+but many users disagreed many artists
+
+1526
+00:55:20,160 --> 00:55:22,440
+feel that creating an art generation
+
+1527
+00:55:22,440 --> 00:55:25,140
+tool that threatens their livelihoods
+
+1528
+00:55:25,140 --> 00:55:28,260
+and copies art down to the point of even
+
+1529
+00:55:28,260 --> 00:55:30,900
+faking watermarks and logos on images
+
+1530
+00:55:30,900 --> 00:55:33,540
+when told to recreate the style of an
+
+1531
+00:55:33,540 --> 00:55:35,700
+artist is an ethical use of that data
+
+1532
+00:55:35,700 --> 00:55:37,800
+and it certainly is the case that
+
+1533
+00:55:37,800 --> 00:55:40,800
+creating a sort of parrot that can mimic
+
+1534
+00:55:40,800 --> 00:55:42,599
+somebody is something that a lot of
+
+1535
+00:55:42,599 --> 00:55:44,640
+people find concerning dealing with
+
+1536
+00:55:44,640 --> 00:55:46,619
+these issues around data governance is
+
+1537
+00:55:46,619 --> 00:55:49,920
+likely to be a new frontier imagine of
+
+1538
+00:55:49,920 --> 00:55:51,900
+stable diffusion has said that he's
+
+1539
+00:55:51,900 --> 00:55:53,520
+partnering with people to create
+
+1540
+00:55:53,520 --> 00:55:57,240
+mechanisms for artists to opt in or opt
+
+1541
+00:55:57,240 --> 00:55:59,940
+out of being included in training data
+
+1542
+00:55:59,940 --> 00:56:01,200
+sets for future versions of stable
+
+1543
+00:56:01,200 --> 00:56:02,940
+diffusion I found that noteworthy
+
+1544
+00:56:02,940 --> 00:56:05,700
+because mostacc has been very vocal in
+
+1545
+00:56:05,700 --> 00:56:08,099
+his defense of image generation
+
+1546
+00:56:08,099 --> 00:56:10,079
+technology and of what it can be used
+
+1547
+00:56:10,079 --> 00:56:12,780
+for but even he is interested in
+
+1548
+00:56:12,780 --> 00:56:15,300
+adjusting the way data is used there's
+
+1549
+00:56:15,300 --> 00:56:17,040
+also been work from Tech forward artists
+
+1550
+00:56:17,040 --> 00:56:19,200
+like Holly Hunter who was involved in
+
+1551
+00:56:19,200 --> 00:56:20,520
+the creation of have I been trained
+
+1552
+00:56:20,520 --> 00:56:23,400
+around trying to incorporate AI systems
+
+1553
+00:56:23,400 --> 00:56:26,339
+into art in a way that empowers artists
+
+1554
+00:56:26,339 --> 00:56:28,319
+and compensates them rather than
+
+1555
+00:56:28,319 --> 00:56:30,480
+immiserating them just as we can create
+
+1556
+00:56:30,480 --> 00:56:32,460
+cards for models we can also create
+
+1557
+00:56:32,460 --> 00:56:34,980
+cards for data sets that describe how
+
+1558
+00:56:34,980 --> 00:56:37,079
+they were curated what the sources were
+
+1559
+00:56:37,079 --> 00:56:39,000
+and any other potential issues with the
+
+1560
+00:56:39,000 --> 00:56:41,040
+data and perhaps in the future even how
+
+1561
+00:56:41,040 --> 00:56:43,440
+to opt out of or be removed from a data
+
+1562
+00:56:43,440 --> 00:56:45,059
+set so this is an example from a hugging
+
+1563
+00:56:45,059 --> 00:56:46,740
+face as with model cards there's lots of
+
+1564
+00:56:46,740 --> 00:56:49,079
+good examples of data set cards on
+
+1565
+00:56:49,079 --> 00:56:50,700
+hugging face there's also a nice
+
+1566
+00:56:50,700 --> 00:56:53,520
+checklist the Dion ethics checklist that
+
+1567
+00:56:53,520 --> 00:56:56,339
+is mostly focused around data ethics but
+
+1568
+00:56:56,339 --> 00:56:58,200
+covers a lot of other ground they also
+
+1569
+00:56:58,200 --> 00:57:00,960
+have this nice list of examples for each
+
+1570
+00:57:00,960 --> 00:57:02,760
+question in their checklist of cases
+
+1571
+00:57:02,760 --> 00:57:05,460
+where people have run into ethical or
+
+1572
+00:57:05,460 --> 00:57:07,680
+legal trouble by building an ml project
+
+1573
+00:57:07,680 --> 00:57:10,200
+that didn't satisfy a particular
+
+1574
+00:57:10,200 --> 00:57:12,240
+checklist item running underneath all of
+
+1575
+00:57:12,240 --> 00:57:14,819
+this has been this final most important
+
+1576
+00:57:14,819 --> 00:57:16,920
+question of whether this system should
+
+1577
+00:57:16,920 --> 00:57:19,020
+be built at all one particular use case
+
+1578
+00:57:19,020 --> 00:57:21,359
+that very frequently elicits this
+
+1579
+00:57:21,359 --> 00:57:23,700
+question is building ml-powered Weaponry
+
+1580
+00:57:23,700 --> 00:57:26,160
+ml powered Weaponry is already here it's
+
+1581
+00:57:26,160 --> 00:57:28,079
+already starting to be deployed in the
+
+1582
+00:57:28,079 --> 00:57:29,760
+world there are some remote controlled
+
+1583
+00:57:29,760 --> 00:57:31,020
+weapons that use computer vision for
+
+1584
+00:57:31,020 --> 00:57:33,660
+targeting deployed by the Israeli
+
+1585
+00:57:33,660 --> 00:57:36,059
+military in the West Bank using this
+
+1586
+00:57:36,059 --> 00:57:38,640
+smart shooter technology that's designed
+
+1587
+00:57:38,640 --> 00:57:41,460
+to in principle take normal weapons and
+
+1588
+00:57:41,460 --> 00:57:43,020
+add computer vision based targeting to
+
+1589
+00:57:43,020 --> 00:57:44,819
+them to make them into smart weapons
+
+1590
+00:57:44,819 --> 00:57:47,339
+right now this deployed system shown on
+
+1591
+00:57:47,339 --> 00:57:49,619
+the left uses only sponge tipped bullets
+
+1592
+00:57:49,619 --> 00:57:52,200
+which are designed to be less lethal but
+
+1593
+00:57:52,200 --> 00:57:54,900
+they can still cause serious injury and
+
+1594
+00:57:54,900 --> 00:57:57,000
+according to the deployers in the pilot
+
+1595
+00:57:57,000 --> 00:57:59,400
+stage so it's a little unclear to what
+
+1596
+00:57:59,400 --> 00:58:01,559
+extent autonomous Weaponry is already
+
+1597
+00:58:01,559 --> 00:58:02,819
+here and being used because the
+
+1598
+00:58:02,819 --> 00:58:04,500
+definition is a little bit blurry so for
+
+1599
+00:58:04,500 --> 00:58:06,359
+example the hayrop Drone shown in the
+
+1600
+00:58:06,359 --> 00:58:09,240
+top left is a loitering munition a type
+
+1601
+00:58:09,240 --> 00:58:11,819
+of drone that can fly around hold its
+
+1602
+00:58:11,819 --> 00:58:12,900
+position for a while and then
+
+1603
+00:58:12,900 --> 00:58:15,359
+automatically destroy any radar system
+
+1604
+00:58:15,359 --> 00:58:17,099
+that locks onto it this type of drone
+
+1605
+00:58:17,099 --> 00:58:19,680
+was used in the nagorno-karabakh war
+
+1606
+00:58:19,680 --> 00:58:22,319
+between Armenia and Azerbaijan in 2021
+
+1607
+00:58:22,319 --> 00:58:25,079
+but there's also older autonomous weapon
+
+1608
+00:58:25,079 --> 00:58:27,660
+systems the Phalanx c-whiz is designed
+
+1609
+00:58:27,660 --> 00:58:29,220
+to automatically fire at Targets moving
+
+1610
+00:58:29,220 --> 00:58:31,200
+towards Naval vessels at very very high
+
+1611
+00:58:31,200 --> 00:58:32,940
+velocities so these are velocities
+
+1612
+00:58:32,940 --> 00:58:34,980
+they're usually only achieved by rocket
+
+1613
+00:58:34,980 --> 00:58:37,740
+Munitions not by manned craft and that
+
+1614
+00:58:37,740 --> 00:58:40,020
+system's been used since at least the
+
+1615
+00:58:40,020 --> 00:58:42,000
+first Gulf War in 1991. there was an
+
+1616
+00:58:42,000 --> 00:58:44,700
+analysis in 2017 by The Economist to try
+
+1617
+00:58:44,700 --> 00:58:46,980
+and look for how many systems with
+
+1618
+00:58:46,980 --> 00:58:48,900
+automated targeting there were and in
+
+1619
+00:58:48,900 --> 00:58:51,359
+particular how many of them could engage
+
+1620
+00:58:51,359 --> 00:58:53,760
+with targets without involving humans at
+
+1621
+00:58:53,760 --> 00:58:56,099
+all so that would be the last section of
+
+1622
+00:58:56,099 --> 00:58:58,619
+human out of the loop systems but given
+
+1623
+00:58:58,619 --> 00:59:01,020
+the general level of secrecy in some
+
+1624
+00:59:01,020 --> 00:59:02,760
+cases and hype and others around
+
+1625
+00:59:02,760 --> 00:59:04,859
+military technology it can be difficult
+
+1626
+00:59:04,859 --> 00:59:06,720
+to get a very clear sense and the
+
+1627
+00:59:06,720 --> 00:59:08,940
+blurriness of this definition has led
+
+1628
+00:59:08,940 --> 00:59:10,740
+some to say that autonomous weapons are
+
+1629
+00:59:10,740 --> 00:59:12,900
+actually at least 100 years old for
+
+1630
+00:59:12,900 --> 00:59:14,819
+example anti-personnel mines that were
+
+1631
+00:59:14,819 --> 00:59:16,380
+used starting in the 30s and in World
+
+1632
+00:59:16,380 --> 00:59:18,839
+War II attempts to you detect whether a
+
+1633
+00:59:18,839 --> 00:59:20,460
+person has come close to them and then
+
+1634
+00:59:20,460 --> 00:59:23,040
+explode and in some sense that is an
+
+1635
+00:59:23,040 --> 00:59:24,599
+autonomous weapon and if we broaden our
+
+1636
+00:59:24,599 --> 00:59:27,059
+definition that far then maybe lots of
+
+1637
+00:59:27,059 --> 00:59:29,400
+different kinds of traps are some form
+
+1638
+00:59:29,400 --> 00:59:31,020
+of autonomous weapon but just because
+
+1639
+00:59:31,020 --> 00:59:32,819
+these weapons already exist and maybe
+
+1640
+00:59:32,819 --> 00:59:34,559
+even have been around for a century does
+
+1641
+00:59:34,559 --> 00:59:37,140
+not mean that designing ml-powered
+
+1642
+00:59:37,140 --> 00:59:39,720
+weapons is ethical anti-personnel mines
+
+1643
+00:59:39,720 --> 00:59:42,299
+in fact are the subject of a mind Ban
+
+1644
+00:59:42,299 --> 00:59:44,220
+Treaty that a very large number of
+
+1645
+00:59:44,220 --> 00:59:46,079
+countries have signed unfortunately not
+
+1646
+00:59:46,079 --> 00:59:47,400
+some of the countries with the largest
+
+1647
+00:59:47,400 --> 00:59:50,339
+militaries in the world but that at
+
+1648
+00:59:50,339 --> 00:59:53,339
+least suggests that for one type of
+
+1649
+00:59:53,339 --> 00:59:55,500
+autonomous weapon that has caused a
+
+1650
+00:59:55,500 --> 00:59:57,240
+tremendous amount of collateral damage
+
+1651
+00:59:57,240 --> 00:59:59,940
+there's interest in Banning them and so
+
+1652
+00:59:59,940 --> 01:00:01,680
+perhaps rather than building these
+
+1653
+01:00:01,680 --> 01:00:03,299
+autonomous weapons so we can then ban
+
+1654
+01:00:03,299 --> 01:00:04,920
+them it would be better if we just
+
+1655
+01:00:04,920 --> 01:00:06,839
+didn't build them at all so the campaign
+
+1656
+01:00:06,839 --> 01:00:09,660
+to stop Killer Robots is a group to look
+
+1657
+01:00:09,660 --> 01:00:10,740
+into if this is something that's
+
+1658
+01:00:10,740 --> 01:00:12,540
+interesting to you it brings us to the
+
+1659
+01:00:12,540 --> 01:00:14,640
+end of our tour of the four common
+
+1660
+01:00:14,640 --> 01:00:17,040
+questions that people raise around the
+
+1661
+01:00:17,040 --> 01:00:18,900
+ethics of building an ml system I've
+
+1662
+01:00:18,900 --> 01:00:20,640
+provided some of my answers to these
+
+1663
+01:00:20,640 --> 01:00:22,200
+questions and some of the common answers
+
+1664
+01:00:22,200 --> 01:00:23,460
+to these questions but you should have
+
+1665
+01:00:23,460 --> 01:00:25,619
+thoughtful answers to these for the
+
+1666
+01:00:25,619 --> 01:00:26,880
+individual projects that you work on
+
+1667
+01:00:26,880 --> 01:00:28,859
+first is the model fair I think it's
+
+1668
+01:00:28,859 --> 01:00:30,599
+generally possible but it requires
+
+1669
+01:00:30,599 --> 01:00:33,180
+trade-offs is the system accountable I
+
+1670
+01:00:33,180 --> 01:00:34,859
+think it's pretty challenging to make
+
+1671
+01:00:34,859 --> 01:00:37,020
+interpretable deep Learning Systems
+
+1672
+01:00:37,020 --> 01:00:38,579
+where interpretability allows an
+
+1673
+01:00:38,579 --> 01:00:40,619
+explanation for why a decision was made
+
+1674
+01:00:40,619 --> 01:00:42,720
+but making a system that's accountable
+
+1675
+01:00:42,720 --> 01:00:45,540
+where answers can be changed in response
+
+1676
+01:00:45,540 --> 01:00:47,940
+to user feedback or perhaps user lawsuit
+
+1677
+01:00:47,940 --> 01:00:49,619
+is possible you'll definitely want to
+
+1678
+01:00:49,619 --> 01:00:51,240
+answer the question of who owns the data
+
+1679
+01:00:51,240 --> 01:00:53,400
+up front and be on the lookout for
+
+1680
+01:00:53,400 --> 01:00:56,579
+changes especially to these large-scale
+
+1681
+01:00:56,579 --> 01:00:58,559
+internet scraped data sets and then
+
+1682
+01:00:58,559 --> 01:01:00,059
+lastly should this be built at all
+
+1683
+01:01:00,059 --> 01:01:01,559
+you'll want to ask this repeatedly
+
+1684
+01:01:01,559 --> 01:01:03,420
+throughout the life cycle of the
+
+1685
+01:01:03,420 --> 01:01:04,920
+technology I wanted to close this
+
+1686
+01:01:04,920 --> 01:01:07,619
+section by talking about just how much
+
+1687
+01:01:07,619 --> 01:01:10,140
+the machine learning world can learn
+
+1688
+01:01:10,140 --> 01:01:13,859
+from medicine and from applications of
+
+1689
+01:01:13,859 --> 01:01:16,079
+machine learning to medical problems
+
+1690
+01:01:16,079 --> 01:01:17,760
+this is a field I've had a chance to
+
+1691
+01:01:17,760 --> 01:01:20,640
+work in and I've seen some of the best
+
+1692
+01:01:20,640 --> 01:01:23,579
+work on building with ML responsibly
+
+1693
+01:01:23,579 --> 01:01:25,500
+come from this field and fundamentally
+
+1694
+01:01:25,500 --> 01:01:27,720
+it's because of a mismatch between
+
+1695
+01:01:27,720 --> 01:01:30,900
+machine learning and medicine that
+
+1696
+01:01:30,900 --> 01:01:33,299
+impedance mismatch has led to a ton of
+
+1697
+01:01:33,299 --> 01:01:35,280
+learning so first we'll talk about the
+
+1698
+01:01:35,280 --> 01:01:38,339
+Fiasco that was machine learning and the
+
+1699
+01:01:38,339 --> 01:01:40,920
+covid-19 pandemic then briefly consider
+
+1700
+01:01:40,920 --> 01:01:43,200
+why medicine would have this big of a
+
+1701
+01:01:43,200 --> 01:01:45,299
+mismatch with machine learning and what
+
+1702
+01:01:45,299 --> 01:01:46,740
+the benefits of examining it closer
+
+1703
+01:01:46,740 --> 01:01:48,420
+might be and then lastly we'll talk
+
+1704
+01:01:48,420 --> 01:01:50,819
+about some concrete research on auditing
+
+1705
+01:01:50,819 --> 01:01:53,460
+and Frameworks for building with ML that
+
+1706
+01:01:53,460 --> 01:01:54,599
+have come out of medicine first
+
+1707
+01:01:54,599 --> 01:01:56,040
+something that should be scary and
+
+1708
+01:01:56,040 --> 01:01:57,540
+embarrassing for people in machine
+
+1709
+01:01:57,540 --> 01:01:59,819
+learning medical researchers found that
+
+1710
+01:01:59,819 --> 01:02:01,440
+almost all machine learning research on
+
+1711
+01:02:01,440 --> 01:02:03,839
+covid-19 was effectively useless this is
+
+1712
+01:02:03,839 --> 01:02:05,700
+in the context of a biomedical response
+
+1713
+01:02:05,700 --> 01:02:08,400
+to covid-19 that was an absolute Triumph
+
+1714
+01:02:08,400 --> 01:02:10,740
+in the first year vaccinations prevented
+
+1715
+01:02:10,740 --> 01:02:14,099
+some tens of millions of deaths these
+
+1716
+01:02:14,099 --> 01:02:16,619
+vaccines were designed based on novel
+
+1717
+01:02:16,619 --> 01:02:19,140
+Technologies like lipid nanoparticles
+
+1718
+01:02:19,140 --> 01:02:21,660
+for delivering mRNA and even more
+
+1719
+01:02:21,660 --> 01:02:23,579
+traditional techniques like small
+
+1720
+01:02:23,579 --> 01:02:25,260
+molecule Therapeutics for example
+
+1721
+01:02:25,260 --> 01:02:27,960
+paxilavid the quality of research that
+
+1722
+01:02:27,960 --> 01:02:29,880
+was done was extremely high so on the
+
+1723
+01:02:29,880 --> 01:02:32,099
+right we have an inferred 3D structure
+
+1724
+01:02:32,099 --> 01:02:34,680
+for a coronavirus protein in complex
+
+1725
+01:02:34,680 --> 01:02:37,260
+with the primary effective molecule in
+
+1726
+01:02:37,260 --> 01:02:39,359
+paxilavid allowing for a mechanistic
+
+1727
+01:02:39,359 --> 01:02:41,520
+understanding of how this drug was
+
+1728
+01:02:41,520 --> 01:02:44,040
+working at the atomic level and at this
+
+1729
+01:02:44,040 --> 01:02:46,260
+crucial time machine learning did not
+
+1730
+01:02:46,260 --> 01:02:47,880
+really acquit itself well so there were
+
+1731
+01:02:47,880 --> 01:02:51,839
+two reviews one in bmj and one in nature
+
+1732
+01:02:51,839 --> 01:02:55,799
+that reviewed a large set of prediction
+
+1733
+01:02:55,799 --> 01:02:59,339
+models for covid-19 either prognosis or
+
+1734
+01:02:59,339 --> 01:03:01,500
+diagnosis primarily prognosis in the
+
+1735
+01:03:01,500 --> 01:03:03,359
+case of the Winans at all paper in bmj
+
+1736
+01:03:03,359 --> 01:03:06,900
+or diagnosis on the basis of chest
+
+1737
+01:03:06,900 --> 01:03:10,079
+x-rays and CT scans and both of these
+
+1738
+01:03:10,079 --> 01:03:12,299
+reviews found that almost all of the
+
+1739
+01:03:12,299 --> 01:03:15,000
+papers were insufficiently documented
+
+1740
+01:03:15,000 --> 01:03:17,040
+did not follow best practices for
+
+1741
+01:03:17,040 --> 01:03:18,960
+developing models and did not have
+
+1742
+01:03:18,960 --> 01:03:21,059
+sufficient external validation testing
+
+1743
+01:03:21,059 --> 01:03:24,900
+on external data to justify any wider
+
+1744
+01:03:24,900 --> 01:03:27,180
+use of these models even though many of
+
+1745
+01:03:27,180 --> 01:03:29,520
+them were provided as software or apis
+
+1746
+01:03:29,520 --> 01:03:31,799
+ready to be used in a clinical setting
+
+1747
+01:03:31,799 --> 01:03:34,020
+so the depth of the errors here is
+
+1748
+01:03:34,020 --> 01:03:37,980
+really very sobering a full quarter of
+
+1749
+01:03:37,980 --> 01:03:40,680
+the papers analyzed in the Roberts at
+
+1750
+01:03:40,680 --> 01:03:43,740
+all review used a pneumonia data set as
+
+1751
+01:03:43,740 --> 01:03:45,720
+a control group so the idea was we don't
+
+1752
+01:03:45,720 --> 01:03:46,980
+want our model just to detect whether
+
+1753
+01:03:46,980 --> 01:03:48,359
+people are sick or not just having
+
+1754
+01:03:48,359 --> 01:03:50,640
+having coveted patients and healthy
+
+1755
+01:03:50,640 --> 01:03:52,920
+patients might cause models that detect
+
+1756
+01:03:52,920 --> 01:03:55,260
+all pneumonias as covid so let's
+
+1757
+01:03:55,260 --> 01:03:57,119
+incorporate this pneumonia data set but
+
+1758
+01:03:57,119 --> 01:03:58,859
+they failed to mention and perhaps
+
+1759
+01:03:58,859 --> 01:04:00,660
+failed to notice that the pneumonia data
+
+1760
+01:04:00,660 --> 01:04:03,059
+set was all children all pediatric
+
+1761
+01:04:03,059 --> 01:04:04,799
+patients so the models that they were
+
+1762
+01:04:04,799 --> 01:04:06,780
+training were very likely just detecting
+
+1763
+01:04:06,780 --> 01:04:08,940
+children versus adults because that
+
+1764
+01:04:08,940 --> 01:04:10,740
+would give them perfect performance on
+
+1765
+01:04:10,740 --> 01:04:12,900
+Pneumonia versus covid on that data set
+
+1766
+01:04:12,900 --> 01:04:15,059
+so it's a pretty egregious error of
+
+1767
+01:04:15,059 --> 01:04:16,319
+modeling and data set construction
+
+1768
+01:04:16,319 --> 01:04:18,960
+alongside bunch of other more subtle
+
+1769
+01:04:18,960 --> 01:04:21,359
+errors around proper validation and
+
+1770
+01:04:21,359 --> 01:04:23,819
+reporting of models and methods so I
+
+1771
+01:04:23,819 --> 01:04:26,280
+think one reason for the substantial
+
+1772
+01:04:26,280 --> 01:04:28,740
+difference in responses here is that
+
+1773
+01:04:28,740 --> 01:04:31,200
+medicine both in practice and in
+
+1774
+01:04:31,200 --> 01:04:33,660
+research has a very strong professional
+
+1775
+01:04:33,660 --> 01:04:36,000
+culture of Ethics that equips it to
+
+1776
+01:04:36,000 --> 01:04:38,220
+handle very very serious and difficult
+
+1777
+01:04:38,220 --> 01:04:40,500
+problems at least in the United States
+
+1778
+01:04:40,500 --> 01:04:43,140
+medical doctors still take the
+
+1779
+01:04:43,140 --> 01:04:45,180
+Hippocratic Oath parts of which date
+
+1780
+01:04:45,180 --> 01:04:47,940
+back all the way to Hippocrates one of
+
+1781
+01:04:47,940 --> 01:04:49,559
+the founding fathers of Greek medicine
+
+1782
+01:04:49,559 --> 01:04:52,079
+and one of the core precepts of that
+
+1783
+01:04:52,079 --> 01:04:55,799
+oath is to do no harm meanwhile one of
+
+1784
+01:04:55,799 --> 01:04:58,140
+the core precepts of the Contemporary
+
+1785
+01:04:58,140 --> 01:05:00,780
+tech industry represented here by this
+
+1786
+01:05:00,780 --> 01:05:03,000
+ml generated Greek bust of Mark
+
+1787
+01:05:03,000 --> 01:05:05,640
+Zuckerberg is to move fast and break
+
+1788
+01:05:05,640 --> 01:05:07,260
+things with the implication that
+
+1789
+01:05:07,260 --> 01:05:09,839
+breaking things is not so bad and well
+
+1790
+01:05:09,839 --> 01:05:11,880
+that's probably the right approach for
+
+1791
+01:05:11,880 --> 01:05:14,520
+building lots of kinds of web
+
+1792
+01:05:14,520 --> 01:05:16,319
+applications and other software when
+
+1793
+01:05:16,319 --> 01:05:18,059
+this culture gets applied to things like
+
+1794
+01:05:18,059 --> 01:05:19,740
+medicine the results can be really ugly
+
+1795
+01:05:19,740 --> 01:05:22,079
+one particularly striking example of
+
+1796
+01:05:22,079 --> 01:05:24,900
+this was when a retinal implant that was
+
+1797
+01:05:24,900 --> 01:05:28,319
+used to restore sight to some blind
+
+1798
+01:05:28,319 --> 01:05:32,520
+people was deprecated by the vendor and
+
+1799
+01:05:32,520 --> 01:05:35,460
+so stopped working and there was no
+
+1800
+01:05:35,460 --> 01:05:37,380
+recourse for these patients because
+
+1801
+01:05:37,380 --> 01:05:40,020
+there is no other organization capable
+
+1802
+01:05:40,020 --> 01:05:42,839
+of maintaining these devices the news
+
+1803
+01:05:42,839 --> 01:05:45,480
+here is not all bad for machine learning
+
+1804
+01:05:45,480 --> 01:05:47,040
+there are researchers who are working at
+
+1805
+01:05:47,040 --> 01:05:49,200
+the intersection of medicine and machine
+
+1806
+01:05:49,200 --> 01:05:51,480
+learning and developing and proposing
+
+1807
+01:05:51,480 --> 01:05:53,339
+solutions to some of these issues that I
+
+1808
+01:05:53,339 --> 01:05:55,799
+think might have broad applicability on
+
+1809
+01:05:55,799 --> 01:05:57,599
+building responsibly with machine
+
+1810
+01:05:57,599 --> 01:05:59,700
+learning first the clinical trial
+
+1811
+01:05:59,700 --> 01:06:01,920
+standards that are used for other
+
+1812
+01:06:01,920 --> 01:06:04,559
+medical devices and for pharmaceuticals
+
+1813
+01:06:04,559 --> 01:06:06,240
+have been extended to machine learning
+
+1814
+01:06:06,240 --> 01:06:08,400
+the spirit standard for Designing
+
+1815
+01:06:08,400 --> 01:06:10,740
+clinical trials and the consort standard
+
+1816
+01:06:10,740 --> 01:06:12,660
+for reporting results of clinical trials
+
+1817
+01:06:12,660 --> 01:06:14,880
+these have both been extended to include
+
+1818
+01:06:14,880 --> 01:06:18,119
+ml with Spirit Ai and consort AI two
+
+1819
+01:06:18,119 --> 01:06:19,920
+Links at the bottom of this slide for
+
+1820
+01:06:19,920 --> 01:06:21,900
+the details on the contents of both of
+
+1821
+01:06:21,900 --> 01:06:23,460
+those standards one thing I wanted to
+
+1822
+01:06:23,460 --> 01:06:27,000
+highlight here was the process by which
+
+1823
+01:06:27,000 --> 01:06:29,280
+these standards were created and which
+
+1824
+01:06:29,280 --> 01:06:30,900
+is reported in those research articles
+
+1825
+01:06:30,900 --> 01:06:33,420
+which included an international survey
+
+1826
+01:06:33,420 --> 01:06:36,000
+with over a hundred participants and
+
+1827
+01:06:36,000 --> 01:06:38,819
+then a conference with 30 participants
+
+1828
+01:06:38,819 --> 01:06:41,160
+to come up with a final checklist and
+
+1829
+01:06:41,160 --> 01:06:43,319
+then a pilot use of it to determine how
+
+1830
+01:06:43,319 --> 01:06:45,240
+well it worked so the standard for
+
+1831
+01:06:45,240 --> 01:06:47,579
+producing standards in medicine is also
+
+1832
+01:06:47,579 --> 01:06:49,740
+quite high and something we could very
+
+1833
+01:06:49,740 --> 01:06:51,720
+much learn from in machine learning so
+
+1834
+01:06:51,720 --> 01:06:54,059
+because of that work and because people
+
+1835
+01:06:54,059 --> 01:06:56,579
+have pointed out these concerns progress
+
+1836
+01:06:56,579 --> 01:07:00,000
+is being made on doing better work in
+
+1837
+01:07:00,000 --> 01:07:01,859
+machine learning for medicine this
+
+1838
+01:07:01,859 --> 01:07:03,599
+recent paper in the Journal of the
+
+1839
+01:07:03,599 --> 01:07:05,400
+American Medical Association does a
+
+1840
+01:07:05,400 --> 01:07:07,380
+review of clinical trials involving
+
+1841
+01:07:07,380 --> 01:07:09,599
+machine learning and finds that for many
+
+1842
+01:07:09,599 --> 01:07:11,160
+of the components of these clinical
+
+1843
+01:07:11,160 --> 01:07:13,559
+trial standards compliance and quality
+
+1844
+01:07:13,559 --> 01:07:15,900
+is very high incorporating clinical
+
+1845
+01:07:15,900 --> 01:07:19,200
+context state very clearly how the
+
+1846
+01:07:19,200 --> 01:07:21,359
+method will contribute to clinical care
+
+1847
+01:07:21,359 --> 01:07:23,099
+but there are definitely some places
+
+1848
+01:07:23,099 --> 01:07:24,839
+with poor compliance for example
+
+1849
+01:07:24,839 --> 01:07:27,119
+interestingly enough very few trials
+
+1850
+01:07:27,119 --> 01:07:29,520
+reported how low quality data was
+
+1851
+01:07:29,520 --> 01:07:31,380
+handled how data was assessed for
+
+1852
+01:07:31,380 --> 01:07:33,599
+quality and and how cases of poor
+
+1853
+01:07:33,599 --> 01:07:35,280
+quality data should be handled I think
+
+1854
+01:07:35,280 --> 01:07:37,559
+that's also something that the broader
+
+1855
+01:07:37,559 --> 01:07:39,000
+machine learning world could do a better
+
+1856
+01:07:39,000 --> 01:07:42,960
+job on and then also analysis of errors
+
+1857
+01:07:42,960 --> 01:07:46,020
+that models made which also shows up in
+
+1858
+01:07:46,020 --> 01:07:47,940
+medical research and clinical trials as
+
+1859
+01:07:47,940 --> 01:07:50,460
+analysis of Adverse Events this kind of
+
+1860
+01:07:50,460 --> 01:07:52,680
+error analysis was not commonly done and
+
+1861
+01:07:52,680 --> 01:07:54,660
+this is something that in talking about
+
+1862
+01:07:54,660 --> 01:07:56,099
+testing and troubleshooting and in
+
+1863
+01:07:56,099 --> 01:07:57,780
+talking about model monitoring and
+
+1864
+01:07:57,780 --> 01:07:58,920
+continual learning we've tried to
+
+1865
+01:07:58,920 --> 01:08:00,480
+emphasize the importance of this kind of
+
+1866
+01:08:00,480 --> 01:08:02,819
+error analysis for building with ML
+
+1867
+01:08:02,819 --> 01:08:04,920
+there's also this really gorgeous pair
+
+1868
+01:08:04,920 --> 01:08:07,920
+of papers by Lauren Oakton Raynor and
+
+1869
+01:08:07,920 --> 01:08:10,859
+others in the Lancet that both developed
+
+1870
+01:08:10,859 --> 01:08:13,079
+and applied this algorithmic auditing
+
+1871
+01:08:13,079 --> 01:08:15,599
+framework for medical ml so this is
+
+1872
+01:08:15,599 --> 01:08:17,580
+something that is probably easier to
+
+1873
+01:08:17,580 --> 01:08:20,580
+incorporate into other ml workflows than
+
+1874
+01:08:20,580 --> 01:08:23,160
+is a full-on clinical trial approach but
+
+1875
+01:08:23,160 --> 01:08:24,479
+still has some of the same rigor
+
+1876
+01:08:24,479 --> 01:08:27,120
+incorporates checklists and tasks and
+
+1877
+01:08:27,120 --> 01:08:29,580
+defined artifacts that highlight what
+
+1878
+01:08:29,580 --> 01:08:31,979
+the problems are and what needs to be
+
+1879
+01:08:31,979 --> 01:08:34,198
+tracked and shared while building a
+
+1880
+01:08:34,198 --> 01:08:36,359
+machine Learning System one particular
+
+1881
+01:08:36,359 --> 01:08:37,920
+component that I wanted to highlight and
+
+1882
+01:08:37,920 --> 01:08:40,080
+is here indicated in blue is that
+
+1883
+01:08:40,080 --> 01:08:42,899
+there's a big emphasis on failure modes
+
+1884
+01:08:42,899 --> 01:08:45,179
+and error analysis and what they call
+
+1885
+01:08:45,179 --> 01:08:47,460
+adversarial testing which is coming up
+
+1886
+01:08:47,460 --> 01:08:48,960
+with different kinds of inputs to put
+
+1887
+01:08:48,960 --> 01:08:51,120
+into the model to see how it performs so
+
+1888
+01:08:51,120 --> 01:08:53,100
+sort of like a behavioral check on the
+
+1889
+01:08:53,100 --> 01:08:55,319
+model these are all things that we've
+
+1890
+01:08:55,319 --> 01:08:57,120
+emphasized as part of how to build a
+
+1891
+01:08:57,120 --> 01:08:58,380
+model well there's lots of other
+
+1892
+01:08:58,380 --> 01:09:00,479
+components of this audit that the
+
+1893
+01:09:00,479 --> 01:09:02,160
+broader ml Community would do well to
+
+1894
+01:09:02,160 --> 01:09:03,960
+incorporate into their work there's a
+
+1895
+01:09:03,960 --> 01:09:06,238
+ton of really great work being done a
+
+1896
+01:09:06,238 --> 01:09:08,040
+lot of these papers are just within the
+
+1897
+01:09:08,040 --> 01:09:10,620
+last three or six months so I think it's
+
+1898
+01:09:10,620 --> 01:09:11,939
+a pretty good idea to keep your finger
+
+1899
+01:09:11,939 --> 01:09:14,880
+on the pulse here so to speak in medical
+
+1900
+01:09:14,880 --> 01:09:18,120
+ml the Stanford in Institute for AI and
+
+1901
+01:09:18,120 --> 01:09:20,100
+medicine has a regular panel that gets
+
+1902
+01:09:20,100 --> 01:09:22,140
+posted on YouTube they also share a lot
+
+1903
+01:09:22,140 --> 01:09:23,759
+of great other kinds of content via
+
+1904
+01:09:23,759 --> 01:09:24,719
+Twitter and then a lot of the
+
+1905
+01:09:24,719 --> 01:09:26,520
+researchers who did some of the work
+
+1906
+01:09:26,520 --> 01:09:28,500
+that I shared Lauren Oakton Raynor
+
+1907
+01:09:28,500 --> 01:09:30,600
+Benjamin Khan are also active on Twitter
+
+1908
+01:09:30,600 --> 01:09:33,000
+along with other folks who've done great
+
+1909
+01:09:33,000 --> 01:09:34,259
+work that I didn't get time to talk
+
+1910
+01:09:34,259 --> 01:09:35,759
+about like Judy chichoya and Matt
+
+1911
+01:09:35,759 --> 01:09:38,100
+Lundgren closing out this section like
+
+1912
+01:09:38,100 --> 01:09:41,060
+medicine machine learning can be very
+
+1913
+01:09:41,060 --> 01:09:43,439
+intimately intertwined with people's
+
+1914
+01:09:43,439 --> 01:09:45,238
+lives and so ethics is really really
+
+1915
+01:09:45,238 --> 01:09:46,738
+Salient perhaps the most important
+
+1916
+01:09:46,738 --> 01:09:48,540
+ethical question to ask ourselves over
+
+1917
+01:09:48,540 --> 01:09:51,779
+and over again is should this system be
+
+1918
+01:09:51,779 --> 01:09:53,698
+built at all what are the implications
+
+1919
+01:09:53,698 --> 01:09:56,100
+of building the system of automating
+
+1920
+01:09:56,100 --> 01:09:59,160
+this task or this work and it seems
+
+1921
+01:09:59,160 --> 01:10:01,080
+clear that if we don't regulate
+
+1922
+01:10:01,080 --> 01:10:03,960
+ourselves we will end up being regulated
+
+1923
+01:10:03,960 --> 01:10:06,060
+and so we should learn from older
+
+1924
+01:10:06,060 --> 01:10:08,040
+Industries like medicine rather than
+
+1925
+01:10:08,040 --> 01:10:09,600
+just assuming we can disrupt our way
+
+1926
+01:10:09,600 --> 01:10:11,340
+through so as our final section I want
+
+1927
+01:10:11,340 --> 01:10:13,860
+to talk about the ethics of artificial
+
+1928
+01:10:13,860 --> 01:10:17,040
+intelligence this is clearly a frontier
+
+1929
+01:10:17,040 --> 01:10:19,380
+both for the field of Ethics trying to
+
+1930
+01:10:19,380 --> 01:10:21,540
+think through these problems and for the
+
+1931
+01:10:21,540 --> 01:10:22,920
+technology communities that are building
+
+1932
+01:10:22,920 --> 01:10:25,560
+this I think that right now false claims
+
+1933
+01:10:25,560 --> 01:10:27,239
+and hype around artificial intelligence
+
+1934
+01:10:27,239 --> 01:10:29,159
+are the most pressing concern but we
+
+1935
+01:10:29,159 --> 01:10:31,560
+shouldn't sleep on some of the major
+
+1936
+01:10:31,560 --> 01:10:33,360
+ethical issues that are potentially
+
+1937
+01:10:33,360 --> 01:10:37,679
+oncoming with AI so right now claims and
+
+1938
+01:10:37,679 --> 01:10:39,600
+Hyperbole and hype around artificial
+
+1939
+01:10:39,600 --> 01:10:42,239
+intelligence are outpacing capabilities
+
+1940
+01:10:42,239 --> 01:10:45,179
+even though those capabilities are also
+
+1941
+01:10:45,179 --> 01:10:47,940
+growing fast and this risks a kind of
+
+1942
+01:10:47,940 --> 01:10:51,420
+blowback so one way to summarize this is
+
+1943
+01:10:51,420 --> 01:10:53,580
+say that if you call something autopilot
+
+1944
+01:10:53,580 --> 01:10:55,020
+people are going to treat it like
+
+1945
+01:10:55,020 --> 01:10:57,360
+autopilot and then be upset or worse
+
+1946
+01:10:57,360 --> 01:10:59,400
+when that's not the case so famously
+
+1947
+01:10:59,400 --> 01:11:02,280
+there is an incident where somebody who
+
+1948
+01:11:02,280 --> 01:11:04,980
+believed that Tesla is lean and braking
+
+1949
+01:11:04,980 --> 01:11:07,980
+assistant system autopilot was really
+
+1950
+01:11:07,980 --> 01:11:10,020
+full self-driving was killed in a car
+
+1951
+01:11:10,020 --> 01:11:11,880
+crash in this gap between what people
+
+1952
+01:11:11,880 --> 01:11:13,860
+expect out of ml systems and what they
+
+1953
+01:11:13,860 --> 01:11:15,239
+actually get is something that Josh
+
+1954
+01:11:15,239 --> 01:11:16,800
+talked about in the project management
+
+1955
+01:11:16,800 --> 01:11:18,540
+lecture so this is something that we're
+
+1956
+01:11:18,540 --> 01:11:20,400
+already having to incorporate into our
+
+1957
+01:11:20,400 --> 01:11:22,800
+engineering and our product design that
+
+1958
+01:11:22,800 --> 01:11:25,860
+people are overselling the capacities of
+
+1959
+01:11:25,860 --> 01:11:28,260
+ml systems in a way that gives users a
+
+1960
+01:11:28,260 --> 01:11:31,020
+bad idea of what is possible and this
+
+1961
+01:11:31,020 --> 01:11:33,360
+problem is very widespread even large
+
+1962
+01:11:33,360 --> 01:11:35,940
+and mature organizations like IBM can
+
+1963
+01:11:35,940 --> 01:11:37,860
+create products like Watson which was
+
+1964
+01:11:37,860 --> 01:11:39,480
+the capable question and answering
+
+1965
+01:11:39,480 --> 01:11:41,760
+system and then sell it as artificial
+
+1966
+01:11:41,760 --> 01:11:44,699
+intelligence and try to revolutionize or
+
+1967
+01:11:44,699 --> 01:11:47,280
+disrupt Fields like medicine and then
+
+1968
+01:11:47,280 --> 01:11:49,500
+end up falling far short of these
+
+1969
+01:11:49,500 --> 01:11:51,420
+extremely lofty goals they've set
+
+1970
+01:11:51,420 --> 01:11:53,880
+themselves and along the way they get at
+
+1971
+01:11:53,880 --> 01:11:55,080
+least the beginning journalistic
+
+1972
+01:11:55,080 --> 01:11:57,540
+coverage with pictures of robot hands
+
+1973
+01:11:57,540 --> 01:12:00,300
+reaching out to grab balls of light or
+
+1974
+01:12:00,300 --> 01:12:02,219
+brains inside computers or computers
+
+1975
+01:12:02,219 --> 01:12:04,980
+inside brains so not only do companies
+
+1976
+01:12:04,980 --> 01:12:07,380
+oversell what their technology can do
+
+1977
+01:12:07,380 --> 01:12:11,400
+but these overstatements are repeated or
+
+1978
+01:12:11,400 --> 01:12:13,679
+Amplified by traditional and social
+
+1979
+01:12:13,679 --> 01:12:16,080
+media and this problem even extends to
+
+1980
+01:12:16,080 --> 01:12:19,080
+Academia there is a Infamous now case
+
+1981
+01:12:19,080 --> 01:12:21,540
+where Japan in 2017 said that
+
+1982
+01:12:21,540 --> 01:12:23,460
+Radiologists at that point were like
+
+1983
+01:12:23,460 --> 01:12:25,320
+Wiley Coyote already over the edge of
+
+1984
+01:12:25,320 --> 01:12:27,000
+the cliff and haven't realized that
+
+1985
+01:12:27,000 --> 01:12:28,500
+there's no ground underneath them and
+
+1986
+01:12:28,500 --> 01:12:30,060
+that people should stop training
+
+1987
+01:12:30,060 --> 01:12:32,159
+Radiologists now because within five
+
+1988
+01:12:32,159 --> 01:12:34,080
+years AKA now deep learning is going to
+
+1989
+01:12:34,080 --> 01:12:35,880
+be better than Radiologists some of the
+
+1990
+01:12:35,880 --> 01:12:38,460
+work in the intersection of medicine in
+
+1991
+01:12:38,460 --> 01:12:40,980
+ml that I presented was done by people
+
+1992
+01:12:40,980 --> 01:12:42,659
+who were in their Radiology training at
+
+1993
+01:12:42,659 --> 01:12:44,400
+the time around the time this statement
+
+1994
+01:12:44,400 --> 01:12:45,960
+was made and were lucky that they
+
+1995
+01:12:45,960 --> 01:12:47,760
+continued training as Radiologists while
+
+1996
+01:12:47,760 --> 01:12:50,219
+also gaining ml expertise so that they
+
+1997
+01:12:50,219 --> 01:12:52,380
+could do the slow hard work of bringing
+
+1998
+01:12:52,380 --> 01:12:54,239
+deep learning and machine learning into
+
+1999
+01:12:54,239 --> 01:12:56,340
+Radiology this overall problem of
+
+2000
+01:12:56,340 --> 01:12:58,679
+overselling artificial intelligence you
+
+2001
+01:12:58,679 --> 01:13:00,960
+could call AI snake oil so that's the
+
+2002
+01:13:00,960 --> 01:13:03,239
+name of an upcoming book and a new sub
+
+2003
+01:13:03,239 --> 01:13:05,880
+stack by Arvin Narayanan are now very
+
+2004
+01:13:05,880 --> 01:13:08,340
+good friend and so this refers not just
+
+2005
+01:13:08,340 --> 01:13:10,620
+to people overselling the capabilities
+
+2006
+01:13:10,620 --> 01:13:13,020
+of large language models or predicting
+
+2007
+01:13:13,020 --> 01:13:14,460
+that we'll have artificial intelligence
+
+2008
+01:13:14,460 --> 01:13:17,460
+by Christmas but people who use this
+
+2009
+01:13:17,460 --> 01:13:20,400
+General Aura of hypanic segment around
+
+2010
+01:13:20,400 --> 01:13:23,159
+artificial intelligence to sell shoddy
+
+2011
+01:13:23,159 --> 01:13:25,440
+technology an example from this really
+
+2012
+01:13:25,440 --> 01:13:27,840
+great set of slides linked here the tool
+
+2013
+01:13:27,840 --> 01:13:29,820
+Elevate that claims to be able to assess
+
+2014
+01:13:29,820 --> 01:13:32,219
+personality and job suitability from a
+
+2015
+01:13:32,219 --> 01:13:34,500
+30 second video including identifying
+
+2016
+01:13:34,500 --> 01:13:36,420
+whether the person in the video is a
+
+2017
+01:13:36,420 --> 01:13:39,300
+change agent or not so the call here is
+
+2018
+01:13:39,300 --> 01:13:42,719
+to separate out the actual places where
+
+2019
+01:13:42,719 --> 01:13:45,719
+there's been rapid Improvement in what's
+
+2020
+01:13:45,719 --> 01:13:47,580
+possible with machine learning for
+
+2021
+01:13:47,580 --> 01:13:49,920
+example computer perception identifying
+
+2022
+01:13:49,920 --> 01:13:52,020
+the contents of images face recognition
+
+2023
+01:13:52,020 --> 01:13:54,000
+Orion in here even includes medical
+
+2024
+01:13:54,000 --> 01:13:56,820
+diagnosis from scans from places where
+
+2025
+01:13:56,820 --> 01:13:58,920
+there's not been as much progress and so
+
+2026
+01:13:58,920 --> 01:14:00,540
+the split that he proposes that I think
+
+2027
+01:14:00,540 --> 01:14:02,940
+is helpful is that most things that
+
+2028
+01:14:02,940 --> 01:14:05,820
+involve some form of human judgment like
+
+2029
+01:14:05,820 --> 01:14:07,440
+determining whether something is hate
+
+2030
+01:14:07,440 --> 01:14:10,080
+speech or what grade an essay should
+
+2031
+01:14:10,080 --> 01:14:12,960
+receive these are on the borderline most
+
+2032
+01:14:12,960 --> 01:14:15,060
+forms of prediction especially around
+
+2033
+01:14:15,060 --> 01:14:16,739
+what he calls social outcomes so things
+
+2034
+01:14:16,739 --> 01:14:19,260
+like policing jobs Child Development
+
+2035
+01:14:19,260 --> 01:14:21,420
+these are places where there has not
+
+2036
+01:14:21,420 --> 01:14:23,880
+been substantial progress and where the
+
+2037
+01:14:23,880 --> 01:14:25,440
+risk of somebody essentially riding the
+
+2038
+01:14:25,440 --> 01:14:28,500
+coattails of gpt3 with some technique
+
+2039
+01:14:28,500 --> 01:14:30,179
+that doesn't perform any better than
+
+2040
+01:14:30,179 --> 01:14:32,400
+linear regression is at its highest so
+
+2041
+01:14:32,400 --> 01:14:34,020
+we don't have artificial intelligence
+
+2042
+01:14:34,020 --> 01:14:35,940
+yet but if we do synthesize intelligent
+
+2043
+01:14:35,940 --> 01:14:37,620
+agents a lot of thorny ethical questions
+
+2044
+01:14:37,620 --> 01:14:39,300
+are going to immediately arise so it's
+
+2045
+01:14:39,300 --> 01:14:41,280
+probably a good idea as a field and as
+
+2046
+01:14:41,280 --> 01:14:43,020
+individuals for us to think a little bit
+
+2047
+01:14:43,020 --> 01:14:45,060
+about these ahead of time so there's
+
+2048
+01:14:45,060 --> 01:14:47,040
+broad agreement that creating sentient
+
+2049
+01:14:47,040 --> 01:14:49,020
+intelligent beings would have ethical
+
+2050
+01:14:49,020 --> 01:14:51,179
+implications just this past summer
+
+2051
+01:14:51,179 --> 01:14:53,520
+Google engineer Blake Lemoine became
+
+2052
+01:14:53,520 --> 01:14:55,739
+convinced that a large language model
+
+2053
+01:14:55,739 --> 01:14:58,440
+built by Google Lambda was in fact
+
+2054
+01:14:58,440 --> 01:15:02,100
+conscious and almost everyone agrees
+
+2055
+01:15:02,100 --> 01:15:04,380
+that that's not the case for these large
+
+2056
+01:15:04,380 --> 01:15:06,420
+language models but there's pretty big
+
+2057
+01:15:06,420 --> 01:15:09,239
+disagreement on how far away we are and
+
+2058
+01:15:09,239 --> 01:15:10,980
+perhaps most importantly this concern
+
+2059
+01:15:10,980 --> 01:15:13,620
+did cause a pretty big reaction both
+
+2060
+01:15:13,620 --> 01:15:15,360
+inside the field and in the popular
+
+2061
+01:15:15,360 --> 01:15:18,120
+press in my view it's a bit unfortunate
+
+2062
+01:15:18,120 --> 01:15:20,699
+that this conversation was started so
+
+2063
+01:15:20,699 --> 01:15:23,940
+early because it's so easy to dismiss
+
+2064
+01:15:23,940 --> 01:15:26,040
+this claim if it happens too many more
+
+2065
+01:15:26,040 --> 01:15:28,920
+times we might end up inured to these
+
+2066
+01:15:28,920 --> 01:15:30,900
+kinds of conversations in a boy who
+
+2067
+01:15:30,900 --> 01:15:34,739
+cried AI type situation there's also a
+
+2068
+01:15:34,739 --> 01:15:36,719
+different set of concerns around what
+
+2069
+01:15:36,719 --> 01:15:38,580
+might happen with the creation of a
+
+2070
+01:15:38,580 --> 01:15:40,620
+self-improving artificial intelligence
+
+2071
+01:15:40,620 --> 01:15:42,659
+so there's already some hints in this
+
+2072
+01:15:42,659 --> 01:15:45,780
+direction for one the latest Nvidia GPU
+
+2073
+01:15:45,780 --> 01:15:48,420
+architecture Hopper incorporates a very
+
+2074
+01:15:48,420 --> 01:15:50,940
+large number of AI design circuits
+
+2075
+01:15:50,940 --> 01:15:53,940
+pictured here on the left the quality of
+
+2076
+01:15:53,940 --> 01:15:56,040
+the AI design circuits are superior this
+
+2077
+01:15:56,040 --> 01:15:57,300
+is also something that's been reported
+
+2078
+01:15:57,300 --> 01:16:00,179
+by the folks working on tpus at Google
+
+2079
+01:16:00,179 --> 01:16:02,219
+there's also cases in which large
+
+2080
+01:16:02,219 --> 01:16:03,900
+language models can be used to build
+
+2081
+01:16:03,900 --> 01:16:05,760
+better models for example large language
+
+2082
+01:16:05,760 --> 01:16:07,199
+models can teach themselves to program
+
+2083
+01:16:07,199 --> 01:16:09,600
+better and large language models can
+
+2084
+01:16:09,600 --> 01:16:11,520
+also use large language models at least
+
+2085
+01:16:11,520 --> 01:16:13,080
+as well as humans this suggests the
+
+2086
+01:16:13,080 --> 01:16:16,080
+possibility of virtuous Cycles in
+
+2087
+01:16:16,080 --> 01:16:17,820
+machine learning capabilities and
+
+2088
+01:16:17,820 --> 01:16:19,679
+machine intelligence and failing to
+
+2089
+01:16:19,679 --> 01:16:21,780
+pursue this kind of very powerful
+
+2090
+01:16:21,780 --> 01:16:24,360
+technology comes with a very substantial
+
+2091
+01:16:24,360 --> 01:16:26,280
+opportunity cost this is something
+
+2092
+01:16:26,280 --> 01:16:28,020
+that's argued by the philosopher Nick
+
+2093
+01:16:28,020 --> 01:16:30,239
+Bostrom in a famous paper called
+
+2094
+01:16:30,239 --> 01:16:32,640
+astronomical waste that points out just
+
+2095
+01:16:32,640 --> 01:16:35,159
+given the size of the universe the
+
+2096
+01:16:35,159 --> 01:16:37,800
+amount of resources and the amount of
+
+2097
+01:16:37,800 --> 01:16:39,480
+time it will be around there's a huge
+
+2098
+01:16:39,480 --> 01:16:41,520
+cost in terms of potential good
+
+2099
+01:16:41,520 --> 01:16:43,679
+potential lives worth living that we
+
+2100
+01:16:43,679 --> 01:16:45,780
+leave on the table if we do not develop
+
+2101
+01:16:45,780 --> 01:16:48,179
+the Necessary Technology quickly but the
+
+2102
+01:16:48,179 --> 01:16:50,580
+primary lesson that's drawn in this
+
+2103
+01:16:50,580 --> 01:16:52,679
+paper is actually not that technology
+
+2104
+01:16:52,679 --> 01:16:54,000
+should be developed as quickly as
+
+2105
+01:16:54,000 --> 01:16:55,560
+possible but rather that it should be
+
+2106
+01:16:55,560 --> 01:16:57,900
+developed as safely as possible which is
+
+2107
+01:16:57,900 --> 01:17:00,960
+to say that the probability that this
+
+2108
+01:17:00,960 --> 01:17:03,300
+imagined Galaxy or Universe spanning
+
+2109
+01:17:03,300 --> 01:17:06,060
+Utopia comes into being that probability
+
+2110
+01:17:06,060 --> 01:17:08,340
+should be maximized and so this concern
+
+2111
+01:17:08,340 --> 01:17:10,739
+around safety originating the work of
+
+2112
+01:17:10,739 --> 01:17:13,380
+Bostrom and others has become a central
+
+2113
+01:17:13,380 --> 01:17:15,179
+concern for people thinking about the
+
+2114
+01:17:15,179 --> 01:17:17,280
+ethical implications of artificial
+
+2115
+01:17:17,280 --> 01:17:20,540
+intelligence and so the concerns around
+
+2116
+01:17:20,540 --> 01:17:22,800
+self-improving intelligent systems that
+
+2117
+01:17:22,800 --> 01:17:24,540
+could end up being more intelligent than
+
+2118
+01:17:24,540 --> 01:17:27,360
+humans are nicely summarized in the
+
+2119
+01:17:27,360 --> 01:17:29,699
+parable of the paperclip maximizer also
+
+2120
+01:17:29,699 --> 01:17:32,219
+from Bostrom at least popularized in the
+
+2121
+01:17:32,219 --> 01:17:34,320
+book super intelligence so the idea here
+
+2122
+01:17:34,320 --> 01:17:38,040
+is a classic example of this proxy
+
+2123
+01:17:38,040 --> 01:17:40,679
+problem in alignment so we design an
+
+2124
+01:17:40,679 --> 01:17:42,300
+artificial intelligence system for
+
+2125
+01:17:42,300 --> 01:17:44,159
+building paper clips so it's designed to
+
+2126
+01:17:44,159 --> 01:17:46,260
+make sure that the paper clip producing
+
+2127
+01:17:46,260 --> 01:17:48,540
+component of our economy runs as
+
+2128
+01:17:48,540 --> 01:17:50,280
+effectively as possible produces as many
+
+2129
+01:17:50,280 --> 01:17:53,120
+paper clips as it can and we incorporate
+
+2130
+01:17:53,120 --> 01:17:55,500
+self-improvement into it so that it
+
+2131
+01:17:55,500 --> 01:17:56,699
+becomes smarter and more capable over
+
+2132
+01:17:56,699 --> 01:17:59,280
+time at first it improves human utility
+
+2133
+01:17:59,280 --> 01:18:01,500
+as it introduces better industrial
+
+2134
+01:18:01,500 --> 01:18:03,600
+processes for paper clips but as it
+
+2135
+01:18:03,600 --> 01:18:05,100
+becomes more intelligent perhaps it
+
+2136
+01:18:05,100 --> 01:18:07,860
+finds a way to manipulate the legal
+
+2137
+01:18:07,860 --> 01:18:10,140
+system and manipulate politics to
+
+2138
+01:18:10,140 --> 01:18:11,880
+introduce a more favorable tax code for
+
+2139
+01:18:11,880 --> 01:18:13,679
+pay-per-clip related Industries and that
+
+2140
+01:18:13,679 --> 01:18:17,040
+starts to hurt overall human utility uh
+
+2141
+01:18:17,040 --> 01:18:18,659
+even as the number of paper clips
+
+2142
+01:18:18,659 --> 01:18:19,860
+created and the capacity of the
+
+2143
+01:18:19,860 --> 01:18:21,780
+paperclip maximizer increases and of
+
+2144
+01:18:21,780 --> 01:18:22,980
+course at the point when we have
+
+2145
+01:18:22,980 --> 01:18:24,600
+mandatory national service in the
+
+2146
+01:18:24,600 --> 01:18:26,400
+paperclip mines or that all matter in
+
+2147
+01:18:26,400 --> 01:18:27,900
+the universe is converted to paper clips
+
+2148
+01:18:27,900 --> 01:18:30,420
+we've pretty clearly decreased human
+
+2149
+01:18:30,420 --> 01:18:33,420
+utility as this paperclip maximizer has
+
+2150
+01:18:33,420 --> 01:18:36,179
+maximized its objective and increased
+
+2151
+01:18:36,179 --> 01:18:38,100
+its own capacity so this still feels
+
+2152
+01:18:38,100 --> 01:18:41,460
+fairly far away and a lot of the
+
+2153
+01:18:41,460 --> 01:18:43,560
+speculations feel a lot more like
+
+2154
+01:18:43,560 --> 01:18:45,719
+science fiction than science fact but
+
+2155
+01:18:45,719 --> 01:18:48,600
+the stakes here are high enough that it
+
+2156
+01:18:48,600 --> 01:18:50,580
+is certainly worth having some people
+
+2157
+01:18:50,580 --> 01:18:52,500
+thinking about and working on it and
+
+2158
+01:18:52,500 --> 01:18:54,600
+many of the techniques can be applied to
+
+2159
+01:18:54,600 --> 01:18:56,280
+controlled and responsible deployment of
+
+2160
+01:18:56,280 --> 01:18:58,920
+less capable ml systems as a small aside
+
+2161
+01:18:58,920 --> 01:19:01,679
+these ideas around existential risk and
+
+2162
+01:19:01,679 --> 01:19:03,900
+super intelligences are often associated
+
+2163
+01:19:03,900 --> 01:19:05,460
+with the effective altruism Community
+
+2164
+01:19:05,460 --> 01:19:09,300
+which is concerned with the best ways to
+
+2165
+01:19:09,300 --> 01:19:11,880
+do the most good both with what you do
+
+2166
+01:19:11,880 --> 01:19:14,280
+with your career one of the focuses is
+
+2167
+01:19:14,280 --> 01:19:17,280
+the 80 000 hours organization and also
+
+2168
+01:19:17,280 --> 01:19:19,739
+through charitable donations as a way to
+
+2169
+01:19:19,739 --> 01:19:21,719
+by donating to the highest impact
+
+2170
+01:19:21,719 --> 01:19:24,000
+Charities and non-profits have the
+
+2171
+01:19:24,000 --> 01:19:26,280
+largest positive impact on the world so
+
+2172
+01:19:26,280 --> 01:19:27,840
+there's a lot of very interesting ideas
+
+2173
+01:19:27,840 --> 01:19:29,940
+coming out of this community and it's
+
+2174
+01:19:29,940 --> 01:19:31,980
+particularly appealing to a lot of folks
+
+2175
+01:19:31,980 --> 01:19:33,780
+who work in technology and especially in
+
+2176
+01:19:33,780 --> 01:19:35,040
+machine learning so it's worth checking
+
+2177
+01:19:35,040 --> 01:19:37,800
+out so that brings us to the end of our
+
+2178
+01:19:37,800 --> 01:19:39,719
+planned agenda here after giving some
+
+2179
+01:19:39,719 --> 01:19:41,940
+context around what our approach to
+
+2180
+01:19:41,940 --> 01:19:43,260
+Ethics in this lecture would look like
+
+2181
+01:19:43,260 --> 01:19:45,179
+we talked about ethical concerns in
+
+2182
+01:19:45,179 --> 01:19:47,280
+three different fields first past and
+
+2183
+01:19:47,280 --> 01:19:49,739
+immediate concerns around the ethical
+
+2184
+01:19:49,739 --> 01:19:52,260
+development of Technology then up and
+
+2185
+01:19:52,260 --> 01:19:54,480
+coming and near future concerns around
+
+2186
+01:19:54,480 --> 01:19:57,000
+building ethically with machine learning
+
+2187
+01:19:57,000 --> 01:19:59,820
+and then finally a taste of the ethical
+
+2188
+01:19:59,820 --> 01:20:03,480
+concerns we might face in a future where
+
+2189
+01:20:03,480 --> 01:20:05,580
+machine learning gives way to artificial
+
+2190
+01:20:05,580 --> 01:20:07,440
+intelligence with a reminder that we
+
+2191
+01:20:07,440 --> 01:20:09,480
+should make sure not to oversell our
+
+2192
+01:20:09,480 --> 01:20:11,340
+progress on that front so I got to the
+
+2193
+01:20:11,340 --> 01:20:13,320
+end of these slides and realized that
+
+2194
+01:20:13,320 --> 01:20:17,460
+this was the end of the course and felt
+
+2195
+01:20:17,460 --> 01:20:20,880
+that I couldn't leave it on uh dower and
+
+2196
+01:20:20,880 --> 01:20:24,120
+sad note of unusable medical algorithms
+
+2197
+01:20:24,120 --> 01:20:26,400
+and existential risk from Super
+
+2198
+01:20:26,400 --> 01:20:28,140
+intelligences so I wanted to close out
+
+2199
+01:20:28,140 --> 01:20:30,840
+with a bit of a more positive note on
+
+2200
+01:20:30,840 --> 01:20:32,760
+the things that we can do so I think the
+
+2201
+01:20:32,760 --> 01:20:35,159
+first and most obvious step is education
+
+2202
+01:20:35,159 --> 01:20:37,920
+a lot of these ideas around ethics are
+
+2203
+01:20:37,920 --> 01:20:40,560
+unfamiliar to people with a technical
+
+2204
+01:20:40,560 --> 01:20:42,540
+background there's a lot of great longer
+
+2205
+01:20:42,540 --> 01:20:45,060
+form content that captures a lot of
+
+2206
+01:20:45,060 --> 01:20:47,520
+these ideas and can help you build your
+
+2207
+01:20:47,520 --> 01:20:49,679
+own knowledge of the history and context
+
+2208
+01:20:49,679 --> 01:20:52,020
+and eventually your own opinions on
+
+2209
+01:20:52,020 --> 01:20:54,600
+these topics I can highly recommend each
+
+2210
+01:20:54,600 --> 01:20:56,520
+of these books the alignment problem is
+
+2211
+01:20:56,520 --> 01:20:58,860
+a great place to get started it focuses
+
+2212
+01:20:58,860 --> 01:21:02,460
+pretty tightly on ML ethics and AI
+
+2213
+01:21:02,460 --> 01:21:04,679
+ethics it covers a lot of recent
+
+2214
+01:21:04,679 --> 01:21:08,400
+research and is very easily digestible
+
+2215
+01:21:08,400 --> 01:21:10,320
+for an ml audience you might also want
+
+2216
+01:21:10,320 --> 01:21:11,760
+to consider some of these books around
+
+2217
+01:21:11,760 --> 01:21:14,219
+more Tech ethics like weapons of math
+
+2218
+01:21:14,219 --> 01:21:16,440
+destruction by Kathy O'Neill and
+
+2219
+01:21:16,440 --> 01:21:17,880
+automating inequality by Virginia
+
+2220
+01:21:17,880 --> 01:21:19,860
+Eubanks from there you can prioritize
+
+2221
+01:21:19,860 --> 01:21:21,780
+things that you want to act on make your
+
+2222
+01:21:21,780 --> 01:21:24,420
+own two by two around things that have
+
+2223
+01:21:24,420 --> 01:21:27,179
+impact now and can have very high impact
+
+2224
+01:21:27,179 --> 01:21:29,219
+for me I think that's things around
+
+2225
+01:21:29,219 --> 01:21:31,140
+deceptive design and dark patterns and
+
+2226
+01:21:31,140 --> 01:21:33,239
+around AI snake oil then there's also
+
+2227
+01:21:33,239 --> 01:21:37,380
+places where acting in the future might
+
+2228
+01:21:37,380 --> 01:21:39,719
+be very important and high impact for me
+
+2229
+01:21:39,719 --> 01:21:41,580
+I think that's things around ml Weaponry
+
+2230
+01:21:41,580 --> 01:21:44,100
+behind my head is existential risk from
+
+2231
+01:21:44,100 --> 01:21:46,500
+Super intelligences on super high impact
+
+2232
+01:21:46,500 --> 01:21:48,540
+but something that we can't act on right
+
+2233
+01:21:48,540 --> 01:21:50,460
+now and then all the things in between
+
+2234
+01:21:50,460 --> 01:21:52,860
+you can create your own two by two on
+
+2235
+01:21:52,860 --> 01:21:54,480
+these and then search around for
+
+2236
+01:21:54,480 --> 01:21:57,300
+organizations communities and people
+
+2237
+01:21:57,300 --> 01:21:59,400
+working on these problems to align
+
+2238
+01:21:59,400 --> 01:22:01,380
+yourself with and by way of a final
+
+2239
+01:22:01,380 --> 01:22:04,440
+goodbye as we're ending this class I
+
+2240
+01:22:04,440 --> 01:22:06,360
+want to call out that a lot of the
+
+2241
+01:22:06,360 --> 01:22:09,420
+discussion of Ethics in this lecture was
+
+2242
+01:22:09,420 --> 01:22:10,980
+very negative because of the framing
+
+2243
+01:22:10,980 --> 01:22:13,020
+around cases where people raised ethical
+
+2244
+01:22:13,020 --> 01:22:15,900
+concerns but ethics is not and cannot be
+
+2245
+01:22:15,900 --> 01:22:18,360
+purely negative about avoiding doing bad
+
+2246
+01:22:18,360 --> 01:22:20,699
+things the work that we do in Building
+
+2247
+01:22:20,699 --> 01:22:22,980
+Technology with machine learning can do
+
+2248
+01:22:22,980 --> 01:22:25,199
+good in the world not just avoid doing
+
+2249
+01:22:25,199 --> 01:22:27,659
+harm we can reduce suffering so this
+
+2250
+01:22:27,659 --> 01:22:30,360
+diagram here from a neuroscience from a
+
+2251
+01:22:30,360 --> 01:22:32,760
+brain machine interface paper from 2012
+
+2252
+01:22:32,760 --> 01:22:34,620
+is what got me into the field of machine
+
+2253
+01:22:34,620 --> 01:22:36,960
+learning in the first place it shows a
+
+2254
+01:22:36,960 --> 01:22:38,760
+tetraplegic woman who has learned to
+
+2255
+01:22:38,760 --> 01:22:40,980
+control a robot arm using only other
+
+2256
+01:22:40,980 --> 01:22:42,900
+thoughts by means of an electrode
+
+2257
+01:22:42,900 --> 01:22:45,000
+attached to her head and while the
+
+2258
+01:22:45,000 --> 01:22:46,980
+technical achievements in this paper
+
+2259
+01:22:46,980 --> 01:22:48,719
+were certainly very impressive the thing
+
+2260
+01:22:48,719 --> 01:22:50,460
+that made the strongest impression on me
+
+2261
+01:22:50,460 --> 01:22:53,040
+reading this paper in college was the
+
+2262
+01:22:53,040 --> 01:22:55,440
+smile on the woman's face in the final
+
+2263
+01:22:55,440 --> 01:22:57,480
+panel if you've experienced this kind of
+
+2264
+01:22:57,480 --> 01:23:00,420
+limit Mobility either yourself or in
+
+2265
+01:23:00,420 --> 01:23:02,640
+someone close to you then you know that
+
+2266
+01:23:02,640 --> 01:23:04,980
+the joy even from something as simple as
+
+2267
+01:23:04,980 --> 01:23:07,199
+being able to feed yourself is very real
+
+2268
+01:23:07,199 --> 01:23:09,420
+we can also do good by increasing Joy
+
+2269
+01:23:09,420 --> 01:23:11,580
+not just reducing suffering despite the
+
+2270
+01:23:11,580 --> 01:23:13,199
+concerns that we talked about with text
+
+2271
+01:23:13,199 --> 01:23:14,940
+to image models there they're clearly
+
+2272
+01:23:14,940 --> 01:23:17,760
+being used to create Beauty and Joy or
+
+2273
+01:23:17,760 --> 01:23:19,980
+as Ted Underwood a digital Humanity
+
+2274
+01:23:19,980 --> 01:23:22,080
+scholar put it to explore a dimension of
+
+2275
+01:23:22,080 --> 01:23:23,640
+human culture that was accidentally
+
+2276
+01:23:23,640 --> 01:23:25,620
+created across the last five thousand
+
+2277
+01:23:25,620 --> 01:23:27,540
+years of captioning that's beautiful and
+
+2278
+01:23:27,540 --> 01:23:28,620
+it's something we should hold on to
+
+2279
+01:23:28,620 --> 01:23:30,000
+that's not to say that this happens
+
+2280
+01:23:30,000 --> 01:23:33,000
+automatically by Building Technology the
+
+2281
+01:23:33,000 --> 01:23:34,980
+world automatically becomes better but
+
+2282
+01:23:34,980 --> 01:23:37,080
+leading organizations in our field are
+
+2283
+01:23:37,080 --> 01:23:38,640
+making proactive statements on this
+
+2284
+01:23:38,640 --> 01:23:41,880
+openai around long term safely around
+
+2285
+01:23:41,880 --> 01:23:44,580
+long-term safety and Broad distribution
+
+2286
+01:23:44,580 --> 01:23:46,860
+of the benefits of machine learning and
+
+2287
+01:23:46,860 --> 01:23:48,540
+artificial intelligence research Deep
+
+2288
+01:23:48,540 --> 01:23:50,640
+Mind stating which Technologies they
+
+2289
+01:23:50,640 --> 01:23:52,380
+won't pursue and making a clear
+
+2290
+01:23:52,380 --> 01:23:54,960
+statement of a gold a broadly benefit
+
+2291
+01:23:54,960 --> 01:23:57,659
+Humanity the final bit of really great
+
+2292
+01:23:57,659 --> 01:24:00,360
+news that I have is that the tools for
+
+2293
+01:24:00,360 --> 01:24:02,219
+building ml well that you've learned
+
+2294
+01:24:02,219 --> 01:24:04,500
+throughout this class align very well
+
+2295
+01:24:04,500 --> 01:24:08,100
+with building ml for good so we saw it
+
+2296
+01:24:08,100 --> 01:24:09,780
+with the medical machine learning around
+
+2297
+01:24:09,780 --> 01:24:12,600
+failure analysis and we can also see it
+
+2298
+01:24:12,600 --> 01:24:15,060
+in the principles for for responsible
+
+2299
+01:24:15,060 --> 01:24:17,040
+development from these leading
+
+2300
+01:24:17,040 --> 01:24:19,020
+organizations Deep Mind mentioning
+
+2301
+01:24:19,020 --> 01:24:22,140
+accountability to people and Gathering
+
+2302
+01:24:22,140 --> 01:24:24,659
+feedback Google AI mentioning it as well
+
+2303
+01:24:24,659 --> 01:24:27,600
+and if you look closely at Google ai's
+
+2304
+01:24:27,600 --> 01:24:30,060
+list of recommended practices for
+
+2305
+01:24:30,060 --> 01:24:32,460
+responsible AI use multiple metrics to
+
+2306
+01:24:32,460 --> 01:24:33,719
+assess training and monitoring
+
+2307
+01:24:33,719 --> 01:24:36,239
+understand limitations use tests
+
+2308
+01:24:36,239 --> 01:24:38,699
+directly examine raw data Monitor and
+
+2309
+01:24:38,699 --> 01:24:40,140
+update your system after deployment
+
+2310
+01:24:40,140 --> 01:24:42,120
+these are exactly the same principles
+
+2311
+01:24:42,120 --> 01:24:44,100
+that we've been emphasizing in this
+
+2312
+01:24:44,100 --> 01:24:46,679
+course around building ml powered
+
+2313
+01:24:46,679 --> 01:24:48,719
+products the right way these techniques
+
+2314
+01:24:48,719 --> 01:24:50,280
+will also help you build machine
+
+2315
+01:24:50,280 --> 01:24:52,380
+learning that does what's right and so
+
+2316
+01:24:52,380 --> 01:24:55,080
+on that note I want to thank you for
+
+2317
+01:24:55,080 --> 01:24:56,460
+your time and your interest in this
+
+2318
+01:24:56,460 --> 01:24:57,360
+course
+
+2319
+01:24:57,360 --> 01:24:59,940
+and I wish you the best of luck as you
+
+2320
+01:24:59,940 --> 01:25:03,199
+go out to build with ML
+
